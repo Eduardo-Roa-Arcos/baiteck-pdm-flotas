@@ -1,0 +1,849 @@
+2026-05-23 11:47:50,010 - INFO - ✓ Conexión a Supabase establecida
+2026-05-23 11:47:50,010 - INFO - ======================================================================
+2026-05-23 11:47:50,010 - INFO - BAITECK — SCORING BATCH DIARIO
+2026-05-23 11:47:50,010 - INFO - ======================================================================
+2026-05-23 11:47:50,010 - INFO - Fecha de scoring: 2026-05-22
+2026-05-23 11:47:50,010 - INFO - 
+[1] Detectando modelo XGBoost...
+2026-05-23 11:47:50,010 - INFO - Encontrados 4 modelos XGBoost
+2026-05-23 11:47:51,181 - INFO - Usando modelo más reciente: modelo_xgb_v1.0.joblib
+2026-05-23 11:47:51,181 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-23 11:47:51,181 - INFO - 
+[2] Generando features...
+2026-05-23 11:47:51,181 - INFO - Generando features para fecha de corte: 2026-05-22
+2026-05-23 11:47:56,149 - ERROR - Error generando features: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2026-05-23 11:47:56,161 - ERROR - Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimelike.py", line 559, in _validate_comparison_value
+    self._check_compatible_with(other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimes.py", line 542, in _check_compatible_with
+    self._assert_tzawareness_compat(other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimes.py", line 788, in _assert_tzawareness_compat
+    raise TypeError(
+TypeError: Cannot compare tz-naive and tz-aware datetime-like objects
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimelike.py", line 1006, in _cmp_method
+    other = self._validate_comparison_value(other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimelike.py", line 562, in _validate_comparison_value
+    raise InvalidComparison(other) from err
+pandas.errors.InvalidComparison: 2026-05-22 00:00:00
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 374, in generar_features_fecha
+    ots_pasado = ots[ots["fecha_apertura"] < fecha].copy()
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/ops/common.py", line 76, in new_method
+    return method(self, other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arraylike.py", line 48, in __lt__
+    return self._cmp_method(other, operator.lt)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/series.py", line 6138, in _cmp_method
+    res_values = ops.comparison_op(lvalues, rvalues, op)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/ops/array_ops.py", line 330, in comparison_op
+    res_values = op(lvalues, rvalues)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/ops/common.py", line 76, in new_method
+    return method(self, other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arraylike.py", line 48, in __lt__
+    return self._cmp_method(other, operator.lt)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimelike.py", line 1008, in _cmp_method
+    return invalid_comparison(self, other, op)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/ops/invalid.py", line 40, in invalid_comparison
+    raise TypeError(f"Invalid comparison between dtype={left.dtype} and {typ}")
+TypeError: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+
+2026-05-23 11:47:56,161 - ERROR - 
+✗ ERROR EN PIPELINE: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2026-05-23 11:47:56,161 - ERROR - Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimelike.py", line 559, in _validate_comparison_value
+    self._check_compatible_with(other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimes.py", line 542, in _check_compatible_with
+    self._assert_tzawareness_compat(other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimes.py", line 788, in _assert_tzawareness_compat
+    raise TypeError(
+TypeError: Cannot compare tz-naive and tz-aware datetime-like objects
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimelike.py", line 1006, in _cmp_method
+    other = self._validate_comparison_value(other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimelike.py", line 562, in _validate_comparison_value
+    raise InvalidComparison(other) from err
+pandas.errors.InvalidComparison: 2026-05-22 00:00:00
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 640, in ejecutar
+    features = feature_gen.generar_features_fecha(self.fecha_scoring_str, horizonte_dias=30)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 374, in generar_features_fecha
+    ots_pasado = ots[ots["fecha_apertura"] < fecha].copy()
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/ops/common.py", line 76, in new_method
+    return method(self, other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arraylike.py", line 48, in __lt__
+    return self._cmp_method(other, operator.lt)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/series.py", line 6138, in _cmp_method
+    res_values = ops.comparison_op(lvalues, rvalues, op)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/ops/array_ops.py", line 330, in comparison_op
+    res_values = op(lvalues, rvalues)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/ops/common.py", line 76, in new_method
+    return method(self, other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arraylike.py", line 48, in __lt__
+    return self._cmp_method(other, operator.lt)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimelike.py", line 1008, in _cmp_method
+    return invalid_comparison(self, other, op)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/ops/invalid.py", line 40, in invalid_comparison
+    raise TypeError(f"Invalid comparison between dtype={left.dtype} and {typ}")
+TypeError: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+
+2026-05-23 11:47:56,161 - ERROR - Error fatal en main: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2026-05-23 11:51:39,492 - INFO - ✓ Conexión a Supabase establecida
+2026-05-23 11:51:39,492 - INFO - ======================================================================
+2026-05-23 11:51:39,493 - INFO - BAITECK — SCORING BATCH DIARIO
+2026-05-23 11:51:39,493 - INFO - ======================================================================
+2026-05-23 11:51:39,493 - INFO - Fecha de scoring: 2026-05-22
+2026-05-23 11:51:39,493 - INFO - 
+[1] Detectando modelo XGBoost...
+2026-05-23 11:51:39,493 - INFO - Encontrados 4 modelos XGBoost
+2026-05-23 11:51:40,504 - INFO - Usando modelo más reciente: modelo_xgb_v1.0.joblib
+2026-05-23 11:51:40,504 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-23 11:51:40,504 - INFO - 
+[2] Generando features...
+2026-05-23 11:51:40,504 - ERROR - 
+✗ ERROR EN PIPELINE: 'FeatureGeneratorScoringDiario' object has no attribute 'generar_features_fecha'
+2026-05-23 11:51:40,505 - ERROR - Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 680, in ejecutar
+    features = feature_gen.generar_features_fecha(self.fecha_scoring_str, horizonte_dias=30)
+AttributeError: 'FeatureGeneratorScoringDiario' object has no attribute 'generar_features_fecha'
+
+2026-05-23 11:51:40,505 - ERROR - Error fatal en main: 'FeatureGeneratorScoringDiario' object has no attribute 'generar_features_fecha'
+2026-05-23 12:00:21,683 - INFO - ✓ Conexión a Supabase establecida
+2026-05-23 12:00:21,684 - INFO - ======================================================================
+2026-05-23 12:00:21,684 - INFO - BAITECK — SCORING BATCH DIARIO
+2026-05-23 12:00:21,684 - INFO - ======================================================================
+2026-05-23 12:00:21,684 - INFO - Fecha de scoring: 2026-05-22
+2026-05-23 12:00:21,684 - INFO - 
+[1] Detectando modelo XGBoost...
+2026-05-23 12:00:21,684 - INFO - Buscando modelos XGBoost...
+2026-05-23 12:00:21,685 - INFO - Encontrados 4 modelos XGBoost
+2026-05-23 12:00:22,642 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-23 12:00:22,642 - INFO - ✓ Modelo: modelo_xgb_v1.0.joblib
+2026-05-23 12:00:22,642 - INFO - 
+[2] Generando features...
+2026-05-23 12:00:22,642 - INFO - Generando features para fecha de corte: 2026-05-22
+2026-05-23 12:00:26,732 - INFO - ✓ Features generados: 5 activos × 16 columnas
+2026-05-23 12:00:26,732 - INFO - 
+[3] Realizando predicciones...
+2026-05-23 12:00:26,732 - INFO - Realizando predicciones...
+2026-05-23 12:00:26,736 - ERROR - ✗ Error en predicciones: feature_names mismatch: ['edad_dias', 'ot_30d', 'corr_30d', 'ot_90d', 'corr_90d', 'ot_180d', 'corr_180d'] ['edad_dias', 'edad_anos', 'odometro_actual', 'km_dia_promedio', 'dias_desde_ultima_ot', 'count_ot_30d', 'count_correctivas_30d', 'count_ot_90d', 'count_correctivas_90d', 'count_ot_180d', 'count_correctivas_180d', 'costo_total_90d', 'costo_total_180d']
+expected corr_180d, ot_30d, corr_30d, corr_90d, ot_90d, ot_180d in input data
+training data did not have the following fields: edad_anos, count_correctivas_90d, count_ot_30d, count_correctivas_180d, costo_total_90d, dias_desde_ultima_ot, odometro_actual, count_correctivas_30d, count_ot_90d, count_ot_180d, costo_total_180d, km_dia_promedio
+2026-05-23 12:00:26,742 - ERROR - Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 254, in realizar_predicciones
+    probabilidades = pipeline.predict_proba(X)[:, 1]
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 1712, in predict_proba
+    class_probs = super().predict(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 1248, in predict
+    predts = self.get_booster().inplace_predict(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/core.py", line 2514, in inplace_predict
+    self._validate_features(fns)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/core.py", line 3079, in _validate_features
+    raise ValueError(msg.format(self.feature_names, feature_names))
+ValueError: feature_names mismatch: ['edad_dias', 'ot_30d', 'corr_30d', 'ot_90d', 'corr_90d', 'ot_180d', 'corr_180d'] ['edad_dias', 'edad_anos', 'odometro_actual', 'km_dia_promedio', 'dias_desde_ultima_ot', 'count_ot_30d', 'count_correctivas_30d', 'count_ot_90d', 'count_correctivas_90d', 'count_ot_180d', 'count_correctivas_180d', 'costo_total_90d', 'costo_total_180d']
+expected corr_180d, ot_30d, corr_30d, corr_90d, ot_90d, ot_180d in input data
+training data did not have the following fields: edad_anos, count_correctivas_90d, count_ot_30d, count_correctivas_180d, costo_total_90d, dias_desde_ultima_ot, odometro_actual, count_correctivas_30d, count_ot_90d, count_ot_180d, costo_total_180d, km_dia_promedio
+
+2026-05-23 12:00:26,742 - ERROR - 
+✗ ERROR: feature_names mismatch: ['edad_dias', 'ot_30d', 'corr_30d', 'ot_90d', 'corr_90d', 'ot_180d', 'corr_180d'] ['edad_dias', 'edad_anos', 'odometro_actual', 'km_dia_promedio', 'dias_desde_ultima_ot', 'count_ot_30d', 'count_correctivas_30d', 'count_ot_90d', 'count_correctivas_90d', 'count_ot_180d', 'count_correctivas_180d', 'costo_total_90d', 'costo_total_180d']
+expected corr_180d, ot_30d, corr_30d, corr_90d, ot_90d, ot_180d in input data
+training data did not have the following fields: edad_anos, count_correctivas_90d, count_ot_30d, count_correctivas_180d, costo_total_90d, dias_desde_ultima_ot, odometro_actual, count_correctivas_30d, count_ot_90d, count_ot_180d, costo_total_180d, km_dia_promedio
+2026-05-23 12:00:26,742 - ERROR - Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 374, in main
+    predicciones, conteos = realizar_predicciones(features, modelo_path)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 254, in realizar_predicciones
+    probabilidades = pipeline.predict_proba(X)[:, 1]
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 1712, in predict_proba
+    class_probs = super().predict(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 1248, in predict
+    predts = self.get_booster().inplace_predict(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/core.py", line 2514, in inplace_predict
+    self._validate_features(fns)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/core.py", line 3079, in _validate_features
+    raise ValueError(msg.format(self.feature_names, feature_names))
+ValueError: feature_names mismatch: ['edad_dias', 'ot_30d', 'corr_30d', 'ot_90d', 'corr_90d', 'ot_180d', 'corr_180d'] ['edad_dias', 'edad_anos', 'odometro_actual', 'km_dia_promedio', 'dias_desde_ultima_ot', 'count_ot_30d', 'count_correctivas_30d', 'count_ot_90d', 'count_correctivas_90d', 'count_ot_180d', 'count_correctivas_180d', 'costo_total_90d', 'costo_total_180d']
+expected corr_180d, ot_30d, corr_30d, corr_90d, ot_90d, ot_180d in input data
+training data did not have the following fields: edad_anos, count_correctivas_90d, count_ot_30d, count_correctivas_180d, costo_total_90d, dias_desde_ultima_ot, odometro_actual, count_correctivas_30d, count_ot_90d, count_ot_180d, costo_total_180d, km_dia_promedio
+
+2026-05-23 12:04:24,337 - INFO - ✓ Conexión a Supabase establecida
+2026-05-23 12:04:24,338 - INFO - ======================================================================
+2026-05-23 12:04:24,338 - INFO - BAITECK — SCORING BATCH DIARIO
+2026-05-23 12:04:24,338 - INFO - ======================================================================
+2026-05-23 12:04:24,338 - INFO - Fecha de scoring: 2026-05-22
+2026-05-23 12:04:24,338 - INFO - 
+[1] Detectando modelo XGBoost...
+2026-05-23 12:04:24,338 - INFO - Buscando modelos XGBoost...
+2026-05-23 12:04:24,339 - INFO - Encontrados 4 modelos XGBoost
+2026-05-23 12:04:25,318 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-23 12:04:25,318 - INFO - ✓ Modelo: modelo_xgb_v1.0.joblib
+2026-05-23 12:04:25,318 - INFO - 
+[2] Generando features...
+2026-05-23 12:04:25,318 - INFO - Generando features para fecha de corte: 2026-05-22
+2026-05-23 12:04:29,184 - INFO - ✓ Features generados: 5 activos × 16 columnas
+2026-05-23 12:04:29,185 - INFO - 
+[3] Realizando predicciones...
+2026-05-23 12:04:29,185 - INFO - Realizando predicciones...
+2026-05-23 12:04:29,189 - ERROR - ✗ Error en predicciones: feature_names mismatch: ['edad_dias', 'ot_30d', 'corr_30d', 'ot_90d', 'corr_90d', 'ot_180d', 'corr_180d'] ['edad_dias', 'edad_anos', 'odometro_actual', 'km_dia_promedio', 'dias_desde_ultima_ot', 'count_ot_30d', 'count_correctivas_30d', 'count_ot_90d', 'count_correctivas_90d', 'count_ot_180d', 'count_correctivas_180d', 'costo_total_90d', 'costo_total_180d']
+expected ot_180d, corr_180d, corr_90d, ot_90d, corr_30d, ot_30d in input data
+training data did not have the following fields: count_ot_30d, count_correctivas_180d, odometro_actual, count_ot_180d, km_dia_promedio, count_ot_90d, edad_anos, count_correctivas_30d, costo_total_180d, costo_total_90d, dias_desde_ultima_ot, count_correctivas_90d
+2026-05-23 12:04:29,195 - ERROR - Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 254, in realizar_predicciones
+    probabilidades = pipeline.predict_proba(X)[:, 1]
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 1712, in predict_proba
+    class_probs = super().predict(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 1248, in predict
+    predts = self.get_booster().inplace_predict(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/core.py", line 2514, in inplace_predict
+    self._validate_features(fns)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/core.py", line 3079, in _validate_features
+    raise ValueError(msg.format(self.feature_names, feature_names))
+ValueError: feature_names mismatch: ['edad_dias', 'ot_30d', 'corr_30d', 'ot_90d', 'corr_90d', 'ot_180d', 'corr_180d'] ['edad_dias', 'edad_anos', 'odometro_actual', 'km_dia_promedio', 'dias_desde_ultima_ot', 'count_ot_30d', 'count_correctivas_30d', 'count_ot_90d', 'count_correctivas_90d', 'count_ot_180d', 'count_correctivas_180d', 'costo_total_90d', 'costo_total_180d']
+expected ot_180d, corr_180d, corr_90d, ot_90d, corr_30d, ot_30d in input data
+training data did not have the following fields: count_ot_30d, count_correctivas_180d, odometro_actual, count_ot_180d, km_dia_promedio, count_ot_90d, edad_anos, count_correctivas_30d, costo_total_180d, costo_total_90d, dias_desde_ultima_ot, count_correctivas_90d
+
+2026-05-23 12:04:29,195 - ERROR - 
+✗ ERROR: feature_names mismatch: ['edad_dias', 'ot_30d', 'corr_30d', 'ot_90d', 'corr_90d', 'ot_180d', 'corr_180d'] ['edad_dias', 'edad_anos', 'odometro_actual', 'km_dia_promedio', 'dias_desde_ultima_ot', 'count_ot_30d', 'count_correctivas_30d', 'count_ot_90d', 'count_correctivas_90d', 'count_ot_180d', 'count_correctivas_180d', 'costo_total_90d', 'costo_total_180d']
+expected ot_180d, corr_180d, corr_90d, ot_90d, corr_30d, ot_30d in input data
+training data did not have the following fields: count_ot_30d, count_correctivas_180d, odometro_actual, count_ot_180d, km_dia_promedio, count_ot_90d, edad_anos, count_correctivas_30d, costo_total_180d, costo_total_90d, dias_desde_ultima_ot, count_correctivas_90d
+2026-05-23 12:04:29,195 - ERROR - Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 374, in main
+    predicciones, conteos = realizar_predicciones(features, modelo_path)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 254, in realizar_predicciones
+    probabilidades = pipeline.predict_proba(X)[:, 1]
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 1712, in predict_proba
+    class_probs = super().predict(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 1248, in predict
+    predts = self.get_booster().inplace_predict(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/core.py", line 2514, in inplace_predict
+    self._validate_features(fns)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/core.py", line 3079, in _validate_features
+    raise ValueError(msg.format(self.feature_names, feature_names))
+ValueError: feature_names mismatch: ['edad_dias', 'ot_30d', 'corr_30d', 'ot_90d', 'corr_90d', 'ot_180d', 'corr_180d'] ['edad_dias', 'edad_anos', 'odometro_actual', 'km_dia_promedio', 'dias_desde_ultima_ot', 'count_ot_30d', 'count_correctivas_30d', 'count_ot_90d', 'count_correctivas_90d', 'count_ot_180d', 'count_correctivas_180d', 'costo_total_90d', 'costo_total_180d']
+expected ot_180d, corr_180d, corr_90d, ot_90d, corr_30d, ot_30d in input data
+training data did not have the following fields: count_ot_30d, count_correctivas_180d, odometro_actual, count_ot_180d, km_dia_promedio, count_ot_90d, edad_anos, count_correctivas_30d, costo_total_180d, costo_total_90d, dias_desde_ultima_ot, count_correctivas_90d
+
+2026-05-23 12:21:46,186 - INFO - ✓ Conexión a Supabase establecida
+2026-05-23 12:21:46,186 - INFO - ======================================================================
+2026-05-23 12:21:46,186 - INFO - BAITECK — SCORING BATCH DIARIO
+2026-05-23 12:21:46,186 - INFO - ======================================================================
+2026-05-23 12:21:46,186 - INFO - Fecha de scoring: 2026-05-22
+2026-05-23 12:21:46,186 - INFO - 
+[1] Detectando modelo XGBoost...
+2026-05-23 12:21:46,187 - INFO - Encontrados 4 modelos XGBoost
+2026-05-23 12:21:47,201 - INFO - Usando modelo más reciente: modelo_xgb_v1.0.joblib
+2026-05-23 12:21:47,201 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-23 12:21:47,201 - INFO - 
+[2] Generando features...
+2026-05-23 12:21:47,201 - INFO - Generando features para fecha de corte: 2026-05-22
+2026-05-23 12:21:52,237 - ERROR - Error generando features: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2026-05-23 12:21:52,250 - ERROR - Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimelike.py", line 559, in _validate_comparison_value
+    self._check_compatible_with(other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimes.py", line 542, in _check_compatible_with
+    self._assert_tzawareness_compat(other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimes.py", line 788, in _assert_tzawareness_compat
+    raise TypeError(
+TypeError: Cannot compare tz-naive and tz-aware datetime-like objects
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimelike.py", line 1006, in _cmp_method
+    other = self._validate_comparison_value(other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimelike.py", line 562, in _validate_comparison_value
+    raise InvalidComparison(other) from err
+pandas.errors.InvalidComparison: 2026-05-22 00:00:00
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 374, in generar_features_fecha
+    ots_pasado = ots[ots["fecha_apertura"] < fecha].copy()
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/ops/common.py", line 76, in new_method
+    return method(self, other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arraylike.py", line 48, in __lt__
+    return self._cmp_method(other, operator.lt)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/series.py", line 6138, in _cmp_method
+    res_values = ops.comparison_op(lvalues, rvalues, op)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/ops/array_ops.py", line 330, in comparison_op
+    res_values = op(lvalues, rvalues)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/ops/common.py", line 76, in new_method
+    return method(self, other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arraylike.py", line 48, in __lt__
+    return self._cmp_method(other, operator.lt)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimelike.py", line 1008, in _cmp_method
+    return invalid_comparison(self, other, op)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/ops/invalid.py", line 40, in invalid_comparison
+    raise TypeError(f"Invalid comparison between dtype={left.dtype} and {typ}")
+TypeError: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+
+2026-05-23 12:21:52,250 - ERROR - 
+✗ ERROR EN PIPELINE: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2026-05-23 12:21:52,250 - ERROR - Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimelike.py", line 559, in _validate_comparison_value
+    self._check_compatible_with(other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimes.py", line 542, in _check_compatible_with
+    self._assert_tzawareness_compat(other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimes.py", line 788, in _assert_tzawareness_compat
+    raise TypeError(
+TypeError: Cannot compare tz-naive and tz-aware datetime-like objects
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimelike.py", line 1006, in _cmp_method
+    other = self._validate_comparison_value(other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimelike.py", line 562, in _validate_comparison_value
+    raise InvalidComparison(other) from err
+pandas.errors.InvalidComparison: 2026-05-22 00:00:00
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 640, in ejecutar
+    features = feature_gen.generar_features_fecha(self.fecha_scoring_str, horizonte_dias=30)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 374, in generar_features_fecha
+    ots_pasado = ots[ots["fecha_apertura"] < fecha].copy()
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/ops/common.py", line 76, in new_method
+    return method(self, other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arraylike.py", line 48, in __lt__
+    return self._cmp_method(other, operator.lt)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/series.py", line 6138, in _cmp_method
+    res_values = ops.comparison_op(lvalues, rvalues, op)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/ops/array_ops.py", line 330, in comparison_op
+    res_values = op(lvalues, rvalues)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/ops/common.py", line 76, in new_method
+    return method(self, other)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arraylike.py", line 48, in __lt__
+    return self._cmp_method(other, operator.lt)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/arrays/datetimelike.py", line 1008, in _cmp_method
+    return invalid_comparison(self, other, op)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/ops/invalid.py", line 40, in invalid_comparison
+    raise TypeError(f"Invalid comparison between dtype={left.dtype} and {typ}")
+TypeError: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+
+2026-05-23 12:21:52,250 - ERROR - Error fatal en main: Invalid comparison between dtype=datetime64[ns, UTC] and Timestamp
+2026-05-23 12:25:49,168 - ERROR - DATABASE_URL no configurada
+2026-05-23 12:36:38,689 - ERROR - DATABASE_URL no configurada
+2026-05-23 12:37:57,784 - INFO - ======================================================================
+2026-05-23 12:37:57,784 - INFO - BAITECK - SCORING BATCH DIARIO
+2026-05-23 12:37:57,784 - INFO - ======================================================================
+2026-05-23 12:37:57,784 - INFO - Fecha de scoring: 2026-05-22
+2026-05-23 12:37:57,784 - INFO - [1] Detectando modelo XGBoost...
+2026-05-23 12:37:57,785 - INFO - Encontrados 4 modelos XGBoost
+2026-05-23 12:37:58,708 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-23 12:37:58,708 - INFO - [2] Generando features...
+2026-05-23 12:37:58,708 - INFO - Generando features para fecha de corte: 2026-05-22
+2026-05-23 12:38:03,069 - INFO - Cargados 5 activos y 50 OTs
+2026-05-23 12:38:03,074 - INFO - OTs para análisis: 50
+2026-05-23 12:38:03,081 - ERROR - Error generando features: 'tipo'
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'tipo'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 232, in generar_features_fecha
+    ots_corr_30d = ots_30d[ots_30d['tipo'] == 'correctiva']
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'tipo'
+2026-05-23 12:38:03,092 - ERROR - ✗ Error en pipeline: 'tipo'
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'tipo'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 356, in ejecutar
+    features = feature_gen.generar_features_fecha(fecha_scoring, horizonte_dias)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 232, in generar_features_fecha
+    ots_corr_30d = ots_30d[ots_30d['tipo'] == 'correctiva']
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'tipo'
+2026-05-23 12:38:20,971 - INFO - ======================================================================
+2026-05-23 12:38:20,971 - INFO - BAITECK - SCORING BATCH DIARIO
+2026-05-23 12:38:20,971 - INFO - ======================================================================
+2026-05-23 12:38:20,971 - INFO - Fecha de scoring: 2026-05-22
+2026-05-23 12:38:20,971 - INFO - [1] Detectando modelo XGBoost...
+2026-05-23 12:38:20,972 - INFO - Encontrados 4 modelos XGBoost
+2026-05-23 12:38:21,891 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-23 12:38:21,891 - INFO - [2] Generando features...
+2026-05-23 12:38:21,891 - INFO - Generando features para fecha de corte: 2026-05-22
+2026-05-23 12:38:26,138 - INFO - Cargados 5 activos y 50 OTs
+2026-05-23 12:38:26,145 - INFO - OTs para análisis: 50
+2026-05-23 12:38:26,152 - ERROR - Error generando features: 'tipo'
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'tipo'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 232, in generar_features_fecha
+    ots_corr_30d = ots_30d[ots_30d['tipo'] == 'correctiva']
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'tipo'
+2026-05-23 12:38:26,164 - ERROR - ✗ Error en pipeline: 'tipo'
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3812, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 167, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 196, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7096, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'tipo'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 356, in ejecutar
+    features = feature_gen.generar_features_fecha(fecha_scoring, horizonte_dias)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 232, in generar_features_fecha
+    ots_corr_30d = ots_30d[ots_30d['tipo'] == 'correctiva']
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/frame.py", line 4113, in __getitem__
+    indexer = self.columns.get_loc(key)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 3819, in get_loc
+    raise KeyError(key) from err
+KeyError: 'tipo'
+2026-05-23 12:40:41,670 - INFO - ======================================================================
+2026-05-23 12:40:41,671 - INFO - BAITECK - SCORING BATCH DIARIO
+2026-05-23 12:40:41,671 - INFO - ======================================================================
+2026-05-23 12:40:41,671 - INFO - Fecha de scoring: 2026-05-22
+2026-05-23 12:40:41,671 - INFO - [1] Detectando modelo XGBoost...
+2026-05-23 12:40:41,671 - INFO - Encontrados 4 modelos XGBoost
+2026-05-23 12:40:42,734 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-23 12:40:42,734 - INFO - [2] Generando features...
+2026-05-23 12:40:42,734 - INFO - Generando features para fecha de corte: 2026-05-22
+2026-05-23 12:40:47,026 - INFO - Cargados 5 activos y 50 OTs
+2026-05-23 12:40:47,032 - INFO - OTs para análisis: 50
+2026-05-23 12:40:47,047 - INFO - Features generados: (5, 8)
+2026-05-23 12:40:47,047 - INFO - [3] Cargando predictor...
+2026-05-23 12:40:47,048 - INFO - Modelo cargado: 0 features
+2026-05-23 12:40:47,048 - INFO - [4] Realizando predicciones...
+2026-05-23 12:40:47,048 - INFO - Realizando predicciones para 5 activos
+2026-05-23 12:40:47,049 - ERROR - ✗ Error en pipeline: DataFrame.dtypes for data must be int, float, bool or category. When categorical type is supplied, the experimental DMatrix parameter`enable_categorical` must be set to `True`.  Invalid columns:activo_id: object
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 362, in ejecutar
+    predicciones = predictor.predecir(features)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 124, in predecir
+    probs = self.pipeline.predict_proba(X)[:, 1]
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 1712, in predict_proba
+    class_probs = super().predict(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 1248, in predict
+    predts = self.get_booster().inplace_predict(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/core.py", line 2512, in inplace_predict
+    data, fns, _ = _transform_pandas_df(data, enable_categorical)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/data.py", line 603, in _transform_pandas_df
+    pandas_check_dtypes(data, enable_categorical)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/data.py", line 569, in pandas_check_dtypes
+    _invalid_dataframe_dtype(data)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/data.py", line 356, in _invalid_dataframe_dtype
+    raise ValueError(msg)
+ValueError: DataFrame.dtypes for data must be int, float, bool or category. When categorical type is supplied, the experimental DMatrix parameter`enable_categorical` must be set to `True`.  Invalid columns:activo_id: object
+2026-05-23 12:41:45,591 - INFO - ======================================================================
+2026-05-23 12:41:45,591 - INFO - BAITECK - SCORING BATCH DIARIO
+2026-05-23 12:41:45,591 - INFO - ======================================================================
+2026-05-23 12:41:45,591 - INFO - Fecha de scoring: 2026-05-22
+2026-05-23 12:41:45,591 - INFO - [1] Detectando modelo XGBoost...
+2026-05-23 12:41:45,592 - INFO - Encontrados 4 modelos XGBoost
+2026-05-23 12:41:46,517 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-23 12:41:46,517 - INFO - [2] Generando features...
+2026-05-23 12:41:46,517 - INFO - Generando features para fecha de corte: 2026-05-22
+2026-05-23 12:41:50,800 - INFO - Cargados 5 activos y 50 OTs
+2026-05-23 12:41:50,806 - INFO - OTs para análisis: 50
+2026-05-23 12:41:50,822 - INFO - Features generados: (5, 8)
+2026-05-23 12:41:50,822 - INFO - [3] Cargando predictor...
+2026-05-23 12:41:50,824 - INFO - Modelo cargado: 0 features
+2026-05-23 12:41:50,824 - INFO - [4] Realizando predicciones...
+2026-05-23 12:41:50,824 - INFO - Realizando predicciones para 5 activos
+2026-05-23 12:41:50,824 - ERROR - ✗ Error en pipeline: DataFrame.dtypes for data must be int, float, bool or category. When categorical type is supplied, the experimental DMatrix parameter`enable_categorical` must be set to `True`.  Invalid columns:activo_id: object
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 365, in ejecutar
+    predicciones = predictor.predecir(features)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 127, in predecir
+    probs = self.pipeline.predict_proba(X_modelo)[:, 1]
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 1712, in predict_proba
+    class_probs = super().predict(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 1248, in predict
+    predts = self.get_booster().inplace_predict(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/core.py", line 2512, in inplace_predict
+    data, fns, _ = _transform_pandas_df(data, enable_categorical)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/data.py", line 603, in _transform_pandas_df
+    pandas_check_dtypes(data, enable_categorical)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/data.py", line 569, in pandas_check_dtypes
+    _invalid_dataframe_dtype(data)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/data.py", line 356, in _invalid_dataframe_dtype
+    raise ValueError(msg)
+ValueError: DataFrame.dtypes for data must be int, float, bool or category. When categorical type is supplied, the experimental DMatrix parameter`enable_categorical` must be set to `True`.  Invalid columns:activo_id: object
+2026-05-23 12:42:48,916 - INFO - ======================================================================
+2026-05-23 12:42:48,916 - INFO - BAITECK - SCORING BATCH DIARIO
+2026-05-23 12:42:48,916 - INFO - ======================================================================
+2026-05-23 12:42:48,916 - INFO - Fecha de scoring: 2026-05-22
+2026-05-23 12:42:48,916 - INFO - [1] Detectando modelo XGBoost...
+2026-05-23 12:42:48,917 - INFO - Encontrados 4 modelos XGBoost
+2026-05-23 12:42:49,927 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-23 12:42:49,927 - INFO - [2] Generando features...
+2026-05-23 12:42:49,927 - INFO - Generando features para fecha de corte: 2026-05-22
+2026-05-23 12:42:54,255 - INFO - Cargados 5 activos y 50 OTs
+2026-05-23 12:42:54,262 - INFO - OTs para análisis: 50
+2026-05-23 12:42:54,277 - INFO - Features generados: (5, 8)
+2026-05-23 12:42:54,277 - INFO - [3] Cargando predictor...
+2026-05-23 12:42:54,279 - INFO - Modelo cargado: 0 features
+2026-05-23 12:42:54,279 - INFO - [4] Realizando predicciones...
+2026-05-23 12:42:54,279 - INFO - Realizando predicciones para 5 activos
+2026-05-23 12:42:54,282 - ERROR - ✗ Error en pipeline: feature_names mismatch: ['edad_dias', 'ot_30d', 'corr_30d', 'ot_90d', 'corr_90d', 'ot_180d', 'corr_180d'] ['activo_id', 'edad_dias', 'ot_30d', 'corr_30d', 'ot_90d', 'corr_90d', 'ot_180d', 'corr_180d']
+training data did not have the following fields: activo_id
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 369, in ejecutar
+    predicciones = predictor.predecir(features)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 131, in predecir
+    probs = self.pipeline.predict_proba(X_modelo)[:, 1]
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 1712, in predict_proba
+    class_probs = super().predict(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 1248, in predict
+    predts = self.get_booster().inplace_predict(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/core.py", line 2514, in inplace_predict
+    self._validate_features(fns)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/core.py", line 3079, in _validate_features
+    raise ValueError(msg.format(self.feature_names, feature_names))
+ValueError: feature_names mismatch: ['edad_dias', 'ot_30d', 'corr_30d', 'ot_90d', 'corr_90d', 'ot_180d', 'corr_180d'] ['activo_id', 'edad_dias', 'ot_30d', 'corr_30d', 'ot_90d', 'corr_90d', 'ot_180d', 'corr_180d']
+training data did not have the following fields: activo_id
+2026-05-23 12:43:44,569 - INFO - ======================================================================
+2026-05-23 12:43:44,570 - INFO - BAITECK - SCORING BATCH DIARIO
+2026-05-23 12:43:44,570 - INFO - ======================================================================
+2026-05-23 12:43:44,570 - INFO - Fecha de scoring: 2026-05-22
+2026-05-23 12:43:44,570 - INFO - [1] Detectando modelo XGBoost...
+2026-05-23 12:43:44,570 - INFO - Encontrados 4 modelos XGBoost
+2026-05-23 12:43:45,531 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-23 12:43:45,531 - INFO - [2] Generando features...
+2026-05-23 12:43:45,531 - INFO - Generando features para fecha de corte: 2026-05-22
+2026-05-23 12:43:49,831 - INFO - Cargados 5 activos y 50 OTs
+2026-05-23 12:43:49,839 - INFO - OTs para análisis: 50
+2026-05-23 12:43:49,854 - INFO - Features generados: (5, 8)
+2026-05-23 12:43:49,854 - INFO - [3] Cargando predictor...
+2026-05-23 12:43:49,856 - INFO - Modelo cargado: 0 features
+2026-05-23 12:43:49,856 - INFO - [4] Realizando predicciones...
+2026-05-23 12:43:49,856 - INFO - Realizando predicciones para 5 activos
+2026-05-23 12:43:49,857 - ERROR - ✗ Error en pipeline: feature_names mismatch: ['edad_dias', 'ot_30d', 'corr_30d', 'ot_90d', 'corr_90d', 'ot_180d', 'corr_180d'] []
+expected ot_180d, corr_30d, ot_90d, ot_30d, edad_dias, corr_180d, corr_90d in input data
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 371, in ejecutar
+    predicciones = predictor.predecir(features)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 133, in predecir
+    probs = self.pipeline.predict_proba(X_modelo)[:, 1]
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 1712, in predict_proba
+    class_probs = super().predict(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/sklearn.py", line 1248, in predict
+    predts = self.get_booster().inplace_predict(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/core.py", line 2514, in inplace_predict
+    self._validate_features(fns)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/xgboost/core.py", line 3079, in _validate_features
+    raise ValueError(msg.format(self.feature_names, feature_names))
+ValueError: feature_names mismatch: ['edad_dias', 'ot_30d', 'corr_30d', 'ot_90d', 'corr_90d', 'ot_180d', 'corr_180d'] []
+expected ot_180d, corr_30d, ot_90d, ot_30d, edad_dias, corr_180d, corr_90d in input data
+2026-05-23 12:45:51,858 - INFO - ======================================================================
+2026-05-23 12:45:51,858 - INFO - BAITECK - SCORING BATCH DIARIO
+2026-05-23 12:45:51,858 - INFO - ======================================================================
+2026-05-23 12:45:51,858 - INFO - Fecha de scoring: 2026-05-22
+2026-05-23 12:45:51,858 - INFO - [1] Detectando modelo XGBoost...
+2026-05-23 12:45:51,859 - INFO - Encontrados 4 modelos XGBoost
+2026-05-23 12:45:52,797 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-23 12:45:52,797 - INFO - [2] Generando features...
+2026-05-23 12:45:52,797 - INFO - Generando features para fecha de corte: 2026-05-22
+2026-05-23 12:45:57,049 - INFO - Cargados 5 activos y 50 OTs
+2026-05-23 12:45:57,057 - INFO - OTs para análisis: 50
+2026-05-23 12:45:57,073 - INFO - Features generados: (5, 8)
+2026-05-23 12:45:57,073 - INFO - [3] Cargando predictor...
+2026-05-23 12:45:57,075 - INFO - Modelo cargado: 7 features
+2026-05-23 12:45:57,075 - INFO - [4] Realizando predicciones...
+2026-05-23 12:45:57,075 - INFO - Realizando predicciones para 5 activos
+2026-05-23 12:45:57,080 - INFO - [5] Guardando resultados...
+2026-05-23 12:45:57,081 - ERROR - Error guardando predicciones: invalid literal for int() with base 10: 'ACE-001'
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 296, in guardar_predicciones
+    'activo_id': int(row['activo_id']),
+ValueError: invalid literal for int() with base 10: 'ACE-001'
+2026-05-23 12:47:15,337 - INFO - ======================================================================
+2026-05-23 12:47:15,338 - INFO - BAITECK - SCORING BATCH DIARIO
+2026-05-23 12:47:15,338 - INFO - ======================================================================
+2026-05-23 12:47:15,338 - INFO - Fecha de scoring: 2026-05-22
+2026-05-23 12:47:15,338 - INFO - [1] Detectando modelo XGBoost...
+2026-05-23 12:47:15,338 - INFO - Encontrados 4 modelos XGBoost
+2026-05-23 12:47:16,298 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-23 12:47:16,298 - INFO - [2] Generando features...
+2026-05-23 12:47:16,298 - INFO - Generando features para fecha de corte: 2026-05-22
+2026-05-23 12:47:20,605 - INFO - Cargados 5 activos y 50 OTs
+2026-05-23 12:47:20,610 - INFO - OTs para análisis: 50
+2026-05-23 12:47:20,625 - INFO - Features generados: (5, 8)
+2026-05-23 12:47:20,625 - INFO - [3] Cargando predictor...
+2026-05-23 12:47:20,627 - INFO - Modelo cargado: 7 features
+2026-05-23 12:47:20,627 - INFO - [4] Realizando predicciones...
+2026-05-23 12:47:20,627 - INFO - Realizando predicciones para 5 activos
+2026-05-23 12:47:20,632 - INFO - [5] Guardando resultados...
+2026-05-23 12:47:21,841 - INFO - ✓ 5 predicciones guardadas
+2026-05-23 12:47:21,842 - INFO - [6] Verificando resultados...
+2026-05-23 12:47:22,369 - ERROR - Error verificando predicciones: List argument must consist only of tuples or dictionaries
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 324, in verificar_predicciones
+    resultados = pd.read_sql(query, self.engine, params=[fecha_scoring])
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/io/sql.py", line 736, in read_sql
+    return pandas_sql.read_query(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/io/sql.py", line 1848, in read_query
+    result = self.execute(sql, params)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/pandas/io/sql.py", line 1671, in execute
+    return self.con.exec_driver_sql(sql, *args)
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1772, in exec_driver_sql
+    distilled_parameters = _distill_raw_params(parameters)
+  File "lib/sqlalchemy/cyextension/util.pyx", line 41, in sqlalchemy.cyextension.util._distill_raw_params
+sqlalchemy.exc.ArgumentError: List argument must consist only of tuples or dictionaries
+2026-05-23 12:47:22,382 - INFO - ======================================================================
+2026-05-23 12:47:22,382 - INFO - ✓ Pipeline completado exitosamente
+2026-05-23 12:47:22,382 - INFO - ======================================================================
+2026-05-23 12:48:28,061 - INFO - ======================================================================
+2026-05-23 12:48:28,061 - INFO - BAITECK - SCORING BATCH DIARIO
+2026-05-23 12:48:28,061 - INFO - ======================================================================
+2026-05-23 12:48:28,061 - INFO - Fecha de scoring: 2026-05-22
+2026-05-23 12:48:28,061 - INFO - [1] Detectando modelo XGBoost...
+2026-05-23 12:48:28,062 - INFO - Encontrados 4 modelos XGBoost
+2026-05-23 12:48:29,101 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-23 12:48:29,101 - INFO - [2] Generando features...
+2026-05-23 12:48:29,101 - INFO - Generando features para fecha de corte: 2026-05-22
+2026-05-23 12:48:33,306 - INFO - Cargados 5 activos y 50 OTs
+2026-05-23 12:48:33,314 - INFO - OTs para análisis: 50
+2026-05-23 12:48:33,328 - INFO - Features generados: (5, 8)
+2026-05-23 12:48:33,328 - INFO - [3] Cargando predictor...
+2026-05-23 12:48:33,330 - INFO - Modelo cargado: 7 features
+2026-05-23 12:48:33,330 - INFO - [4] Realizando predicciones...
+2026-05-23 12:48:33,330 - INFO - Realizando predicciones para 5 activos
+2026-05-23 12:48:33,334 - INFO - [5] Guardando resultados...
+2026-05-23 12:48:33,825 - ERROR - Error guardando predicciones: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "scoring_resultados_activo_id_fecha_scoring_horizonte_dias_m_key"
+DETAIL:  Key (activo_id, fecha_scoring, horizonte_dias, modelo_version)=(ACE-001, 2026-05-22, 30, modelo_xgb_v1.0) already exists.
+
+[SQL: 
+                        INSERT INTO scoring_resultados 
+                        (activo_id, fecha_scoring, horizonte_dias, probabilidad_falla, 
+                         prediccion, prioridad, modelo_version, created_at)
+                        VALUES (%(activo_id)s, %(fecha_scoring)s, %(horizonte_dias)s, %(probabilidad_falla)s,
+                                %(prediccion)s, %(prioridad)s, %(modelo_version)s, %(created_at)s)
+                    ]
+[parameters: {'activo_id': 'ACE-001', 'fecha_scoring': Timestamp('2026-05-22 00:00:00'), 'horizonte_dias': 30, 'probabilidad_falla': 0.06207936629652977, 'prediccion': 0, 'prioridad': 'P4_baja', 'modelo_version': 'modelo_xgb_v1.0', 'created_at': Timestamp('2026-05-23 12:48:33.335103')}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "scoring_resultados_activo_id_fecha_scoring_horizonte_dias_m_key"
+DETAIL:  Key (activo_id, fecha_scoring, horizonte_dias, modelo_version)=(ACE-001, 2026-05-22, 30, modelo_xgb_v1.0) already exists.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/eduardoroa/baiteck-pdm-flotas/ejecutar_scoring.py", line 295, in guardar_predicciones
+    conn.execute(query, {
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1419, in execute
+    return meth(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/sqlalchemy/sql/elements.py", line 527, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1641, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1846, in _execute_context
+    return self._exec_single_context(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1986, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 2363, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/sqlalchemy/engine/base.py", line 1967, in _exec_single_context
+    self.dialect.do_execute(
+  File "/Users/eduardoroa/baiteck-pdm-flotas/.venv/lib/python3.9/site-packages/sqlalchemy/engine/default.py", line 952, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.IntegrityError: (psycopg2.errors.UniqueViolation) duplicate key value violates unique constraint "scoring_resultados_activo_id_fecha_scoring_horizonte_dias_m_key"
+DETAIL:  Key (activo_id, fecha_scoring, horizonte_dias, modelo_version)=(ACE-001, 2026-05-22, 30, modelo_xgb_v1.0) already exists.
+
+[SQL: 
+                        INSERT INTO scoring_resultados 
+                        (activo_id, fecha_scoring, horizonte_dias, probabilidad_falla, 
+                         prediccion, prioridad, modelo_version, created_at)
+                        VALUES (%(activo_id)s, %(fecha_scoring)s, %(horizonte_dias)s, %(probabilidad_falla)s,
+                                %(prediccion)s, %(prioridad)s, %(modelo_version)s, %(created_at)s)
+                    ]
+[parameters: {'activo_id': 'ACE-001', 'fecha_scoring': Timestamp('2026-05-22 00:00:00'), 'horizonte_dias': 30, 'probabilidad_falla': 0.06207936629652977, 'prediccion': 0, 'prioridad': 'P4_baja', 'modelo_version': 'modelo_xgb_v1.0', 'created_at': Timestamp('2026-05-23 12:48:33.335103')}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2026-05-23 12:49:34,659 - INFO - ======================================================================
+2026-05-23 12:49:34,659 - INFO - BAITECK - SCORING BATCH DIARIO
+2026-05-23 12:49:34,659 - INFO - ======================================================================
+2026-05-23 12:49:34,659 - INFO - Fecha de scoring: 2026-05-22
+2026-05-23 12:49:34,659 - INFO - [1] Detectando modelo XGBoost...
+2026-05-23 12:49:34,660 - INFO - Encontrados 4 modelos XGBoost
+2026-05-23 12:49:35,674 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-23 12:49:35,674 - INFO - [2] Generando features...
+2026-05-23 12:49:35,674 - INFO - Generando features para fecha de corte: 2026-05-22
+2026-05-23 12:49:39,907 - INFO - Cargados 5 activos y 50 OTs
+2026-05-23 12:49:39,914 - INFO - OTs para análisis: 50
+2026-05-23 12:49:39,929 - INFO - Features generados: (5, 8)
+2026-05-23 12:49:39,929 - INFO - [3] Cargando predictor...
+2026-05-23 12:49:39,931 - INFO - Modelo cargado: 7 features
+2026-05-23 12:49:39,931 - INFO - [4] Realizando predicciones...
+2026-05-23 12:49:39,931 - INFO - Realizando predicciones para 5 activos
+2026-05-23 12:49:39,936 - INFO - [5] Guardando resultados...
+2026-05-23 12:49:40,287 - INFO - Registros previos borrados para 2026-05-22
+2026-05-23 12:49:41,336 - INFO - ✓ 5 predicciones guardadas
+2026-05-23 12:49:41,337 - INFO - [6] Verificando resultados...
+2026-05-23 12:49:41,860 - INFO - Top 10 activos en riesgo:
+2026-05-23 12:49:41,861 - INFO -   Activo ACE-001: P4_baja (6.21%)
+2026-05-23 12:49:41,862 - INFO -   Activo ACE-002: P4_baja (6.21%)
+2026-05-23 12:49:41,862 - INFO -   Activo ACE-003: P4_baja (6.21%)
+2026-05-23 12:49:41,863 - INFO -   Activo ACE-004: P4_baja (6.21%)
+2026-05-23 12:49:41,863 - INFO -   Activo ACE-005: P4_baja (6.21%)
+2026-05-23 12:49:41,863 - INFO - ======================================================================
+2026-05-23 12:49:41,863 - INFO - ✓ Pipeline completado exitosamente
+2026-05-23 12:49:41,864 - INFO - ======================================================================
+2026-05-23 13:05:24,181 - INFO - ======================================================================
+2026-05-23 13:05:24,182 - INFO - BAITECK - SCORING BATCH DIARIO
+2026-05-23 13:05:24,182 - INFO - ======================================================================
+2026-05-23 13:05:24,182 - INFO - Fecha de scoring: 2026-05-22
+2026-05-23 13:05:24,182 - INFO - [1] Detectando modelo XGBoost...
+2026-05-23 13:05:24,182 - INFO - Encontrados 4 modelos XGBoost
+2026-05-23 13:05:25,090 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-23 13:05:25,090 - INFO - [2] Generando features...
+2026-05-23 13:05:25,090 - INFO - Generando features para fecha de corte: 2026-05-22
+2026-05-23 13:05:29,300 - INFO - Cargados 5 activos y 50 OTs
+2026-05-23 13:05:29,305 - INFO - OTs para análisis: 50
+2026-05-23 13:05:29,319 - INFO - Features generados: (5, 8)
+2026-05-23 13:05:29,319 - INFO - [3] Cargando predictor...
+2026-05-23 13:05:29,321 - INFO - Modelo cargado: 7 features
+2026-05-23 13:05:29,321 - INFO - [4] Realizando predicciones...
+2026-05-23 13:05:29,321 - INFO - Realizando predicciones para 5 activos
+2026-05-23 13:05:29,325 - INFO - [5] Guardando resultados...
+2026-05-23 13:05:29,629 - INFO - Registros previos borrados para 2026-05-22
+2026-05-23 13:05:30,684 - INFO - ✓ 5 predicciones guardadas
+2026-05-23 13:05:30,685 - INFO - [6] Verificando resultados...
+2026-05-23 13:05:31,205 - INFO - Top 10 activos en riesgo:
+2026-05-23 13:05:31,206 - INFO -   Activo ACE-001: P4_baja (6.21%)
+2026-05-23 13:05:31,206 - INFO -   Activo ACE-002: P4_baja (6.21%)
+2026-05-23 13:05:31,206 - INFO -   Activo ACE-003: P4_baja (6.21%)
+2026-05-23 13:05:31,206 - INFO -   Activo ACE-004: P4_baja (6.21%)
+2026-05-23 13:05:31,206 - INFO -   Activo ACE-005: P4_baja (6.21%)
+2026-05-23 13:05:31,206 - INFO - ======================================================================
+2026-05-23 13:05:31,207 - INFO - ✓ Pipeline completado exitosamente
+2026-05-23 13:05:31,207 - INFO - ======================================================================
+2026-05-24 01:03:37,614 - INFO - ======================================================================
+2026-05-24 01:03:37,615 - INFO - BAITECK - SCORING BATCH DIARIO
+2026-05-24 01:03:37,615 - INFO - ======================================================================
+2026-05-24 01:03:37,615 - INFO - Fecha de scoring: 2026-05-23
+2026-05-24 01:03:37,615 - INFO - [1] Detectando modelo XGBoost...
+2026-05-24 01:03:37,616 - INFO - Encontrados 4 modelos XGBoost
+2026-05-24 01:03:38,531 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-24 01:03:38,531 - INFO - [2] Generando features...
+2026-05-24 01:03:38,531 - INFO - Generando features para fecha de corte: 2026-05-23
+2026-05-24 01:03:42,765 - INFO - Cargados 5 activos y 50 OTs
+2026-05-24 01:03:42,770 - INFO - OTs para análisis: 50
+2026-05-24 01:03:42,785 - INFO - Features generados: (5, 8)
+2026-05-24 01:03:42,785 - INFO - [3] Cargando predictor...
+2026-05-24 01:03:42,787 - INFO - Modelo cargado: 7 features
+2026-05-24 01:03:42,787 - INFO - [4] Realizando predicciones...
+2026-05-24 01:03:42,787 - INFO - Realizando predicciones para 5 activos
+2026-05-24 01:03:42,791 - INFO - [5] Guardando resultados...
+2026-05-24 01:03:43,096 - INFO - Registros previos borrados para 2026-05-23
+2026-05-24 01:03:44,143 - INFO - ✓ 5 predicciones guardadas
+2026-05-24 01:03:44,143 - INFO - [6] Verificando resultados...
+2026-05-24 01:03:44,665 - INFO - Top 10 activos en riesgo:
+2026-05-24 01:03:44,666 - INFO -   Activo ACE-001: P4_baja (6.21%)
+2026-05-24 01:03:44,666 - INFO -   Activo ACE-002: P4_baja (6.21%)
+2026-05-24 01:03:44,667 - INFO -   Activo ACE-003: P4_baja (6.21%)
+2026-05-24 01:03:44,667 - INFO -   Activo ACE-004: P4_baja (6.21%)
+2026-05-24 01:03:44,668 - INFO -   Activo ACE-005: P4_baja (6.21%)
+2026-05-24 01:03:44,668 - INFO - ======================================================================
+2026-05-24 01:03:44,668 - INFO - ✓ Pipeline completado exitosamente
+2026-05-24 01:03:44,669 - INFO - ======================================================================
+2026-05-24 09:40:28,175 - INFO - ======================================================================
+2026-05-24 09:40:28,176 - INFO - BAITECK - SCORING BATCH DIARIO
+2026-05-24 09:40:28,176 - INFO - ======================================================================
+2026-05-24 09:40:28,176 - INFO - Fecha de scoring: 2026-05-23
+2026-05-24 09:40:28,176 - INFO - [1] Detectando modelo XGBoost...
+2026-05-24 09:40:28,177 - INFO - Encontrados 4 modelos XGBoost
+2026-05-24 09:40:28,958 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-24 09:40:28,958 - INFO - [2] Generando features...
+2026-05-24 09:40:28,958 - INFO - Generando features para fecha de corte: 2026-05-23
+2026-05-24 09:40:32,441 - INFO - Cargados 0 activos y 0 OTs
+2026-05-24 09:40:32,451 - INFO - OTs para análisis: 0
+2026-05-24 09:40:32,460 - INFO - Features generados: (0, 8)
+2026-05-24 09:40:32,461 - INFO - [3] Cargando predictor...
+2026-05-24 09:40:32,467 - INFO - Modelo cargado: 7 features
+2026-05-24 09:40:32,468 - INFO - [4] Realizando predicciones...
+2026-05-24 09:40:32,468 - INFO - Realizando predicciones para 0 activos
+2026-05-24 09:40:32,479 - INFO - [5] Guardando resultados...
+2026-05-24 09:40:32,763 - INFO - Registros previos borrados para 2026-05-23
+2026-05-24 09:40:32,944 - INFO - ✓ 0 predicciones guardadas
+2026-05-24 09:40:32,945 - INFO - [6] Verificando resultados...
+2026-05-24 09:40:33,371 - INFO - Top 10 activos en riesgo:
+2026-05-24 09:40:33,372 - INFO - ======================================================================
+2026-05-24 09:40:33,372 - INFO - ✓ Pipeline completado exitosamente
+2026-05-24 09:40:33,373 - INFO - ======================================================================
+2026-05-24 10:26:50,289 - INFO - ======================================================================
+2026-05-24 10:26:50,290 - INFO - BAITECK - SCORING BATCH DIARIO
+2026-05-24 10:26:50,290 - INFO - ======================================================================
+2026-05-24 10:26:50,290 - INFO - Fecha de scoring: 2026-05-23
+2026-05-24 10:26:50,290 - INFO - [1] Detectando modelo XGBoost...
+2026-05-24 10:26:50,290 - INFO - Encontrados 4 modelos XGBoost
+2026-05-24 10:26:51,112 - INFO - ✓ Modelo seleccionado: modelo_xgb_v1.0.joblib
+2026-05-24 10:26:51,112 - INFO - [2] Generando features...
+2026-05-24 10:26:51,112 - INFO - Generando features para fecha de corte: 2026-05-23
+2026-05-24 10:26:55,147 - INFO - Cargados 5 activos y 50 OTs
+2026-05-24 10:26:55,151 - INFO - OTs para análisis: 50
+2026-05-24 10:26:55,190 - INFO - Features generados: (5, 8)
+2026-05-24 10:26:55,190 - INFO - [3] Cargando predictor...
+2026-05-24 10:26:55,195 - INFO - Modelo cargado: 7 features
+2026-05-24 10:26:55,195 - INFO - [4] Realizando predicciones...
+2026-05-24 10:26:55,195 - INFO - Realizando predicciones para 5 activos
+2026-05-24 10:26:55,202 - INFO - [5] Guardando resultados...
+2026-05-24 10:26:55,531 - INFO - Registros previos borrados para 2026-05-23
+2026-05-24 10:26:56,586 - INFO - ✓ 5 predicciones guardadas
+2026-05-24 10:26:56,587 - INFO - [6] Verificando resultados...
+2026-05-24 10:26:57,103 - INFO - Top 10 activos en riesgo:
+2026-05-24 10:26:57,104 - INFO -   Activo ACE-001: P4_baja (6.21%)
+2026-05-24 10:26:57,105 - INFO -   Activo ACE-002: P4_baja (6.21%)
+2026-05-24 10:26:57,106 - INFO -   Activo ACE-003: P4_baja (6.21%)
+2026-05-24 10:26:57,106 - INFO -   Activo ACE-004: P4_baja (6.21%)
+2026-05-24 10:26:57,107 - INFO -   Activo ACE-005: P4_baja (6.21%)
+2026-05-24 10:26:57,107 - INFO - ======================================================================
+2026-05-24 10:26:57,107 - INFO - ✓ Pipeline completado exitosamente
+2026-05-24 10:26:57,107 - INFO - ======================================================================

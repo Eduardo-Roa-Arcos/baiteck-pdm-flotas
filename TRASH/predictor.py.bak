@@ -1,0 +1,108 @@
+# predictor.py (VERSIÓN CORREGIDA)
+
+import pandas as pd
+import joblib
+import psycopg2
+from psycopg2.extras import RealDictCursor
+import os
+from dotenv import load_dotenv
+from typing import Dict, Any
+
+load_dotenv()
+
+class Predictor:
+    """Predictor - módulo de inferencia"""
+
+    def __init__(self):
+        self.model = None
+        self.pipeline = None
+        self.feature_cols = None
+        self.model_metadata = None
+
+    def load_active_model(self) -> bool:
+        """Carga modelo activo desde modelos_registro"""
+        conn = None
+        try:
+            # IMPORTANTE: usar DATABASE_URL como en main.py
+            database_url = os.getenv("DATABASE_URL")
+
+            if not database_url:
+                raise ValueError("❌ DATABASE_URL no está en .env")
+
+            conn = psycopg2.connect(database_url)
+            cursor = conn.cursor(cursor_factory=RealDictCursor)
+
+            query = """
+                SELECT 
+                    modelo_id, version, nombre_archivo, 
+                    hiperparametros, auc_score, precision, recall, f1_score
+                FROM modelos_registro
+                WHERE es_activo = TRUE
+                ORDER BY fecha_creacion DESC
+                LIMIT 1
+            """
+            cursor.execute(query)
+            result = cursor.fetchone()
+            cursor.close()
+
+            if not result:
+                raise ValueError("❌ No hay modelo activo en modelos_registro")
+
+            self.model_metadata = dict(result)
+
+            model_path = f"models/{self.model_metadata['nombre_archivo']}"
+            if not os.path.exists(model_path):
+                raise FileNotFoundError(f"❌ Modelo no encontrado en {model_path}")
+
+            artifact = joblib.load(model_path)
+            self.pipeline = artifact.get("pipeline")
+            self.model = artifact.get("model")
+            self.feature_cols = artifact.get("feature_cols")
+
+            if not all([self.model, self.feature_cols]):  # No necesita pipeline
+                raise ValueError("❌ Artifact incompleto - falta model o feature_cols")
+
+            print(f"✅ Modelo cargado: {self.model_metadata['version']}")
+            print(f"   AUC: {self.model_metadata['auc_score']:.4f}")
+
+            return True
+
+        except Exception as e:
+            print(f"❌ Error: {e}")
+            raise
+        finally:
+            if conn:
+                conn.close()
+
+    def predict(self, X: pd.DataFrame) -> Dict[str, Any]:
+        """Predice en batch"""
+        if self.model is None:
+            raise ValueError("❌ Modelo no cargado")
+
+        try:
+            missing_cols = set(self.feature_cols) - set(X.columns)
+            if missing_cols:
+                raise ValueError(f"❌ Faltan columnas: {missing_cols}")
+
+            X_ordered = X[self.feature_cols].copy()
+            # Aplicar pipeline de preprocesamiento (si existe)
+            if self.pipeline is not None:
+                X_processed = self.pipeline.transform(X_ordered)
+            else:
+                X_processed = X_ordered  # Si no hay pipeline, usar features tal cual
+
+            y_pred = self.model.predict(X_processed)
+            try:
+                y_pred_proba = self.model.predict_proba(X_processed)[:, 1]
+            except:
+                y_pred_proba = y_pred.astype(float)
+
+            return {
+                'probabilidades': y_pred_proba,
+                'predicciones': y_pred,
+                'modelo_id': self.model_metadata['modelo_id'],
+                'modelo_version': self.model_metadata['version']
+            }
+        except Exception as e:
+            print(f"❌ Error predicción: {e}")
+            raise

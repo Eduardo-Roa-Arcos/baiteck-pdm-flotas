@@ -1,0 +1,122 @@
+import streamlit as st
+import pandas as pd
+import psycopg2
+import os
+from dotenv import load_dotenv
+import plotly.express as px
+from PIL import Image
+
+load_dotenv()
+st.set_page_config(page_title="BAITECK - PDM Dashboard", layout="wide")
+
+try:
+    logo_path = "/Users/eduardoroa/Downloads/BAITECK/baiteck-Logos/Logo_BAITECK.jpg"
+    if os.path.exists(logo_path):
+        logo = Image.open(logo_path)
+        col1, col2, col3 = st.columns([1, 3, 1])
+        with col2:
+            st.image(logo, width=300)
+except:
+    pass
+
+st.title("📊 Dashboard Predictive Maintenance - BAITECK")
+st.markdown("**Conectado a Supabase - Datos REALES**")
+
+DATABASE_URL = os.getenv("DATABASE_URL")
+
+def query_db(sql):
+    try:
+        conn = psycopg2.connect(DATABASE_URL)
+        df = pd.read_sql(sql, conn)
+        conn.close()
+        return df
+    except Exception as e:
+        st.error(f"Error: {e}")
+        return pd.DataFrame()
+
+with st.sidebar:
+    st.header("Navegación")
+    vista = st.radio("Vista:", ["Estado y Riesgo", "Plan de Acción", "Impacto y Desempeño"])
+
+if vista == "Estado y Riesgo":
+    st.header("Estado de Flota y Riesgo Predictivo")
+    
+    col1, col2, col3, col4 = st.columns(4)
+    
+    df = query_db("SELECT COUNT(*) as total FROM activos")
+    total = int(df['total'].iloc[0]) if len(df) > 0 else 0
+    col1.metric("Unidades Operativas", total)
+    
+    df = query_db("SELECT COUNT(*) as total FROM scoring_resultados WHERE prioridad = 'P1_critica'")
+    p1 = int(df['total'].iloc[0]) if len(df) > 0 else 0
+    col2.metric("P1 Crítica", p1)
+    
+    df = query_db("SELECT COUNT(*) as total FROM scoring_resultados WHERE prioridad = 'P2_alta'")
+    p2 = int(df['total'].iloc[0]) if len(df) > 0 else 0
+    col3.metric("P2 Alta", p2)
+    
+    col4.metric("Disponibilidad 30d", "100%")
+    
+    st.divider()
+    st.subheader("Top Unidades en Riesgo")
+    
+    sql = "SELECT a.patente, a.marca, a.modelo, s.probabilidad_falla, s.prioridad FROM scoring_resultados s JOIN activos a ON s.activo_id = a.activo_id ORDER BY s.probabilidad_falla DESC LIMIT 10"
+    df = query_db(sql)
+    
+    if len(df) > 0:
+        df['Prob %'] = (df['probabilidad_falla'] * 100).round(2)
+        st.dataframe(df[['patente', 'marca', 'modelo', 'Prob %', 'prioridad']])
+    else:
+        st.info("Sin datos")
+    
+    st.divider()
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        st.subheader("Por Prioridad")
+        df = query_db("SELECT prioridad, COUNT(*) as cant FROM scoring_resultados GROUP BY prioridad")
+        if len(df) > 0:
+            fig = px.pie(df, values='cant', names='prioridad')
+            st.plotly_chart(fig)
+    
+    with col2:
+        st.subheader("Por Marca")
+        df = query_db("SELECT a.marca, COUNT(*) as cant FROM scoring_resultados s JOIN activos a ON s.activo_id = a.activo_id GROUP BY a.marca")
+        if len(df) > 0:
+            fig = px.bar(df, x='marca', y='cant')
+            st.plotly_chart(fig)
+
+elif vista == "Plan de Acción":
+    st.header("Plan de Acción: Mantenimiento y Repuestos")
+    
+    col1, col2, col3, col4 = st.columns(4)
+    col1.metric("Intervenciones próx. 7d", 0)
+    col2.metric("Intervenciones próx. 30d", 0)
+    col3.metric("Repuestos Críticos", "—")
+    col4.metric("Cobertura Stock", "—")
+    
+    st.info("En desarrollo")
+
+elif vista == "Impacto y Desempeño":
+    st.header("Impacto y Desempeño del Modelo")
+    
+    col1, col2, col3, col4 = st.columns(4)
+    
+    df = query_db("SELECT COUNT(*) as total FROM scoring_resultados")
+    total = int(df['total'].iloc[0]) if len(df) > 0 else 0
+    col1.metric("Fallas Anticipadas", total)
+    col2.metric("Costo Evitado", "—")
+    col3.metric("Disponibilidad 30d", "100%")
+    col4.metric("MTBF Flota", "—")
+    
+    st.divider()
+    st.subheader("Histórico (últimos 30 días)")
+    
+    df = query_db("SELECT DATE(fecha_scoring) as fecha, COUNT(*) as total FROM scoring_resultados WHERE fecha_scoring >= CURRENT_DATE - INTERVAL '30 days' GROUP BY DATE(fecha_scoring) ORDER BY fecha")
+    
+    if len(df) > 0:
+        fig = px.line(df, x='fecha', y='total', markers=True)
+        st.plotly_chart(fig)
+    else:
+        st.info("Sin datos")
+ENDASH
