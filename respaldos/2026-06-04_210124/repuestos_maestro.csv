@@ -1,0 +1,1054 @@
+sku,descripcion,sistema,componente,proveedor_principal,lead_time_dias_promedio,costo_unitario_clp,stock_actual,stock_minimo,criticidad,rotacion,activo,updated_at
+REP-0730,Tuerca de rueda para auto liviano,Neum√°ticos y ruedas,,No indicado,2.0,3000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0736,V√°lvula de neum√°tico para auto liviano,Neum√°ticos y ruedas,,No indicado,2.0,3000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0822,Ampolleta W5W 12 V para auto liviano,Iluminaci√≥n,,No indicado,2.0,3500.0,200.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0735,Tuerca de rueda para van,Neum√°ticos y ruedas,,No indicado,2.0,4000.0,25.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0732,Tuerca de rueda para camioneta,Neum√°ticos y ruedas,,No indicado,2.0,4000.0,25.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0741,V√°lvula de neum√°tico para van,Neum√°ticos y ruedas,,No indicado,2.0,4000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0738,V√°lvula de neum√°tico para camioneta,Neum√°ticos y ruedas,,No indicado,2.0,4000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0816,Ampolleta P21W 12 V para auto liviano,Iluminaci√≥n,,No indicado,2.0,4000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0827,Ampolleta W5W 12 V para van,Iluminaci√≥n,,No indicado,2.0,4500.0,9.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0824,Ampolleta W5W 12 V para camioneta,Iluminaci√≥n,,No indicado,2.0,4500.0,9.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0723,Perno de rueda para auto liviano,Neum√°ticos y ruedas,,No indicado,2.0,5000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0175,Buj√≠a de n√≠quel para auto liviano,Motor,,No indicado,2.0,5000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0427,Borne de bater√≠a positivo para auto liviano,Sistema el√©ctrico,,No indicado,2.0,5000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0421,Borne de bater√≠a negativo para auto liviano,Sistema el√©ctrico,,No indicado,2.0,5000.0,25.0,25.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0818,Ampolleta P21W 12 V para camioneta,Iluminaci√≥n,,No indicado,2.0,5000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0786,Ampolleta H1 12 V para auto liviano,Iluminaci√≥n,,No indicado,2.0,5000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0733,Tuerca de rueda para cami√≥n liviano,Neum√°ticos y ruedas,,No indicado,2.0,5500.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0739,V√°lvula de neum√°tico para cami√≥n liviano,Neum√°ticos y ruedas,,No indicado,2.0,5500.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0071,Cable el√©ctrico calibre 6,Sistema El√©ctrico,,No indicado,30.0,5500.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0821,Ampolleta P21W 12 V para van,Iluminaci√≥n,,No indicado,2.0,5500.0,3.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0725,Perno de rueda para camioneta,Neum√°ticos y ruedas,,No indicado,2.0,6000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0098,L√≠quido de frenos DOT 3 para auto liviano,Sistema de frenos,,No indicado,2.0,6000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0302,Tapa de radiador para auto liviano,Sistema de enfriamiento,,No indicado,2.0,6000.0,160.0,20.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0915,Filtro de aceite para auto liviano,Lubricaci√≥n,,No indicado,2.0,6000.0,2.0,2.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0525,Buje de barra estabilizadora delantera para auto liviano,Suspensi√≥n,,No indicado,2.0,6000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0177,Buj√≠a de n√≠quel para camioneta,Motor,,No indicado,2.0,6000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0429,Borne de bater√≠a positivo para camioneta,Sistema el√©ctrico,,No indicado,2.0,6000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0423,Borne de bater√≠a negativo para camioneta,Sistema el√©ctrico,,No indicado,2.0,6000.0,25.0,25.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0788,Ampolleta H1 12 V para camioneta,Iluminaci√≥n,,No indicado,2.0,6000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0731,Tuerca de rueda para bus,Neum√°ticos y ruedas,,No indicado,2.0,6500.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0737,V√°lvula de neum√°tico para bus,Neum√°ticos y ruedas,,No indicado,2.0,6500.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0647,Prefiltro de combustible para auto liviano,Sistema de combustible,,No indicado,2.0,6500.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0825,Ampolleta W5W 12 V para cami√≥n liviano,Iluminaci√≥n,,No indicado,2.0,6500.0,3.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0728,Perno de rueda para van,Neum√°ticos y ruedas,,No indicado,2.0,7000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0457,Relay principal para auto liviano,Sistema el√©ctrico,,No indicado,2.0,7000.0,75.0,50.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0205,Filtro de aire para auto liviano,Motor,,No indicado,2.0,7000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0180,Buj√≠a de n√≠quel para van,Motor,,No indicado,2.0,7000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0432,Borne de bater√≠a positivo para van,Sistema el√©ctrico,,No indicado,2.0,7000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0426,Borne de bater√≠a negativo para van,Sistema el√©ctrico,,No indicado,2.0,7000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0819,Ampolleta P21W 12 V para cami√≥n liviano,Iluminaci√≥n,,No indicado,2.0,7000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0791,Ampolleta H1 12 V para van,Iluminaci√≥n,,No indicado,2.0,7000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0102,L√≠quido de frenos DOT 3 para camioneta,Sistema de frenos,,No indicado,2.0,7500.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0756,Plumilla limpiaparabrisas 14 pulgadas para auto liviano,Carrocer√≠a,,No indicado,2.0,7500.0,21.0,21.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0304,Tapa de radiador para camioneta,Sistema de enfriamiento,,No indicado,2.0,7500.0,160.0,20.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0623,Filtro de combustible para auto liviano,Sistema de combustible,,No indicado,2.0,7500.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0917,Filtro de aceite para camioneta,Lubricaci√≥n,,No indicado,2.0,7500.0,2.0,2.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0527,Buje de barra estabilizadora delantera para camioneta,Suspensi√≥n,,No indicado,2.0,7500.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0823,Ampolleta W5W 12 V para bus,Iluminaci√≥n,,No indicado,2.0,7500.0,3.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0108,L√≠quido de frenos DOT 4 para auto liviano,Sistema de frenos,,No indicado,2.0,8000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0107,L√≠quido de frenos DOT 3 para van,Sistema de frenos,,No indicado,2.0,8000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0762,Plumilla limpiaparabrisas 16 pulgadas para auto liviano,Carrocer√≠a,,No indicado,2.0,8000.0,21.0,21.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0307,Tapa de radiador para van,Sistema de enfriamiento,,No indicado,2.0,8000.0,160.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0649,Prefiltro de combustible para camioneta,Sistema de combustible,,No indicado,2.0,8000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0920,Filtro de aceite para van,Lubricaci√≥n,,No indicado,2.0,8000.0,2.0,2.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0530,Buje de barra estabilizadora delantera para van,Suspensi√≥n,,No indicado,2.0,8000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0013,Buj√≠a est√°ndar,Motor,,No indicado,30.0,8000.0,5.0,5.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0804,Ampolleta H7 12 V para auto liviano,Iluminaci√≥n,,No indicado,2.0,8000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0768,Plumilla limpiaparabrisas 18 pulgadas para auto liviano,Carrocer√≠a,,No indicado,2.0,8500.0,21.0,21.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0734,Tuerca de rueda para cami√≥n pesado,Neum√°ticos y ruedas,,No indicado,2.0,9000.0,25.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0726,Perno de rueda para cami√≥n liviano,Neum√°ticos y ruedas,,No indicado,2.0,9000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0859,Filtro de cabina para auto liviano,Climatizaci√≥n,,No indicado,2.0,9000.0,0.0,0.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0740,V√°lvula de neum√°tico para cami√≥n pesado,Neum√°ticos y ruedas,,No indicado,2.0,9000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0458,Relay principal para camioneta,Sistema el√©ctrico,,No indicado,2.0,9000.0,75.0,50.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0291,Refrigerante listo para usar para auto liviano,Sistema de enfriamiento,,No indicado,2.0,9000.0,3.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0652,Prefiltro de combustible para van,Sistema de combustible,,No indicado,2.0,9000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0711,Grasa para rodamientos de rueda para auto liviano,Neum√°ticos y ruedas,,No indicado,2.0,9000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0207,Filtro de aire para camioneta,Motor,,No indicado,2.0,9000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0519,Buje de bandeja de suspensi√≥n delantera para auto liviano,Suspensi√≥n,,No indicado,2.0,9000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0181,Buj√≠a incandescente di√©sel para auto liviano,Motor,,No indicado,2.0,9000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0178,Buj√≠a de n√≠quel para cami√≥n liviano,Motor,,No indicado,2.0,9000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0430,Borne de bater√≠a positivo para cami√≥n liviano,Sistema el√©ctrico,,No indicado,2.0,9000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0424,Borne de bater√≠a negativo para cami√≥n liviano,Sistema el√©ctrico,,No indicado,2.0,9000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0817,Ampolleta P21W 12 V para bus,Iluminaci√≥n,,No indicado,2.0,9000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0798,Ampolleta H4 12 V para auto liviano,Iluminaci√≥n,,No indicado,2.0,9000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0789,Ampolleta H1 12 V para cami√≥n liviano,Iluminaci√≥n,,No indicado,2.0,9000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0758,Plumilla limpiaparabrisas 14 pulgadas para camioneta,Carrocer√≠a,,No indicado,2.0,9500.0,21.0,21.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0625,Filtro de combustible para camioneta,Sistema de combustible,,No indicado,2.0,9500.0,2.0,2.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0210,Filtro de aire para van,Motor,,No indicado,2.0,9500.0,21.0,21.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0110,L√≠quido de frenos DOT 4 para camioneta,Sistema de frenos,,No indicado,2.0,10000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0774,Plumilla limpiaparabrisas 22 pulgadas para auto liviano,Carrocer√≠a,,No indicado,2.0,10000.0,0.0,0.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0764,Plumilla limpiaparabrisas 16 pulgadas para camioneta,Carrocer√≠a,,No indicado,2.0,10000.0,21.0,21.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0761,Plumilla limpiaparabrisas 14 pulgadas para van,Carrocer√≠a,,No indicado,2.0,10000.0,21.0,21.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0628,Filtro de combustible para van,Sistema de combustible,,No indicado,2.0,10000.0,2.0,2.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0826,Ampolleta W5W 12 V para cami√≥n pesado,Iluminaci√≥n,,No indicado,2.0,10000.0,3.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0806,Ampolleta H7 12 V para camioneta,Iluminaci√≥n,,No indicado,2.0,10000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0724,Perno de rueda para bus,Neum√°ticos y ruedas,,No indicado,2.0,11000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0113,L√≠quido de frenos DOT 4 para van,Sistema de frenos,,No indicado,11.0,11000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0103,L√≠quido de frenos DOT 3 para cami√≥n liviano,Sistema de frenos,,No indicado,2.0,11000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0773,Plumilla limpiaparabrisas 18 pulgadas para van,Carrocer√≠a,,No indicado,2.0,11000.0,21.0,21.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0770,Plumilla limpiaparabrisas 18 pulgadas para camioneta,Carrocer√≠a,,No indicado,2.0,11000.0,21.0,21.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0767,Plumilla limpiaparabrisas 16 pulgadas para van,Carrocer√≠a,,No indicado,2.0,11000.0,21.0,21.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0861,Filtro de cabina para camioneta,Climatizaci√≥n,,No indicado,2.0,11000.0,0.0,0.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0305,Tapa de radiador para cami√≥n liviano,Sistema de enfriamiento,,No indicado,2.0,11000.0,160.0,20.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0293,Refrigerante listo para usar para camioneta,Sistema de enfriamiento,,No indicado,2.0,11000.0,3.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0713,Grasa para rodamientos de rueda para camioneta,Neum√°ticos y ruedas,,No indicado,2.0,11000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0918,Filtro de aceite para cami√≥n liviano,Lubricaci√≥n,,No indicado,2.0,11000.0,2.0,2.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0528,Buje de barra estabilizadora delantera para cami√≥n liviano,Suspensi√≥n,,No indicado,2.0,11000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0521,Buje de bandeja de suspensi√≥n delantera para camioneta,Suspensi√≥n,,No indicado,2.0,11000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0183,Buj√≠a incandescente di√©sel para camioneta,Motor,,No indicado,2.0,11000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0176,Buj√≠a de n√≠quel para bus,Motor,,No indicado,2.0,11000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0428,Borne de bater√≠a positivo para bus,Sistema el√©ctrico,,No indicado,2.0,11000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0422,Borne de bater√≠a negativo para bus,Sistema el√©ctrico,,No indicado,2.0,11000.0,25.0,25.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0809,Ampolleta H7 12 V para van,Iluminaci√≥n,,No indicado,2.0,11000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0800,Ampolleta H4 12 V para camioneta,Iluminaci√≥n,,No indicado,2.0,11000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0787,Ampolleta H1 12 V para bus,Iluminaci√≥n,,No indicado,2.0,11000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0308,Termostato para auto liviano,Sistema de enfriamiento,,No indicado,3.0,12000.0,33.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0593,Terminal de direcci√≥n exterior izquierdo para auto liviano,Direcci√≥n,,No indicado,2.0,12000.0,22.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0587,Terminal de direcci√≥n exterior derecho para auto liviano,Direcci√≥n,,No indicado,2.0,12000.0,60.0,8.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0120,Manguera flexible de freno trasera para auto liviano,Sistema de frenos,,No indicado,11.0,12000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0114,Manguera flexible de freno delantera para auto liviano,Sistema de frenos,,No indicado,11.0,12000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0193,Correa de distribuci√≥n para auto liviano,Motor,,No indicado,2.0,12000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0729,Tapa de rueda para auto liviano,Neum√°ticos y ruedas,,No indicado,3.0,12000.0,23.0,23.0,baja,baja,True,2026-05-22 20:41:10.387996
+REP-0780,Plumilla limpiaparabrisas 26 pulgadas para auto liviano,Carrocer√≠a,,No indicado,2.0,12000.0,0.0,0.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0776,Plumilla limpiaparabrisas 22 pulgadas para camioneta,Carrocer√≠a,,No indicado,2.0,12000.0,0.0,0.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0864,Filtro de cabina para van,Climatizaci√≥n,,No indicado,2.0,12000.0,0.0,0.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0243,V√°lvula PCV para auto liviano,Motor,,No indicado,3.0,12000.0,55.0,20.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0296,Refrigerante listo para usar para van,Sistema de enfriamiento,,No indicado,2.0,12000.0,33.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0285,Refrigerante concentrado para auto liviano,Sistema de enfriamiento,,No indicado,2.0,12000.0,3.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0650,Prefiltro de combustible para cami√≥n liviano,Sistema de combustible,,No indicado,2.0,12000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0716,Grasa para rodamientos de rueda para van,Neum√°ticos y ruedas,,No indicado,2.0,12000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0524,Buje de bandeja de suspensi√≥n delantera para van,Suspensi√≥n,,No indicado,2.0,12000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0186,Buj√≠a incandescente di√©sel para van,Motor,,No indicado,2.0,12000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0169,Buj√≠a de iridio para auto liviano,Motor,,No indicado,2.0,12000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0513,Bieleta de barra estabilizadora trasera para auto liviano,Suspensi√≥n,,No indicado,2.0,12000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0507,Bieleta de barra estabilizadora delantera para auto liviano,Suspensi√≥n,,No indicado,2.0,12000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0820,Ampolleta P21W 12 V para cami√≥n pesado,Iluminaci√≥n,,No indicado,2.0,12000.0,3.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0803,Ampolleta H4 12 V para van,Iluminaci√≥n,,No indicado,2.0,12000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0792,Ampolleta H11 12 V para auto liviano,Iluminaci√≥n,,No indicado,2.0,12000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0099,L√≠quido de frenos DOT 3 para bus,Sistema de frenos,,No indicado,2.0,13000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0303,Tapa de radiador para bus,Sistema de enfriamiento,,No indicado,2.0,13000.0,160.0,20.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0208,Filtro de aire para cami√≥n liviano,Motor,,No indicado,2.0,13000.0,21.0,21.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0916,Filtro de aceite para bus,Lubricaci√≥n,,No indicado,2.0,13000.0,2.0,2.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0526,Buje de barra estabilizadora delantera para bus,Suspensi√≥n,,No indicado,2.0,13000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0297,Sensor de temperatura de refrigerante para auto liviano,Sistema de enfriamiento,,No indicado,3.0,14000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0111,L√≠quido de frenos DOT 4 para cami√≥n liviano,Sistema de frenos,,No indicado,2.0,14000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0782,Plumilla limpiaparabrisas 26 pulgadas para camioneta,Carrocer√≠a,,No indicado,2.0,14000.0,0.0,0.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0779,Plumilla limpiaparabrisas 22 pulgadas para van,Carrocer√≠a,,No indicado,2.0,14000.0,0.0,0.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0765,Plumilla limpiaparabrisas 16 pulgadas para cami√≥n liviano,Carrocer√≠a,,No indicado,2.0,14000.0,21.0,21.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0759,Plumilla limpiaparabrisas 14 pulgadas para cami√≥n liviano,Carrocer√≠a,,No indicado,2.0,14000.0,21.0,21.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0648,Prefiltro de combustible para bus,Sistema de combustible,,No indicado,2.0,14000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0626,Filtro de combustible para cami√≥n liviano,Sistema de combustible,,No indicado,2.0,14000.0,2.0,2.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0187,Correa de accesorios para auto liviano,Motor,,No indicado,2.0,14000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0807,Ampolleta H7 12 V para cami√≥n liviano,Iluminaci√≥n,,No indicado,2.0,14000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0310,Termostato para camioneta,Sistema de enfriamiento,,No indicado,3.0,15000.0,33.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0595,Terminal de direcci√≥n exterior izquierdo para camioneta,Direcci√≥n,,No indicado,2.0,15000.0,12.0,12.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0589,Terminal de direcci√≥n exterior derecho para camioneta,Direcci√≥n,,No indicado,2.0,15000.0,1.0,1.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0727,Perno de rueda para cami√≥n pesado,Neum√°ticos y ruedas,,No indicado,2.0,15000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0122,Manguera flexible de freno trasera para camioneta,Sistema de frenos,,No indicado,11.0,15000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0116,Manguera flexible de freno delantera para camioneta,Sistema de frenos,,No indicado,11.0,15000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0195,Correa de distribuci√≥n para camioneta,Motor,,No indicado,2.0,15000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0771,Plumilla limpiaparabrisas 18 pulgadas para cami√≥n liviano,Carrocer√≠a,,No indicado,2.0,15000.0,21.0,21.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0245,V√°lvula PCV para camioneta,Motor,,No indicado,3.0,15000.0,55.0,20.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0145,Sensor de desgaste de pastillas de freno para auto liviano,Sistema de frenos,,No indicado,3.0,15000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0287,Refrigerante concentrado para camioneta,Sistema de enfriamiento,,No indicado,2.0,15000.0,3.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0206,Filtro de aire para bus,Motor,,No indicado,2.0,15000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0002,Filtro de aire est√°ndar,Motor,,No indicado,30.0,15000.0,5.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0179,Buj√≠a de n√≠quel para cami√≥n pesado,Motor,,No indicado,2.0,15000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0171,Buj√≠a de iridio para camioneta,Motor,,No indicado,2.0,15000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0431,Borne de bater√≠a positivo para cami√≥n pesado,Sistema el√©ctrico,,No indicado,2.0,15000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0425,Borne de bater√≠a negativo para cami√≥n pesado,Sistema el√©ctrico,,No indicado,2.0,15000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0515,Bieleta de barra estabilizadora trasera para camioneta,Suspensi√≥n,,No indicado,2.0,15000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0509,Bieleta de barra estabilizadora delantera para camioneta,Suspensi√≥n,,No indicado,2.0,15000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0790,Ampolleta H1 12 V para cami√≥n pesado,Iluminaci√≥n,,No indicado,2.0,15000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0313,Termostato para van,Sistema de enfriamiento,,No indicado,3.0,16000.0,33.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0598,Terminal de direcci√≥n exterior izquierdo para van,Direcci√≥n,,No indicado,2.0,16000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0592,Terminal de direcci√≥n exterior derecho para van,Direcci√≥n,,No indicado,2.0,16000.0,13.0,13.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0237,Tensor de correa de distribuci√≥n para auto liviano,Motor,,No indicado,3.0,16000.0,60.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0994,Sensor de presi√≥n de aceite para auto liviano,Sensores y electr√≥nica,,No indicado,3.0,16000.0,8.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0273,Manguera superior de radiador para auto liviano,Sistema de enfriamiento,,No indicado,3.0,16000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0267,Manguera inferior de radiador para auto liviano,Sistema de enfriamiento,,No indicado,3.0,16000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0125,Manguera flexible de freno trasera para van,Sistema de frenos,,No indicado,11.0,16000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0119,Manguera flexible de freno delantera para van,Sistema de frenos,,No indicado,11.0,16000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0198,Correa de distribuci√≥n para van,Motor,,No indicado,2.0,16000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0785,Plumilla limpiaparabrisas 26 pulgadas para van,Carrocer√≠a,,No indicado,2.0,16000.0,0.0,0.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0757,Plumilla limpiaparabrisas 14 pulgadas para bus,Carrocer√≠a,,No indicado,2.0,16000.0,21.0,21.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0862,Filtro de cabina para cami√≥n liviano,Climatizaci√≥n,,No indicado,2.0,16000.0,0.0,0.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0248,V√°lvula PCV para van,Motor,,No indicado,3.0,16000.0,55.0,20.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0294,Refrigerante listo para usar para cami√≥n liviano,Sistema de enfriamiento,,No indicado,2.0,16000.0,3.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0290,Refrigerante concentrado para van,Sistema de enfriamiento,,No indicado,2.0,16000.0,3.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0714,Grasa para rodamientos de rueda para cami√≥n liviano,Neum√°ticos y ruedas,,No indicado,2.0,16000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0624,Filtro de combustible para bus,Sistema de combustible,,No indicado,2.0,16000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0522,Buje de bandeja de suspensi√≥n delantera para cami√≥n liviano,Suspensi√≥n,,No indicado,2.0,16000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0184,Buj√≠a incandescente di√©sel para cami√≥n liviano,Motor,,No indicado,2.0,16000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0174,Buj√≠a de iridio para van,Motor,,No indicado,2.0,16000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0518,Bieleta de barra estabilizadora trasera para van,Suspensi√≥n,,No indicado,2.0,16000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0512,Bieleta de barra estabilizadora delantera para van,Suspensi√≥n,,No indicado,2.0,16000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0801,Ampolleta H4 12 V para cami√≥n liviano,Iluminaci√≥n,,No indicado,2.0,16000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0794,Ampolleta H11 12 V para camioneta,Iluminaci√≥n,,No indicado,2.0,16000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0537,R√≥tula inferior delantera para auto liviano,Suspensi√≥n,,No indicado,2.0,17000.0,2.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0797,Ampolleta H11 12 V para van,Iluminaci√≥n,,No indicado,2.0,17000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0299,Sensor de temperatura de refrigerante para camioneta,Sistema de enfriamiento,,No indicado,3.0,18000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0217,Rodamiento auxiliar de correa de distribuci√≥n para auto liviano,Motor,,No indicado,3.0,18000.0,21.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0109,L√≠quido de frenos DOT 4 para bus,Sistema de frenos,,No indicado,2.0,18000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0106,L√≠quido de frenos DOT 3 para cami√≥n pesado,Sistema de frenos,,No indicado,2.0,18000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0061,Cilindro de rueda trasero para auto liviano,Sistema de frenos,,No indicado,3.0,18000.0,6.0,6.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0561,Brazo axial de direcci√≥n izquierdo para auto liviano,Direcci√≥n,,No indicado,3.0,18000.0,5.0,5.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0555,Brazo axial de direcci√≥n derecho para auto liviano,Direcci√≥n,,No indicado,3.0,18000.0,8.0,8.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0777,Plumilla limpiaparabrisas 22 pulgadas para cami√≥n liviano,Carrocer√≠a,,No indicado,2.0,18000.0,0.0,0.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0763,Plumilla limpiaparabrisas 16 pulgadas para bus,Carrocer√≠a,,No indicado,2.0,18000.0,21.0,21.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0306,Tapa de radiador para cami√≥n pesado,Sistema de enfriamiento,,No indicado,2.0,18000.0,160.0,20.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-1000,Sensor de temperatura de aire de admisi√≥n para auto liviano,Sensores y electr√≥nica,,No indicado,4.0,18000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0629,Filtro separador de agua de combustible para auto liviano,Sistema de combustible,,No indicado,3.0,18000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0865,Filtro secador de aire acondicionado para auto liviano,Climatizaci√≥n,,No indicado,3.0,18000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0919,Filtro de aceite para cami√≥n pesado,Lubricaci√≥n,,No indicado,2.0,18000.0,2.0,2.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0189,Correa de accesorios para camioneta,Motor,,No indicado,2.0,18000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0531,Cazoleta de amortiguador delantero para auto liviano,Suspensi√≥n,,No indicado,3.0,18000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0529,Buje de barra estabilizadora delantera para cami√≥n pesado,Suspensi√≥n,,No indicado,2.0,18000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0805,Ampolleta H7 12 V para bus,Iluminaci√≥n,,No indicado,2.0,18000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0320,Aceite de transmisi√≥n manual 75W-90 para auto liviano,Transmisi√≥n,,No indicado,2.0,18000.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0301,Sensor de temperatura de refrigerante para van,Sistema de enfriamiento,,No indicado,3.0,19000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0769,Plumilla limpiaparabrisas 18 pulgadas para bus,Carrocer√≠a,,No indicado,2.0,19000.0,21.0,21.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0147,Sensor de desgaste de pastillas de freno para camioneta,Sistema de frenos,,No indicado,3.0,19000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0192,Correa de accesorios para van,Motor,,No indicado,2.0,19000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-1039,Aceite de diferencial 80W-90 para auto liviano,Tren trasero,,No indicado,2.0,19000.0,3.0,3.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0239,Tensor de correa de distribuci√≥n para camioneta,Motor,,No indicado,3.0,20000.0,60.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0996,Sensor de presi√≥n de aceite para camioneta,Sensores y electr√≥nica,,No indicado,3.0,20000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0275,Manguera superior de radiador para camioneta,Sistema de enfriamiento,,No indicado,3.0,20000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0269,Manguera inferior de radiador para camioneta,Sistema de enfriamiento,,No indicado,3.0,20000.0,0.0,4.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0477,Amortiguador trasero izquierdo para auto liviano,Suspensi√≥n,,No indicado,2.0,20000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0471,Amortiguador trasero derecho para auto liviano,Suspensi√≥n,,No indicado,2.0,20000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0860,Filtro de cabina para bus,Climatizaci√≥n,,No indicado,2.0,20000.0,0.0,0.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0150,Sensor de desgaste de pastillas de freno para van,Sistema de frenos,,No indicado,3.0,20000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0292,Refrigerante listo para usar para bus,Sistema de enfriamiento,,No indicado,2.0,20000.0,3.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0651,Prefiltro de combustible para cami√≥n pesado,Sistema de combustible,,No indicado,2.0,20000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0712,Grasa para rodamientos de rueda para bus,Neum√°ticos y ruedas,,No indicado,2.0,20000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0520,Buje de bandeja de suspensi√≥n delantera para bus,Suspensi√≥n,,No indicado,2.0,20000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0182,Buj√≠a incandescente di√©sel para bus,Motor,,No indicado,2.0,20000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0799,Ampolleta H4 12 V para bus,Iluminaci√≥n,,No indicado,2.0,20000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0539,R√≥tula inferior delantera para camioneta,Suspensi√≥n,,No indicado,2.0,21000.0,2.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0783,Plumilla limpiaparabrisas 26 pulgadas para cami√≥n liviano,Carrocer√≠a,,No indicado,2.0,21000.0,0.0,0.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0209,Filtro de aire para cami√≥n pesado,Motor,,No indicado,2.0,21000.0,21.0,21.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0311,Termostato para cami√≥n liviano,Sistema de enfriamiento,,No indicado,3.0,22000.0,33.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0596,Terminal de direcci√≥n exterior izquierdo para cami√≥n liviano,Direcci√≥n,,No indicado,2.0,22000.0,22.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0590,Terminal de direcci√≥n exterior derecho para cami√≥n liviano,Direcci√≥n,,No indicado,2.0,22000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0242,Tensor de correa de distribuci√≥n para van,Motor,,No indicado,3.0,22000.0,60.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0999,Sensor de presi√≥n de aceite para van,Sensores y electr√≥nica,,No indicado,3.0,22000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0367,Rodamiento de empuje de embrague para auto liviano,Transmisi√≥n,,No indicado,4.0,22000.0,6.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0219,Rodamiento auxiliar de correa de distribuci√≥n para camioneta,Motor,,No indicado,3.0,22000.0,98.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0543,R√≥tula superior delantera para auto liviano,Suspensi√≥n,,No indicado,3.0,22000.0,2.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0350,Piola de embrague para auto liviano,Transmisi√≥n,,No indicado,3.0,22000.0,0.0,5.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0278,Manguera superior de radiador para van,Sistema de enfriamiento,,No indicado,3.0,22000.0,3.0,6.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0272,Manguera inferior de radiador para van,Sistema de enfriamiento,,No indicado,3.0,22000.0,3.0,4.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0123,Manguera flexible de freno trasera para cami√≥n liviano,Sistema de frenos,,No indicado,11.0,22000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0117,Manguera flexible de freno delantera para cami√≥n liviano,Sistema de frenos,,No indicado,11.0,22000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0196,Correa de distribuci√≥n para cami√≥n liviano,Motor,,No indicado,2.0,22000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0065,Cilindro de rueda trasero para camioneta,Sistema de frenos,,No indicado,3.0,22000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0563,Brazo axial de direcci√≥n izquierdo para camioneta,Direcci√≥n,,No indicado,3.0,22000.0,5.0,5.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0557,Brazo axial de direcci√≥n derecho para camioneta,Direcci√≥n,,No indicado,3.0,22000.0,5.0,5.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0775,Plumilla limpiaparabrisas 22 pulgadas para bus,Carrocer√≠a,,No indicado,2.0,22000.0,0.0,0.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0760,Plumilla limpiaparabrisas 14 pulgadas para cami√≥n pesado,Carrocer√≠a,,No indicado,2.0,22000.0,21.0,21.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0246,V√°lvula PCV para cami√≥n liviano,Motor,,No indicado,3.0,22000.0,55.0,20.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0875,V√°lvula de expansi√≥n de aire acondicionado para auto liviano,Climatizaci√≥n,,No indicado,4.0,22000.0,6.0,6.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-1002,Sensor de temperatura de aire de admisi√≥n para camioneta,Sensores y electr√≥nica,,No indicado,4.0,22000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0288,Refrigerante concentrado para cami√≥n liviano,Sistema de enfriamiento,,No indicado,2.0,22000.0,3.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0433,Juego de cables de buj√≠a para auto liviano,Sistema el√©ctrico,,No indicado,3.0,22000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0631,Filtro separador de agua de combustible para camioneta,Sistema de combustible,,No indicado,3.0,22000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0867,Filtro secador de aire acondicionado para camioneta,Climatizaci√≥n,,No indicado,3.0,22000.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0627,Filtro de combustible para cami√≥n pesado,Sistema de combustible,,No indicado,2.0,22000.0,2.0,2.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0255,Dep√≥sito de refrigerante para auto liviano,Sistema de enfriamiento,,No indicado,4.0,22000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0575,Dep√≥sito de l√≠quido de direcci√≥n para auto liviano,Direcci√≥n,,No indicado,4.0,22000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0533,Cazoleta de amortiguador delantero para camioneta,Suspensi√≥n,,No indicado,3.0,22000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0172,Buj√≠a de iridio para cami√≥n liviano,Motor,,No indicado,2.0,22000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0516,Bieleta de barra estabilizadora trasera para cami√≥n liviano,Suspensi√≥n,,No indicado,2.0,22000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0510,Bieleta de barra estabilizadora delantera para cami√≥n liviano,Suspensi√≥n,,No indicado,2.0,22000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0795,Ampolleta H11 12 V para cami√≥n liviano,Iluminaci√≥n,,No indicado,2.0,22000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0322,Aceite de transmisi√≥n manual 75W-90 para camioneta,Transmisi√≥n,,No indicado,2.0,22000.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0314,Aceite ATF para transmisi√≥n autom√°tica para auto liviano,Transmisi√≥n,,No indicado,2.0,22000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0542,R√≥tula inferior delantera para van,Suspensi√≥n,,No indicado,2.0,23000.0,2.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0893,Aceite de motor 20W-50 mineral para auto liviano,Lubricaci√≥n,,No indicado,2.0,23000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0222,Rodamiento auxiliar de correa de distribuci√≥n para van,Motor,,No indicado,3.0,24000.0,9.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0112,L√≠quido de frenos DOT 4 para cami√≥n pesado,Sistema de frenos,,No indicado,2.0,24000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0072,Cilindro de rueda trasero para van,Sistema de frenos,,No indicado,3.0,24000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0566,Brazo axial de direcci√≥n izquierdo para van,Direcci√≥n,,No indicado,3.0,24000.0,5.0,5.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0560,Brazo axial de direcci√≥n derecho para van,Direcci√≥n,,No indicado,3.0,24000.0,5.0,5.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0249,Bomba de agua para auto liviano,Sistema de enfriamiento,,No indicado,2.0,24000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0465,Amortiguador delantero izquierdo para auto liviano,Suspensi√≥n,,No indicado,2.0,24000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0459,Amortiguador delantero derecho para auto liviano,Suspensi√≥n,,No indicado,2.0,24000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0766,Plumilla limpiaparabrisas 16 pulgadas para cami√≥n pesado,Carrocer√≠a,,No indicado,2.0,24000.0,21.0,21.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-1005,Sensor de temperatura de aire de admisi√≥n para van,Sensores y electr√≥nica,,No indicado,4.0,24000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0445,Polea de alternador para auto liviano,Sistema el√©ctrico,,No indicado,4.0,24000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0634,Filtro separador de agua de combustible para van,Sistema de combustible,,No indicado,3.0,24000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0870,Filtro secador de aire acondicionado para van,Climatizaci√≥n,,No indicado,3.0,24000.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0536,Cazoleta de amortiguador delantero para van,Suspensi√≥n,,No indicado,3.0,24000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0808,Ampolleta H7 12 V para cami√≥n pesado,Iluminaci√≥n,,No indicado,2.0,24000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0325,Aceite de transmisi√≥n manual 75W-90 para van,Transmisi√≥n,,No indicado,2.0,24000.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-1041,Aceite de diferencial 80W-90 para camioneta,Tren trasero,,No indicado,2.0,24000.0,3.0,3.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0300,Sensor de temperatura de refrigerante para cami√≥n liviano,Sistema de enfriamiento,,No indicado,3.0,25000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0132,Pastillas de freno traseras para auto liviano,Sistema de frenos,,No indicado,2.0,25000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-1021,Junta homocin√©tica lado rueda izquierdo para auto liviano,Tren delantero,,No indicado,3.0,25000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-1015,Junta homocin√©tica lado rueda derecho para auto liviano,Tren delantero,,No indicado,3.0,25000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0781,Plumilla limpiaparabrisas 26 pulgadas para bus,Carrocer√≠a,,No indicado,2.0,25000.0,0.0,0.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0056,Manguera de refrigeraci√≥n,Sistema de Enfriamiento,,No indicado,30.0,25000.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0190,Correa de accesorios para cami√≥n liviano,Motor,,No indicado,2.0,25000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0021,Aceite de direcci√≥n premium,Sistema de Direcci√≥n,,No indicado,30.0,25000.0,5.0,5.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0309,Termostato para bus,Sistema de enfriamiento,,No indicado,3.0,26000.0,33.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0594,Terminal de direcci√≥n exterior izquierdo para bus,Direcci√≥n,,No indicado,2.0,26000.0,22.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0588,Terminal de direcci√≥n exterior derecho para bus,Direcci√≥n,,No indicado,2.0,26000.0,60.0,8.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0126,Pastillas de freno delanteras para auto liviano,Sistema de frenos,,No indicado,11.0,26000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0121,Manguera flexible de freno trasera para bus,Sistema de frenos,,No indicado,11.0,26000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0115,Manguera flexible de freno delantera para bus,Sistema de frenos,,No indicado,11.0,26000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0194,Correa de distribuci√≥n para bus,Motor,,No indicado,2.0,26000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0479,Amortiguador trasero izquierdo para camioneta,Suspensi√≥n,,No indicado,2.0,26000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0473,Amortiguador trasero derecho para camioneta,Suspensi√≥n,,No indicado,2.0,26000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0772,Plumilla limpiaparabrisas 18 pulgadas para cami√≥n pesado,Carrocer√≠a,,No indicado,2.0,26000.0,21.0,21.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0244,V√°lvula PCV para bus,Motor,,No indicado,3.0,26000.0,55.0,20.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0286,Refrigerante concentrado para bus,Sistema de enfriamiento,,No indicado,2.0,26000.0,3.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0170,Buj√≠a de iridio para bus,Motor,,No indicado,2.0,26000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0514,Bieleta de barra estabilizadora trasera para bus,Suspensi√≥n,,No indicado,2.0,26000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0508,Bieleta de barra estabilizadora delantera para bus,Suspensi√≥n,,No indicado,2.0,26000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0881,Aceite de motor 10W-40 semisint√©tico para auto liviano,Lubricaci√≥n,,No indicado,2.0,26000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-1044,Aceite de diferencial 80W-90 para van,Tren trasero,,No indicado,2.0,26000.0,3.0,3.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0863,Filtro de cabina para cami√≥n pesado,Climatizaci√≥n,,No indicado,2.0,27000.0,0.0,0.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0148,Sensor de desgaste de pastillas de freno para cami√≥n liviano,Sistema de frenos,,No indicado,3.0,27000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0295,Refrigerante listo para usar para cami√≥n pesado,Sistema de enfriamiento,,No indicado,2.0,27000.0,3.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0715,Grasa para rodamientos de rueda para cami√≥n pesado,Neum√°ticos y ruedas,,No indicado,2.0,27000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0523,Buje de bandeja de suspensi√≥n delantera para cami√≥n pesado,Suspensi√≥n,,No indicado,2.0,27000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0185,Buj√≠a incandescente di√©sel para cami√≥n pesado,Motor,,No indicado,2.0,27000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0802,Ampolleta H4 12 V para cami√≥n pesado,Iluminaci√≥n,,No indicado,2.0,27000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0163,Zapatas de freno traseras para auto liviano,Sistema de frenos,,No indicado,3.0,28000.0,25.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0144,Sensor ABS trasero para auto liviano,Sistema de frenos,,No indicado,3.0,28000.0,10.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0138,Sensor ABS delantero para auto liviano,Sistema de frenos,,No indicado,3.0,28000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0369,Rodamiento de empuje de embrague para camioneta,Transmisi√≥n,,No indicado,4.0,28000.0,9.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0451,Regulador de voltaje para auto liviano,Sistema el√©ctrico,,No indicado,4.0,28000.0,75.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0545,R√≥tula superior delantera para camioneta,Suspensi√≥n,,No indicado,3.0,28000.0,2.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0352,Piola de embrague para camioneta,Transmisi√≥n,,No indicado,3.0,28000.0,0.0,5.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0482,Amortiguador trasero izquierdo para van,Suspensi√≥n,,No indicado,2.0,28000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0476,Amortiguador trasero derecho para van,Suspensi√≥n,,No indicado,2.0,28000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0877,V√°lvula de expansi√≥n de aire acondicionado para camioneta,Climatizaci√≥n,,No indicado,4.0,28000.0,200.0,50.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0231,Tensor de correa de accesorios para auto liviano,Motor,,No indicado,3.0,28000.0,60.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0976,Sensor de detonaci√≥n para auto liviano,Sensores y electr√≥nica,,No indicado,4.0,28000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0435,Juego de cables de buj√≠a para camioneta,Sistema el√©ctrico,,No indicado,3.0,28000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0257,Dep√≥sito de refrigerante para camioneta,Sistema de enfriamiento,,No indicado,4.0,28000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0577,Dep√≥sito de l√≠quido de direcci√≥n para camioneta,Direcci√≥n,,No indicado,4.0,28000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0793,Ampolleta H11 12 V para bus,Iluminaci√≥n,,No indicado,2.0,28000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0316,Aceite ATF para transmisi√≥n autom√°tica para camioneta,Transmisi√≥n,,No indicado,2.0,28000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0240,Tensor de correa de distribuci√≥n para cami√≥n liviano,Motor,,No indicado,3.0,29000.0,60.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0997,Sensor de presi√≥n de aceite para cami√≥n liviano,Sensores y electr√≥nica,,No indicado,3.0,29000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0276,Manguera superior de radiador para cami√≥n liviano,Sistema de enfriamiento,,No indicado,3.0,29000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0270,Manguera inferior de radiador para cami√≥n liviano,Sistema de enfriamiento,,No indicado,3.0,29000.0,0.0,4.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0895,Aceite de motor 20W-50 mineral para camioneta,Lubricaci√≥n,,No indicado,2.0,29000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0887,Aceite de motor 15W-40 di√©sel para auto liviano,Lubricaci√≥n,,No indicado,2.0,29000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0946,Sensor CKP de posici√≥n de cig√ºe√±al para auto liviano,Sensores y electr√≥nica,,No indicado,3.0,30000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0372,Rodamiento de empuje de embrague para van,Transmisi√≥n,,No indicado,4.0,30000.0,5.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0653,Regulador de presi√≥n de combustible para auto liviano,Sistema de combustible,,No indicado,4.0,30000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0548,R√≥tula superior delantera para van,Suspensi√≥n,,No indicado,3.0,30000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0355,Piola de embrague para van,Transmisi√≥n,,No indicado,3.0,30000.0,0.0,5.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0573,Cruceta de columna de direcci√≥n para auto liviano,Direcci√≥n,,No indicado,4.0,30000.0,55.0,55.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0326,Cilindro esclavo de embrague para auto liviano,Transmisi√≥n,,No indicado,4.0,30000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0251,Bomba de agua para camioneta,Sistema de enfriamiento,,No indicado,2.0,30000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0467,Amortiguador delantero izquierdo para camioneta,Suspensi√≥n,,No indicado,2.0,30000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0461,Amortiguador delantero derecho para camioneta,Suspensi√≥n,,No indicado,2.0,30000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0778,Plumilla limpiaparabrisas 22 pulgadas para cami√≥n pesado,Carrocer√≠a,,No indicado,2.0,30000.0,0.0,0.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-0880,V√°lvula de expansi√≥n de aire acondicionado para van,Climatizaci√≥n,,No indicado,4.0,30000.0,200.0,50.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0970,Sensor TPS de posici√≥n de acelerador para auto liviano,Sensores y electr√≥nica,,No indicado,4.0,30000.0,25.0,25.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0447,Polea de alternador para camioneta,Sistema el√©ctrico,,No indicado,4.0,30000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0438,Juego de cables de buj√≠a para van,Sistema el√©ctrico,,No indicado,3.0,30000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0677,Flexible de escape para auto liviano,Sistema de escape,,No indicado,4.0,30000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0260,Dep√≥sito de refrigerante para van,Sistema de enfriamiento,,No indicado,4.0,30000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0580,Dep√≥sito de l√≠quido de direcci√≥n para van,Direcci√≥n,,No indicado,4.0,30000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0319,Aceite ATF para transmisi√≥n autom√°tica para van,Transmisi√≥n,,No indicado,2.0,30000.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0298,Sensor de temperatura de refrigerante para bus,Sistema de enfriamiento,,No indicado,3.0,31000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0540,R√≥tula inferior delantera para cami√≥n liviano,Suspensi√≥n,,No indicado,2.0,31000.0,2.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0134,Pastillas de freno traseras para camioneta,Sistema de frenos,,No indicado,2.0,31000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-1023,Junta homocin√©tica lado rueda izquierdo para camioneta,Tren delantero,,No indicado,3.0,31000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-1017,Junta homocin√©tica lado rueda derecho para camioneta,Tren delantero,,No indicado,3.0,31000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0188,Correa de accesorios para bus,Motor,,No indicado,2.0,31000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0898,Aceite de motor 20W-50 mineral para van,Lubricaci√≥n,,No indicado,2.0,31000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0952,Sensor CMP de posici√≥n de √°rbol de levas para auto liviano,Sensores y electr√≥nica,,No indicado,3.0,32000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0220,Rodamiento auxiliar de correa de distribuci√≥n para cami√≥n liviano,Motor,,No indicado,3.0,32000.0,6.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0128,Pastillas de freno delanteras para camioneta,Sistema de frenos,,No indicado,11.0,32000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-1012,Junta homocin√©tica lado caja izquierdo para auto liviano,Tren delantero,,No indicado,4.0,32000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-1006,Junta homocin√©tica lado caja derecho para auto liviano,Tren delantero,,No indicado,4.0,32000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0085,Disco de freno trasero para auto liviano,Sistema de frenos,,No indicado,2.0,32000.0,2.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0067,Cilindro de rueda trasero para cami√≥n liviano,Sistema de frenos,,No indicado,3.0,32000.0,6.0,6.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0564,Brazo axial de direcci√≥n izquierdo para cami√≥n liviano,Direcci√≥n,,No indicado,3.0,32000.0,7.0,7.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0558,Brazo axial de direcci√≥n derecho para cami√≥n liviano,Direcci√≥n,,No indicado,3.0,32000.0,5.0,5.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0254,Bomba de agua para van,Sistema de enfriamiento,,No indicado,2.0,32000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0470,Amortiguador delantero izquierdo para van,Suspensi√≥n,,No indicado,2.0,32000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0464,Amortiguador delantero derecho para van,Suspensi√≥n,,No indicado,2.0,32000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-1003,Sensor de temperatura de aire de admisi√≥n para cami√≥n liviano,Sensores y electr√≥nica,,No indicado,4.0,32000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0450,Polea de alternador para van,Sistema el√©ctrico,,No indicado,4.0,32000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0632,Filtro separador de agua de combustible para cami√≥n liviano,Sistema de combustible,,No indicado,3.0,32000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0868,Filtro secador de aire acondicionado para cami√≥n liviano,Climatizaci√≥n,,No indicado,3.0,32000.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0534,Cazoleta de amortiguador delantero para cami√≥n liviano,Suspensi√≥n,,No indicado,3.0,32000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0415,Bobina de encendido para auto liviano,Sistema el√©ctrico,,No indicado,3.0,32000.0,25.0,25.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0323,Aceite de transmisi√≥n manual 75W-90 para cami√≥n liviano,Transmisi√≥n,,No indicado,2.0,32000.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0899,Aceite de motor 5W-30 sint√©tico para auto liviano,Lubricaci√≥n,,No indicado,2.0,32000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0883,Aceite de motor 10W-40 semisint√©tico para camioneta,Lubricaci√≥n,,No indicado,2.0,32000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0137,Pastillas de freno traseras para van,Sistema de frenos,,No indicado,2.0,33000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0146,Sensor de desgaste de pastillas de freno para bus,Sistema de frenos,,No indicado,3.0,33000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0101,Combustible para limpieza,Sistema de Combustible,,No indicado,30.0,33000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0744,neum√°tico 175/70R14 para auto liviano,Neum√°ticos y ruedas,,No indicado,3.0,34000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-1026,Junta homocin√©tica lado rueda izquierdo para van,Tren delantero,,No indicado,3.0,34000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-1020,Junta homocin√©tica lado rueda derecho para van,Tren delantero,,No indicado,3.0,34000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0073,Disco de freno delantero para auto liviano,Sistema de frenos,,No indicado,2.0,34000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0784,Plumilla limpiaparabrisas 26 pulgadas para cami√≥n pesado,Carrocer√≠a,,No indicado,2.0,34000.0,0.0,0.0,baja,alta,True,2026-05-22 20:41:10.387996
+REP-1042,Aceite de diferencial 80W-90 para cami√≥n liviano,Tren trasero,,No indicado,2.0,34000.0,3.0,3.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0165,Zapatas de freno traseras para camioneta,Sistema de frenos,,No indicado,3.0,35000.0,23.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0238,Tensor de correa de distribuci√≥n para bus,Motor,,No indicado,3.0,35000.0,60.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0665,Sensor de presi√≥n de combustible para auto liviano,Sistema de combustible,,No indicado,4.0,35000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0995,Sensor de presi√≥n de aceite para bus,Sensores y electr√≥nica,,No indicado,3.0,35000.0,8.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0140,Sensor ABS delantero para camioneta,Sistema de frenos,,No indicado,3.0,35000.0,10.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0453,Regulador de voltaje para camioneta,Sistema el√©ctrico,,No indicado,4.0,35000.0,75.0,50.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0131,Pastillas de freno delanteras para van,Sistema de frenos,,No indicado,2.0,35000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0274,Manguera superior de radiador para bus,Sistema de enfriamiento,,No indicado,3.0,35000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0268,Manguera inferior de radiador para bus,Sistema de enfriamiento,,No indicado,3.0,35000.0,0.0,4.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0332,Cilindro maestro de embrague para auto liviano,Transmisi√≥n,,No indicado,4.0,35000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0233,Tensor de correa de accesorios para camioneta,Motor,,No indicado,3.0,35000.0,60.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0964,Sensor MAP de presi√≥n absoluta para auto liviano,Sensores y electr√≥nica,,No indicado,4.0,35000.0,25.0,25.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0982,Sensor de nivel de aceite para auto liviano,Sensores y electr√≥nica,,No indicado,4.0,35000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0978,Sensor de detonaci√≥n para camioneta,Sensores y electr√≥nica,,No indicado,4.0,35000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0356,Piola selectora de cambios para auto liviano,Transmisi√≥n,,No indicado,4.0,35000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0886,Aceite de motor 10W-40 semisint√©tico para van,Lubricaci√≥n,,No indicado,2.0,35000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0312,Termostato para cami√≥n pesado,Sistema de enfriamiento,,No indicado,3.0,36000.0,33.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0597,Terminal de direcci√≥n exterior izquierdo para cami√≥n pesado,Direcci√≥n,,No indicado,2.0,36000.0,22.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0591,Terminal de direcci√≥n exterior derecho para cami√≥n pesado,Direcci√≥n,,No indicado,2.0,36000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0124,Manguera flexible de freno trasera para cami√≥n pesado,Sistema de frenos,,No indicado,11.0,36000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0118,Manguera flexible de freno delantera para cami√≥n pesado,Sistema de frenos,,No indicado,11.0,36000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0197,Correa de distribuci√≥n para cami√≥n pesado,Motor,,No indicado,2.0,36000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0247,V√°lvula PCV para cami√≥n pesado,Motor,,No indicado,3.0,36000.0,55.0,20.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0289,Refrigerante concentrado para cami√≥n pesado,Sistema de enfriamiento,,No indicado,2.0,36000.0,3.0,3.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0173,Buj√≠a de iridio para cami√≥n pesado,Motor,,No indicado,2.0,36000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0517,Bieleta de barra estabilizadora trasera para cami√≥n pesado,Suspensi√≥n,,No indicado,2.0,36000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0511,Bieleta de barra estabilizadora delantera para cami√≥n pesado,Suspensi√≥n,,No indicado,2.0,36000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0889,Aceite de motor 15W-40 di√©sel para camioneta,Lubricaci√≥n,,No indicado,2.0,36000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0538,R√≥tula inferior delantera para bus,Suspensi√≥n,,No indicado,2.0,37000.0,2.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0480,Amortiguador trasero izquierdo para cami√≥n liviano,Suspensi√≥n,,No indicado,2.0,37000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0474,Amortiguador trasero derecho para cami√≥n liviano,Suspensi√≥n,,No indicado,2.0,37000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0168,Zapatas de freno traseras para van,Sistema de frenos,,No indicado,3.0,38000.0,23.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0948,Sensor CKP de posici√≥n de cig√ºe√±al para camioneta,Sensores y electr√≥nica,,No indicado,3.0,38000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0143,Sensor ABS delantero para van,Sistema de frenos,,No indicado,3.0,38000.0,10.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-1048,Rodamiento de maza trasero para auto liviano,Tren trasero,,No indicado,3.0,38000.0,8.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0456,Regulador de voltaje para van,Sistema el√©ctrico,,No indicado,4.0,38000.0,75.0,50.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0655,Regulador de presi√≥n de combustible para camioneta,Sistema de combustible,,No indicado,4.0,38000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0581,Manguera de alta presi√≥n de direcci√≥n para auto liviano,Direcci√≥n,,No indicado,4.0,38000.0,8.0,8.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0199,Empaquetadura de culata para auto liviano,Motor,,No indicado,60.0,38000.0,16.0,4.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0574,Cruceta de columna de direcci√≥n para camioneta,Direcci√≥n,,No indicado,4.0,38000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0328,Cilindro esclavo de embrague para camioneta,Transmisi√≥n,,No indicado,4.0,38000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0236,Tensor de correa de accesorios para van,Motor,,No indicado,3.0,38000.0,60.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0972,Sensor TPS de posici√≥n de acelerador para camioneta,Sensores y electr√≥nica,,No indicado,4.0,38000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0981,Sensor de detonaci√≥n para van,Sensores y electr√≥nica,,No indicado,4.0,38000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0679,Flexible de escape para camioneta,Sistema de escape,,No indicado,4.0,38000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0796,Ampolleta H11 12 V para cami√≥n pesado,Iluminaci√≥n,,No indicado,2.0,38000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0095,Casquete de suspensi√≥n,Sistema de Suspensi√≥n,,No indicado,30.0,38750.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0746,neum√°tico 175R14LT para van,Neum√°ticos y ruedas,,No indicado,3.0,39000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0745,neum√°tico 175R14LT para camioneta,Neum√°ticos y ruedas,,No indicado,3.0,39000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0892,Aceite de motor 15W-40 di√©sel para van,Lubricaci√≥n,,No indicado,2.0,39000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0954,Sensor CMP de posici√≥n de √°rbol de levas para camioneta,Sensores y electr√≥nica,,No indicado,3.0,40000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0951,Sensor CKP de posici√≥n de cig√ºe√±al para van,Sensores y electr√≥nica,,No indicado,3.0,40000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0370,Rodamiento de empuje de embrague para cami√≥n liviano,Transmisi√≥n,,No indicado,4.0,40000.0,8.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0218,Rodamiento auxiliar de correa de distribuci√≥n para bus,Motor,,No indicado,3.0,40000.0,21.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0658,Regulador de presi√≥n de combustible para van,Sistema de combustible,,No indicado,4.0,40000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0546,R√≥tula superior delantera para cami√≥n liviano,Suspensi√≥n,,No indicado,3.0,40000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0353,Piola de embrague para cami√≥n liviano,Transmisi√≥n,,No indicado,3.0,40000.0,0.0,5.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-1013,Junta homocin√©tica lado caja izquierdo para camioneta,Tren delantero,,No indicado,4.0,40000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-1008,Junta homocin√©tica lado caja derecho para camioneta,Tren delantero,,No indicado,4.0,40000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0089,Disco de freno trasero para camioneta,Sistema de frenos,,No indicado,2.0,40000.0,2.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0331,Cilindro esclavo de embrague para van,Transmisi√≥n,,No indicado,4.0,40000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0063,Cilindro de rueda trasero para bus,Sistema de frenos,,No indicado,3.0,40000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0562,Brazo axial de direcci√≥n izquierdo para bus,Direcci√≥n,,No indicado,3.0,40000.0,5.0,5.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0556,Brazo axial de direcci√≥n derecho para bus,Direcci√≥n,,No indicado,3.0,40000.0,8.0,8.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0878,V√°lvula de expansi√≥n de aire acondicionado para cami√≥n liviano,Climatizaci√≥n,,No indicado,4.0,40000.0,200.0,50.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0975,Sensor TPS de posici√≥n de acelerador para van,Sensores y electr√≥nica,,No indicado,4.0,40000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-1001,Sensor de temperatura de aire de admisi√≥n para bus,Sensores y electr√≥nica,,No indicado,4.0,40000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0436,Juego de cables de buj√≠a para cami√≥n liviano,Sistema el√©ctrico,,No indicado,3.0,40000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0682,Flexible de escape para van,Sistema de escape,,No indicado,4.0,40000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0630,Filtro separador de agua de combustible para bus,Sistema de combustible,,No indicado,3.0,40000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0866,Filtro secador de aire acondicionado para bus,Climatizaci√≥n,,No indicado,3.0,40000.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0258,Dep√≥sito de refrigerante para cami√≥n liviano,Sistema de enfriamiento,,No indicado,4.0,40000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0578,Dep√≥sito de l√≠quido de direcci√≥n para cami√≥n liviano,Direcci√≥n,,No indicado,4.0,40000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0532,Cazoleta de amortiguador delantero para bus,Suspensi√≥n,,No indicado,3.0,40000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0417,Bobina de encendido para camioneta,Sistema el√©ctrico,,No indicado,3.0,40000.0,25.0,25.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0321,Aceite de transmisi√≥n manual 75W-90 para bus,Transmisi√≥n,,No indicado,2.0,40000.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0901,Aceite de motor 5W-30 sint√©tico para camioneta,Lubricaci√≥n,,No indicado,2.0,40000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0317,Aceite ATF para transmisi√≥n autom√°tica para cami√≥n liviano,Transmisi√≥n,,No indicado,2.0,40000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0896,Aceite de motor 20W-50 mineral para cami√≥n liviano,Lubricaci√≥n,,No indicado,2.0,41000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0748,neum√°tico 205/60R16 para van,Neum√°ticos y ruedas,,No indicado,3.0,42000.0,0.0,22.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0747,neum√°tico 205/60R16 para auto liviano,Neum√°ticos y ruedas,,No indicado,3.0,42000.0,0.0,22.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0077,Disco de freno delantero para camioneta,Sistema de frenos,,No indicado,2.0,42000.0,2.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0373,Soporte de caja de cambios para auto liviano,Transmisi√≥n,,No indicado,4.0,42000.0,2.0,2.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0191,Correa de accesorios para cami√≥n pesado,Motor,,No indicado,2.0,42000.0,23.0,23.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-1040,Aceite de diferencial 80W-90 para bus,Tren trasero,,No indicado,2.0,42000.0,3.0,3.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0957,Sensor CMP de posici√≥n de √°rbol de levas para van,Sensores y electr√≥nica,,No indicado,3.0,43000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-1014,Junta homocin√©tica lado caja izquierdo para van,Tren delantero,,No indicado,4.0,43000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-1011,Junta homocin√©tica lado caja derecho para van,Tren delantero,,No indicado,4.0,43000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0252,Bomba de agua para cami√≥n liviano,Sistema de enfriamiento,,No indicado,2.0,43000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0468,Amortiguador delantero izquierdo para cami√≥n liviano,Suspensi√≥n,,No indicado,2.0,43000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0462,Amortiguador delantero derecho para cami√≥n liviano,Suspensi√≥n,,No indicado,2.0,43000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0448,Polea de alternador para cami√≥n liviano,Sistema el√©ctrico,,No indicado,4.0,43000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0420,Bobina de encendido para van,Sistema el√©ctrico,,No indicado,3.0,43000.0,25.0,25.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0904,Aceite de motor 5W-30 sint√©tico para van,Lubricaci√≥n,,No indicado,2.0,43000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0667,Sensor de presi√≥n de combustible para camioneta,Sistema de combustible,,No indicado,4.0,44000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0135,Pastillas de freno traseras para cami√≥n liviano,Sistema de frenos,,No indicado,2.0,44000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0096,Disco de freno trasero para van,Sistema de frenos,,No indicado,2.0,44000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0334,Cilindro maestro de embrague para camioneta,Transmisi√≥n,,No indicado,4.0,44000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0966,Sensor MAP de presi√≥n absoluta para camioneta,Sensores y electr√≥nica,,No indicado,4.0,44000.0,25.0,25.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0984,Sensor de nivel de aceite para camioneta,Sensores y electr√≥nica,,No indicado,4.0,44000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0358,Piola selectora de cambios para camioneta,Transmisi√≥n,,No indicado,4.0,44000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0157,Tambor de freno trasero para auto liviano,Sistema de frenos,,No indicado,3.0,45000.0,10.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0717,Llanta de acero para auto liviano,Neum√°ticos y ruedas,,No indicado,4.0,45000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-1024,Junta homocin√©tica lado rueda izquierdo para cami√≥n liviano,Tren delantero,,No indicado,3.0,45000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-1018,Junta homocin√©tica lado rueda derecho para cami√≥n liviano,Tren delantero,,No indicado,3.0,45000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0617,Bomba de combustible el√©ctrica para auto liviano,Sistema de combustible,,No indicado,3.0,45000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0478,Amortiguador trasero izquierdo para bus,Suspensi√≥n,,No indicado,2.0,45000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0472,Amortiguador trasero derecho para bus,Suspensi√≥n,,No indicado,2.0,45000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0871,Ventilador de habit√°culo para auto liviano,Climatizaci√≥n,,No indicado,4.0,45000.0,6.0,6.0,baja,baja,True,2026-05-22 20:41:10.387996
+REP-0229,Soporte de motor izquierdo para auto liviano,Motor,,No indicado,4.0,45000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0223,Soporte de motor derecho para auto liviano,Motor,,No indicado,4.0,45000.0,21.0,21.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0958,Sensor MAF de flujo de aire para auto liviano,Sensores y electr√≥nica,,No indicado,4.0,45000.0,25.0,25.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0149,Sensor de desgaste de pastillas de freno para cami√≥n pesado,Sistema de frenos,,No indicado,3.0,45000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0004,Pastilla de freno frontal izquierda,Sistema de Frenos,,No indicado,30.0,45000.0,5.0,5.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0006,Pastilla de freno frontal derecha,Sistema de Frenos,,No indicado,30.0,45000.0,8.0,8.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0020,Manguera hidr√°ulica 1 metro,Sistema Hidr√°ulico,,No indicado,30.0,45000.0,5.0,5.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0606,Filtro hidr√°ulico de retorno para cami√≥n liviano,Sistema hidr√°ulico,,No indicado,4.0,45000.0,1.0,1.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0084,Disco de freno delantero para van,Sistema de frenos,,No indicado,2.0,46000.0,2.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0670,Sensor de presi√≥n de combustible para van,Sistema de combustible,,No indicado,4.0,47000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0129,Pastillas de freno delanteras para cami√≥n liviano,Sistema de frenos,,No indicado,2.0,47000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0337,Cilindro maestro de embrague para van,Transmisi√≥n,,No indicado,4.0,47000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0969,Sensor MAP de presi√≥n absoluta para van,Sensores y electr√≥nica,,No indicado,4.0,47000.0,25.0,25.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0987,Sensor de nivel de aceite para van,Sensores y electr√≥nica,,No indicado,4.0,47000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0360,Piola selectora de cambios para van,Transmisi√≥n,,No indicado,4.0,47000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0884,Aceite de motor 10W-40 semisint√©tico para cami√≥n liviano,Lubricaci√≥n,,No indicado,2.0,47000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0241,Tensor de correa de distribuci√≥n para cami√≥n pesado,Motor,,No indicado,3.0,48000.0,60.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0998,Sensor de presi√≥n de aceite para cami√≥n pesado,Sensores y electr√≥nica,,No indicado,3.0,48000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-1050,Rodamiento de maza trasero para camioneta,Tren trasero,,No indicado,3.0,48000.0,8.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0368,Rodamiento de empuje de embrague para bus,Transmisi√≥n,,No indicado,4.0,48000.0,5.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0544,R√≥tula superior delantera para bus,Suspensi√≥n,,No indicado,3.0,48000.0,2.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0351,Piola de embrague para bus,Transmisi√≥n,,No indicado,3.0,48000.0,0.0,5.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0277,Manguera superior de radiador para cami√≥n pesado,Sistema de enfriamiento,,No indicado,3.0,48000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0271,Manguera inferior de radiador para cami√≥n pesado,Sistema de enfriamiento,,No indicado,3.0,48000.0,0.0,4.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0583,Manguera de alta presi√≥n de direcci√≥n para camioneta,Direcci√≥n,,No indicado,4.0,48000.0,8.0,8.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0201,Empaquetadura de culata para camioneta,Motor,,No indicado,60.0,48000.0,0.0,4.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0338,Disco de embrague para auto liviano,Transmisi√≥n,,No indicado,4.0,48000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0001,Bomba central de freno para auto liviano,Sistema de frenos,,No indicado,4.0,48000.0,56.0,22.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0876,V√°lvula de expansi√≥n de aire acondicionado para bus,Climatizaci√≥n,,No indicado,4.0,48000.0,200.0,50.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0689,Sensor de ox√≠geno de dos v√≠as para auto liviano,Sistema de escape,,No indicado,3.0,48000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0434,Juego de cables de buj√≠a para bus,Sistema el√©ctrico,,No indicado,3.0,48000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0256,Dep√≥sito de refrigerante para bus,Sistema de enfriamiento,,No indicado,4.0,48000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0576,Dep√≥sito de l√≠quido de direcci√≥n para bus,Direcci√≥n,,No indicado,4.0,48000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0315,Aceite ATF para transmisi√≥n autom√°tica para bus,Transmisi√≥n,,No indicado,2.0,48000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0810,Ampolleta LED H7 12/24 V para auto liviano,Iluminaci√≥n,,No indicado,2.0,49000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0166,Zapatas de freno traseras para cami√≥n liviano,Sistema de frenos,,No indicado,3.0,50000.0,25.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0988,Sensor de pedal de acelerador para auto liviano,Sensores y electr√≥nica,,No indicado,4.0,50000.0,8.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0141,Sensor ABS delantero para cami√≥n liviano,Sistema de frenos,,No indicado,3.0,50000.0,10.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0454,Regulador de voltaje para cami√≥n liviano,Sistema el√©ctrico,,No indicado,4.0,50000.0,75.0,20.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0635,Inyector de gasolina para auto liviano,Sistema de combustible,,No indicado,5.0,50000.0,2.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0234,Tensor de correa de accesorios para cami√≥n liviano,Motor,,No indicado,3.0,50000.0,60.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0979,Sensor de detonaci√≥n para cami√≥n liviano,Sensores y electr√≥nica,,No indicado,4.0,50000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0840,Foco trasero derecho para auto liviano,Iluminaci√≥n,,No indicado,4.0,50000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-1053,Rodamiento de maza trasero para van,Tren trasero,,No indicado,3.0,51000.0,9.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0541,R√≥tula inferior delantera para cami√≥n pesado,Suspensi√≥n,,No indicado,2.0,51000.0,2.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0586,Manguera de alta presi√≥n de direcci√≥n para van,Direcci√≥n,,No indicado,4.0,51000.0,22.0,22.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0204,Empaquetadura de culata para van,Motor,,No indicado,60.0,51000.0,0.0,4.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0894,Aceite de motor 20W-50 mineral para bus,Lubricaci√≥n,,No indicado,2.0,51000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0211,Kit de distribuci√≥n para auto liviano,Motor,,No indicado,3.0,52000.0,21.0,21.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0489,Bandeja de suspensi√≥n delantera izquierda para auto liviano,Suspensi√≥n,,No indicado,3.0,52000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0483,Bandeja de suspensi√≥n delantera derecha para auto liviano,Suspensi√≥n,,No indicado,3.0,52000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0375,Soporte de caja de cambios para camioneta,Transmisi√≥n,,No indicado,4.0,52000.0,2.0,2.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0890,Aceite de motor 15W-40 di√©sel para cami√≥n liviano,Lubricaci√≥n,,No indicado,2.0,52000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0250,Bomba de agua para bus,Sistema de enfriamiento,,No indicado,2.0,53000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0466,Amortiguador delantero izquierdo para bus,Suspensi√≥n,,No indicado,2.0,53000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0460,Amortiguador delantero derecho para bus,Suspensi√≥n,,No indicado,2.0,53000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0446,Polea de alternador para bus,Sistema el√©ctrico,,No indicado,4.0,53000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0949,Sensor CKP de posici√≥n de cig√ºe√±al para cami√≥n liviano,Sensores y electr√≥nica,,No indicado,3.0,54000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0221,Rodamiento auxiliar de correa de distribuci√≥n para cami√≥n pesado,Motor,,No indicado,3.0,54000.0,5.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0656,Regulador de presi√≥n de combustible para cami√≥n liviano,Sistema de combustible,,No indicado,4.0,54000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0133,Pastillas de freno traseras para bus,Sistema de frenos,,No indicado,2.0,54000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0329,Cilindro esclavo de embrague para cami√≥n liviano,Transmisi√≥n,,No indicado,4.0,54000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0069,Cilindro de rueda trasero para cami√≥n pesado,Sistema de frenos,,No indicado,3.0,54000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0565,Brazo axial de direcci√≥n izquierdo para cami√≥n pesado,Direcci√≥n,,No indicado,3.0,54000.0,6.0,6.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0559,Brazo axial de direcci√≥n derecho para cami√≥n pesado,Direcci√≥n,,No indicado,3.0,54000.0,5.0,5.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0973,Sensor TPS de posici√≥n de acelerador para cami√≥n liviano,Sensores y electr√≥nica,,No indicado,4.0,54000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-1004,Sensor de temperatura de aire de admisi√≥n para cami√≥n pesado,Sensores y electr√≥nica,,No indicado,4.0,54000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0680,Flexible de escape para cami√≥n liviano,Sistema de escape,,No indicado,4.0,54000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0633,Filtro separador de agua de combustible para cami√≥n pesado,Sistema de combustible,,No indicado,3.0,54000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0869,Filtro secador de aire acondicionado para cami√≥n pesado,Climatizaci√≥n,,No indicado,3.0,54000.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0535,Cazoleta de amortiguador delantero para cami√≥n pesado,Suspensi√≥n,,No indicado,3.0,54000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0324,Aceite de transmisi√≥n manual 75W-90 para cami√≥n pesado,Transmisi√≥n,,No indicado,2.0,54000.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-1022,Junta homocin√©tica lado rueda izquierdo para bus,Tren delantero,,No indicado,3.0,55000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-1016,Junta homocin√©tica lado rueda derecho para bus,Tren delantero,,No indicado,3.0,55000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0707,Tubo de escape delantero para auto liviano,Sistema de escape,,No indicado,5.0,55000.0,10.0,10.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0605,Filtro hidr√°ulico de retorno para bus,Sistema hidr√°ulico,,No indicado,4.0,55000.0,1.0,1.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0159,Tambor de freno trasero para camioneta,Sistema de frenos,,No indicado,3.0,56000.0,10.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0719,Llanta de acero para camioneta,Neum√°ticos y ruedas,,No indicado,4.0,56000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0619,Bomba de combustible el√©ctrica para camioneta,Sistema de combustible,,No indicado,3.0,56000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0873,Ventilador de habit√°culo para camioneta,Climatizaci√≥n,,No indicado,4.0,56000.0,6.0,6.0,baja,baja,True,2026-05-22 20:41:10.387996
+REP-0230,Soporte de motor izquierdo para camioneta,Motor,,No indicado,4.0,56000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0225,Soporte de motor derecho para camioneta,Motor,,No indicado,4.0,56000.0,21.0,21.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0960,Sensor MAF de flujo de aire para camioneta,Sensores y electr√≥nica,,No indicado,4.0,56000.0,25.0,25.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0127,Pastillas de freno delanteras para bus,Sistema de frenos,,No indicado,11.0,57000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0378,Soporte de caja de cambios para van,Transmisi√≥n,,No indicado,4.0,57000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0695,Sensor de ox√≠geno de tres v√≠as para auto liviano,Sistema de escape,,No indicado,3.0,57000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0882,Aceite de motor 10W-40 semisint√©tico para bus,Lubricaci√≥n,,No indicado,2.0,57000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-1043,Aceite de diferencial 80W-90 para cami√≥n pesado,Tren trasero,,No indicado,2.0,57000.0,3.0,3.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0955,Sensor CMP de posici√≥n de √°rbol de levas para cami√≥n liviano,Sensores y electr√≥nica,,No indicado,3.0,58000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-1009,Junta homocin√©tica lado caja derecho para cami√≥n liviano,Tren delantero,,No indicado,4.0,58000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0091,Disco de freno trasero para cami√≥n liviano,Sistema de frenos,,No indicado,2.0,58000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0418,Bobina de encendido para cami√≥n liviano,Sistema el√©ctrico,,No indicado,3.0,58000.0,25.0,25.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0902,Aceite de motor 5W-30 sint√©tico para cami√≥n liviano,Lubricaci√≥n,,No indicado,2.0,58000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0945,Sensor de impacto frontal para auto liviano,Seguridad,,No indicado,5.0,60000.0,8.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0361,Prensa de embrague para auto liviano,Transmisi√≥n,,No indicado,4.0,60000.0,0.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-1045,Maza de rueda trasera para auto liviano,Tren trasero,,No indicado,4.0,60000.0,0.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0340,Disco de embrague para camioneta,Transmisi√≥n,,No indicado,4.0,60000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0905,Bomba de aceite para auto liviano,Lubricaci√≥n,,No indicado,5.0,60000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0005,Bomba central de freno para camioneta,Sistema de frenos,,No indicado,4.0,60000.0,5.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0691,Sensor de ox√≠geno de dos v√≠as para camioneta,Sistema de escape,,No indicado,3.0,60000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0162,Tambor de freno trasero para van,Sistema de frenos,,No indicado,3.0,61000.0,10.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0722,Llanta de acero para van,Neum√°ticos y ruedas,,No indicado,4.0,61000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0079,Disco de freno delantero para cami√≥n liviano,Sistema de frenos,,No indicado,2.0,61000.0,2.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0622,Bomba de combustible el√©ctrica para van,Sistema de combustible,,No indicado,3.0,61000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0481,Amortiguador trasero izquierdo para cami√≥n pesado,Suspensi√≥n,,No indicado,2.0,61000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0475,Amortiguador trasero derecho para cami√≥n pesado,Suspensi√≥n,,No indicado,2.0,61000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0874,Ventilador de habit√°culo para van,Climatizaci√≥n,,No indicado,4.0,61000.0,6.0,6.0,baja,baja,True,2026-05-22 20:41:10.387996
+REP-0228,Soporte de motor derecho para van,Motor,,No indicado,4.0,61000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0963,Sensor MAF de flujo de aire para van,Sensores y electr√≥nica,,No indicado,4.0,61000.0,25.0,25.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0812,Ampolleta LED H7 12/24 V para camioneta,Iluminaci√≥n,,No indicado,2.0,61000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0164,Zapatas de freno traseras para bus,Sistema de frenos,,No indicado,3.0,62000.0,25.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0990,Sensor de pedal de acelerador para camioneta,Sensores y electr√≥nica,,No indicado,4.0,62000.0,8.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0139,Sensor ABS delantero para bus,Sistema de frenos,,No indicado,3.0,62000.0,10.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0452,Regulador de voltaje para bus,Sistema el√©ctrico,,No indicado,4.0,62000.0,75.0,20.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0637,Inyector de gasolina para camioneta,Sistema de combustible,,No indicado,5.0,62000.0,2.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0049,Caliper de freno trasero izquierdo para auto liviano,Sistema de frenos,,No indicado,4.0,62000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0038,Caliper de freno trasero derecho para auto liviano,Sistema de frenos,,No indicado,4.0,62000.0,22.0,22.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0232,Tensor de correa de accesorios para bus,Motor,,No indicado,3.0,62000.0,60.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0977,Sensor de detonaci√≥n para bus,Sensores y electr√≥nica,,No indicado,4.0,62000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0062,Junta homocin√©tica,Sistema de Direcci√≥n,,No indicado,30.0,62500.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0668,Sensor de presi√≥n de combustible para cami√≥n liviano,Sistema de combustible,,No indicado,4.0,63000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0335,Cilindro maestro de embrague para cami√≥n liviano,Transmisi√≥n,,No indicado,4.0,63000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0967,Sensor MAP de presi√≥n absoluta para cami√≥n liviano,Sensores y electr√≥nica,,No indicado,4.0,63000.0,25.0,25.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0683,Sensor de ox√≠geno de cuatro v√≠as para auto liviano,Sistema de escape,,No indicado,3.0,63000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0985,Sensor de nivel de aceite para cami√≥n liviano,Sensores y electr√≥nica,,No indicado,4.0,63000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0359,Piola selectora de cambios para cami√≥n liviano,Transmisi√≥n,,No indicado,4.0,63000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0888,Aceite de motor 15W-40 di√©sel para bus,Lubricaci√≥n,,No indicado,2.0,64000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0279,Radiador de agua para auto liviano,Sistema de enfriamiento,,No indicado,4.0,65000.0,3.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0751,neum√°tico 225/70R15 para camioneta,Neum√°ticos y ruedas,,No indicado,3.0,65000.0,0.0,22.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0213,Kit de distribuci√≥n para camioneta,Motor,,No indicado,3.0,65000.0,21.0,21.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0343,Disco de embrague para van,Transmisi√≥n,,No indicado,4.0,65000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0933,Cintur√≥n de seguridad delantero para auto liviano,Seguridad,,No indicado,5.0,65000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0025,Caliper de freno delantero izquierdo para auto liviano,Sistema de frenos,,No indicado,4.0,65000.0,55.0,55.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0014,Caliper de freno delantero derecho para auto liviano,Sistema de frenos,,No indicado,4.0,65000.0,5.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0012,Bomba central de freno para van,Sistema de frenos,,No indicado,4.0,65000.0,5.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0491,Bandeja de suspensi√≥n delantera izquierda para camioneta,Suspensi√≥n,,No indicado,3.0,65000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0485,Bandeja de suspensi√≥n delantera derecha para camioneta,Suspensi√≥n,,No indicado,3.0,65000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0694,Sensor de ox√≠geno de dos v√≠as para van,Sistema de escape,,No indicado,3.0,65000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0060,Filtro hidr√°ulico,Sistema Hidr√°ulico,,No indicado,30.0,65000.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0018,Filtro de combustible,Sistema de Combustible,,No indicado,30.0,65000.0,5.0,5.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0947,Sensor CKP de posici√≥n de cig√ºe√±al para bus,Sensores y electr√≥nica,,No indicado,3.0,66000.0,22.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0371,Rodamiento de empuje de embrague para cami√≥n pesado,Transmisi√≥n,,No indicado,4.0,66000.0,9.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0654,Regulador de presi√≥n de combustible para bus,Sistema de combustible,,No indicado,4.0,66000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0547,R√≥tula superior delantera para cami√≥n pesado,Suspensi√≥n,,No indicado,3.0,66000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0354,Piola de embrague para cami√≥n pesado,Transmisi√≥n,,No indicado,3.0,66000.0,0.0,5.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0327,Cilindro esclavo de embrague para bus,Transmisi√≥n,,No indicado,4.0,66000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0879,V√°lvula de expansi√≥n de aire acondicionado para cami√≥n pesado,Climatizaci√≥n,,No indicado,4.0,66000.0,200.0,50.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0971,Sensor TPS de posici√≥n de acelerador para bus,Sensores y electr√≥nica,,No indicado,4.0,66000.0,25.0,25.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0437,Juego de cables de buj√≠a para cami√≥n pesado,Sistema el√©ctrico,,No indicado,3.0,66000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0678,Flexible de escape para bus,Sistema de escape,,No indicado,4.0,66000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0259,Dep√≥sito de refrigerante para cami√≥n pesado,Sistema de enfriamiento,,No indicado,4.0,66000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0579,Dep√≥sito de l√≠quido de direcci√≥n para cami√≥n pesado,Direcci√≥n,,No indicado,4.0,66000.0,54.0,54.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0815,Ampolleta LED H7 12/24 V para van,Iluminaci√≥n,,No indicado,2.0,66000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0318,Aceite ATF para transmisi√≥n autom√°tica para cami√≥n pesado,Transmisi√≥n,,No indicado,2.0,66000.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0993,Sensor de pedal de acelerador para van,Sensores y electr√≥nica,,No indicado,4.0,68000.0,8.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-1051,Rodamiento de maza trasero para cami√≥n liviano,Tren trasero,,No indicado,3.0,68000.0,6.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0584,Manguera de alta presi√≥n de direcci√≥n para cami√≥n liviano,Direcci√≥n,,No indicado,4.0,68000.0,8.0,8.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0640,Inyector de gasolina para van,Sistema de combustible,,No indicado,5.0,68000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0202,Empaquetadura de culata para cami√≥n liviano,Motor,,No indicado,60.0,68000.0,16.0,4.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0709,Tubo de escape delantero para camioneta,Sistema de escape,,No indicado,5.0,69000.0,10.0,10.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0897,Aceite de motor 20W-50 mineral para cami√≥n pesado,Lubricaci√≥n,,No indicado,2.0,69000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0953,Sensor CMP de posici√≥n de √°rbol de levas para bus,Sensores y electr√≥nica,,No indicado,3.0,70000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0216,Kit de distribuci√≥n para van,Motor,,No indicado,3.0,70000.0,21.0,21.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-1007,Junta homocin√©tica lado caja derecho para bus,Tren delantero,,No indicado,4.0,70000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0261,Electroventilador de radiador para auto liviano,Sistema de enfriamiento,,No indicado,4.0,70000.0,16.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0494,Bandeja de suspensi√≥n delantera izquierda para van,Suspensi√≥n,,No indicado,3.0,70000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0488,Bandeja de suspensi√≥n delantera derecha para van,Suspensi√≥n,,No indicado,3.0,70000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0416,Bobina de encendido para bus,Sistema el√©ctrico,,No indicado,3.0,70000.0,25.0,25.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0501,Bandeja de suspensi√≥n trasera izquierda para auto liviano,Suspensi√≥n,,No indicado,4.0,70000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0495,Bandeja de suspensi√≥n trasera derecha para auto liviano,Suspensi√≥n,,No indicado,4.0,70000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0900,Aceite de motor 5W-30 sint√©tico para bus,Lubricaci√≥n,,No indicado,2.0,70000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0087,Disco de freno trasero para bus,Sistema de frenos,,No indicado,2.0,71000.0,2.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0697,Sensor de ox√≠geno de tres v√≠as para camioneta,Sistema de escape,,No indicado,3.0,71000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-1033,Semieje homocin√©tico izquierdo para auto liviano,Tren delantero,,No indicado,4.0,72000.0,8.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-1027,Semieje homocin√©tico derecho para auto liviano,Tren delantero,,No indicado,4.0,72000.0,6.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0344,Kit de embrague para auto liviano,Transmisi√≥n,,No indicado,4.0,72000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0253,Bomba de agua para cami√≥n pesado,Sistema de enfriamiento,,No indicado,2.0,72000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0469,Amortiguador delantero izquierdo para cami√≥n pesado,Suspensi√≥n,,No indicado,2.0,72000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0463,Amortiguador delantero derecho para cami√≥n pesado,Suspensi√≥n,,No indicado,2.0,72000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0449,Polea de alternador para cami√≥n pesado,Sistema el√©ctrico,,No indicado,4.0,72000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0136,Pastillas de freno traseras para cami√≥n pesado,Sistema de frenos,,No indicado,2.0,74000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0710,Tubo de escape delantero para van,Sistema de escape,,No indicado,5.0,74000.0,10.0,10.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0363,Prensa de embrague para camioneta,Transmisi√≥n,,No indicado,4.0,75000.0,2.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-1046,Maza de rueda trasera para camioneta,Tren trasero,,No indicado,4.0,75000.0,30.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-1025,Junta homocin√©tica lado rueda izquierdo para cami√≥n pesado,Tren delantero,,No indicado,3.0,75000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-1019,Junta homocin√©tica lado rueda derecho para cami√≥n pesado,Tren delantero,,No indicado,3.0,75000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0075,Disco de freno delantero para bus,Sistema de frenos,,No indicado,2.0,75000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0907,Bomba de aceite para camioneta,Lubricaci√≥n,,No indicado,5.0,75000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0086,Sensor Lambda universal,Motor,,No indicado,30.0,75000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0080,Regulador de presi√≥n,Sistema de Combustible,,No indicado,30.0,75000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0607,Filtro hidr√°ulico de retorno para cami√≥n pesado,Sistema hidr√°ulico,,No indicado,4.0,75000.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0376,Soporte de caja de cambios para cami√≥n liviano,Transmisi√≥n,,No indicado,4.0,76000.0,2.0,2.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0666,Sensor de presi√≥n de combustible para bus,Sistema de combustible,,No indicado,4.0,77000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0333,Cilindro maestro de embrague para bus,Transmisi√≥n,,No indicado,4.0,77000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0965,Sensor MAP de presi√≥n absoluta para bus,Sensores y electr√≥nica,,No indicado,4.0,77000.0,25.0,25.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0700,Sensor de ox√≠geno de tres v√≠as para van,Sistema de escape,,No indicado,3.0,77000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0983,Sensor de nivel de aceite para bus,Sensores y electr√≥nica,,No indicado,4.0,77000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0357,Piola selectora de cambios para bus,Transmisi√≥n,,No indicado,4.0,77000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0130,Pastillas de freno delanteras para cami√≥n pesado,Sistema de frenos,,No indicado,2.0,78000.0,23.0,23.0,alta,alta,True,2026-05-22 20:41:10.387996
+REP-0053,Caliper de freno trasero izquierdo para camioneta,Sistema de frenos,,No indicado,4.0,78000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0041,Caliper de freno trasero derecho para camioneta,Sistema de frenos,,No indicado,4.0,78000.0,1.0,1.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0885,Aceite de motor 10W-40 semisint√©tico para cami√≥n pesado,Lubricaci√≥n,,No indicado,2.0,78000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0685,Sensor de ox√≠geno de cuatro v√≠as para camioneta,Sistema de escape,,No indicado,3.0,79000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0834,Foco delantero izquierdo para auto liviano,Iluminaci√≥n,,No indicado,4.0,80000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0828,Foco delantero derecho para auto liviano,Iluminaci√≥n,,No indicado,4.0,80000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0160,Tambor de freno trasero para cami√≥n liviano,Sistema de frenos,,No indicado,3.0,81000.0,10.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0281,Radiador de agua para camioneta,Sistema de enfriamiento,,No indicado,4.0,81000.0,3.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0366,Prensa de embrague para van,Transmisi√≥n,,No indicado,4.0,81000.0,2.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-1047,Maza de rueda trasera para van,Tren trasero,,No indicado,4.0,81000.0,30.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0720,Llanta de acero para cami√≥n liviano,Neum√°ticos y ruedas,,No indicado,4.0,81000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0935,Cintur√≥n de seguridad delantero para camioneta,Seguridad,,No indicado,5.0,81000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0030,Caliper de freno delantero izquierdo para camioneta,Sistema de frenos,,No indicado,4.0,81000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0017,Caliper de freno delantero derecho para camioneta,Sistema de frenos,,No indicado,4.0,81000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0620,Bomba de combustible el√©ctrica para cami√≥n liviano,Sistema de combustible,,No indicado,3.0,81000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0910,Bomba de aceite para van,Lubricaci√≥n,,No indicado,5.0,81000.0,2.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0226,Soporte de motor derecho para cami√≥n liviano,Motor,,No indicado,4.0,81000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0961,Sensor MAF de flujo de aire para cami√≥n liviano,Sensores y electr√≥nica,,No indicado,4.0,81000.0,25.0,25.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0032,Resorte trasero reforzado,Sistema de Suspensi√≥n,,No indicado,30.0,82500.0,75.0,50.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0066,Pastilla trasera izquierda,Sistema de Frenos,,No indicado,30.0,82500.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0068,Pastilla trasera derecha,Sistema de Frenos,,No indicado,30.0,82500.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0167,Zapatas de freno traseras para cami√≥n pesado,Sistema de frenos,,No indicado,3.0,84000.0,23.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0142,Sensor ABS delantero para cami√≥n pesado,Sistema de frenos,,No indicado,3.0,84000.0,10.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-1049,Rodamiento de maza trasero para bus,Tren trasero,,No indicado,3.0,84000.0,9.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0455,Regulador de voltaje para cami√≥n pesado,Sistema el√©ctrico,,No indicado,4.0,84000.0,75.0,50.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0582,Manguera de alta presi√≥n de direcci√≥n para bus,Direcci√≥n,,No indicado,4.0,84000.0,8.0,8.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0200,Empaquetadura de culata para bus,Motor,,No indicado,60.0,84000.0,16.0,4.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0059,Caliper de freno trasero izquierdo para van,Sistema de frenos,,No indicado,4.0,84000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0048,Caliper de freno trasero derecho para van,Sistema de frenos,,No indicado,4.0,84000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0235,Tensor de correa de accesorios para cami√≥n pesado,Motor,,No indicado,3.0,84000.0,60.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0980,Sensor de detonaci√≥n para cami√≥n pesado,Sensores y electr√≥nica,,No indicado,4.0,84000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0659,Riel de inyecci√≥n para auto liviano,Sistema de combustible,,No indicado,5.0,85000.0,23.0,10.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0755,neum√°tico 700R16 para cami√≥n liviano,Neum√°ticos y ruedas,,No indicado,3.0,85000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0391,Bater√≠a 45 Ah para auto liviano,Sistema el√©ctrico,,No indicado,2.0,85000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0701,Silenciador trasero para auto liviano,Sistema de escape,,No indicado,5.0,85000.0,10.0,10.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0688,Sensor de ox√≠geno de cuatro v√≠as para van,Sistema de escape,,No indicado,3.0,85000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0070,Sello de diferencial,Transmisi√≥n,,No indicado,30.0,85000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0847,Condensador de aire acondicionado para auto liviano,Climatizaci√≥n,,No indicado,5.0,85000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0097,Aceite motor premium 20L,Motor,,No indicado,30.0,85000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0341,Disco de embrague para cami√≥n liviano,Transmisi√≥n,,No indicado,4.0,86000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0007,Bomba central de freno para cami√≥n liviano,Sistema de frenos,,No indicado,4.0,86000.0,8.0,8.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0692,Sensor de ox√≠geno de dos v√≠as para cami√≥n liviano,Sistema de escape,,No indicado,3.0,86000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0891,Aceite de motor 15W-40 di√©sel para cami√≥n pesado,Lubricaci√≥n,,No indicado,2.0,87000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0074,Punta de eje,Sistema de Suspensi√≥n,,No indicado,30.0,87500.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0284,Radiador de agua para van,Sistema de enfriamiento,,No indicado,4.0,88000.0,3.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0263,Electroventilador de radiador para camioneta,Sistema de enfriamiento,,No indicado,4.0,88000.0,16.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0938,Cintur√≥n de seguridad delantero para van,Seguridad,,No indicado,5.0,88000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0035,Caliper de freno delantero izquierdo para van,Sistema de frenos,,No indicado,4.0,88000.0,8.0,8.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0023,Caliper de freno delantero derecho para van,Sistema de frenos,,No indicado,4.0,88000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0503,Bandeja de suspensi√≥n trasera izquierda para camioneta,Suspensi√≥n,,No indicado,4.0,88000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0497,Bandeja de suspensi√≥n trasera derecha para camioneta,Suspensi√≥n,,No indicado,4.0,88000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0813,Ampolleta LED H7 12/24 V para cami√≥n liviano,Iluminaci√≥n,,No indicado,2.0,88000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0991,Sensor de pedal de acelerador para cami√≥n liviano,Sensores y electr√≥nica,,No indicado,4.0,90000.0,8.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0950,Sensor CKP de posici√≥n de cig√ºe√±al para cami√≥n pesado,Sensores y electr√≥nica,,No indicado,3.0,90000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-1035,Semieje homocin√©tico izquierdo para camioneta,Tren delantero,,No indicado,4.0,90000.0,3.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-1029,Semieje homocin√©tico derecho para camioneta,Tren delantero,,No indicado,4.0,90000.0,1.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0657,Regulador de presi√≥n de combustible para cami√≥n pesado,Sistema de combustible,,No indicado,4.0,90000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0939,Pretensor de cintur√≥n de seguridad para auto liviano,Seguridad,,No indicado,5.0,90000.0,0.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0750,neum√°tico 215/75R17.5 para cami√≥n liviano,Neum√°ticos y ruedas,,No indicado,3.0,90000.0,0.0,22.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0749,neum√°tico 215/75R17.5 para bus,Neum√°ticos y ruedas,,No indicado,3.0,90000.0,0.0,22.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0346,Kit de embrague para camioneta,Transmisi√≥n,,No indicado,4.0,90000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0638,Inyector de gasolina para cami√≥n liviano,Sistema de combustible,,No indicado,5.0,90000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0330,Cilindro esclavo de embrague para cami√≥n pesado,Transmisi√≥n,,No indicado,4.0,90000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0911,C√°rter de aceite para auto liviano,Lubricaci√≥n,,No indicado,5.0,90000.0,2.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0379,Alternador para auto liviano,Sistema el√©ctrico,,No indicado,4.0,90000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0974,Sensor TPS de posici√≥n de acelerador para cami√≥n pesado,Sensores y electr√≥nica,,No indicado,4.0,90000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0681,Flexible de escape para cami√≥n pesado,Sistema de escape,,No indicado,4.0,90000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0853,Evaporador de aire acondicionado para auto liviano,Climatizaci√≥n,,No indicado,5.0,90000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0374,Soporte de caja de cambios para bus,Transmisi√≥n,,No indicado,4.0,92000.0,2.0,2.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0214,Kit de distribuci√≥n para cami√≥n liviano,Motor,,No indicado,3.0,94000.0,21.0,21.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0266,Electroventilador de radiador para van,Sistema de enfriamiento,,No indicado,4.0,94000.0,16.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0492,Bandeja de suspensi√≥n delantera izquierda para cami√≥n liviano,Suspensi√≥n,,No indicado,3.0,94000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0486,Bandeja de suspensi√≥n delantera derecha para cami√≥n liviano,Suspensi√≥n,,No indicado,3.0,94000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0506,Bandeja de suspensi√≥n trasera izquierda para van,Suspensi√≥n,,No indicado,4.0,94000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0500,Bandeja de suspensi√≥n trasera derecha para van,Suspensi√≥n,,No indicado,4.0,94000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0151,Servofreno para auto liviano,Sistema de frenos,,No indicado,30.0,95000.0,10.0,10.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0439,Motor de partida para auto liviano,Sistema el√©ctrico,,No indicado,4.0,95000.0,30.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0078,V√°lvula termost√°tica,Sistema de Enfriamiento,,No indicado,30.0,95000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0036,Termostato 85¬∞C,Sistema de Enfriamiento,,No indicado,30.0,95000.0,33.0,25.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0016,Radiador cobre aluminio,Sistema de Enfriamiento,,No indicado,30.0,95000.0,7.0,7.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0083,Bomba de direcci√≥n reparada,Sistema de Direcci√≥n,,No indicado,30.0,95000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0105,Aceite para balanceo,Sistema de Direcci√≥n,,No indicado,30.0,95000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0956,Sensor CMP de posici√≥n de √°rbol de levas para cami√≥n pesado,Sensores y electr√≥nica,,No indicado,3.0,96000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-1010,Junta homocin√©tica lado caja derecho para cami√≥n pesado,Tren delantero,,No indicado,4.0,96000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0419,Bobina de encendido para cami√≥n pesado,Sistema el√©ctrico,,No indicado,3.0,96000.0,25.0,25.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0903,Aceite de motor 5W-30 sint√©tico para cami√≥n pesado,Lubricaci√≥n,,No indicado,2.0,96000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-1038,Semieje homocin√©tico izquierdo para van,Tren delantero,,No indicado,4.0,97000.0,3.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-1032,Semieje homocin√©tico derecho para van,Tren delantero,,No indicado,4.0,97000.0,9.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0349,Kit de embrague para van,Transmisi√≥n,,No indicado,4.0,97000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0093,Disco de freno trasero para cami√≥n pesado,Sistema de frenos,,No indicado,2.0,97000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0104,Tuber√≠a hidr√°ulica 2 metros,Sistema Hidr√°ulico,,No indicado,30.0,97500.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0088,Pastilla frontal izquierda,Sistema de Frenos,,No indicado,30.0,97500.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0090,Pastilla frontal derecha,Sistema de Frenos,,No indicado,30.0,97500.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0158,Tambor de freno trasero para bus,Sistema de frenos,,No indicado,3.0,99000.0,10.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0609,Manguera hidr√°ulica de alta presi√≥n para cami√≥n liviano,Sistema hidr√°ulico,,No indicado,4.0,99000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0718,Llanta de acero para bus,Neum√°ticos y ruedas,,No indicado,4.0,99000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0618,Bomba de combustible el√©ctrica para bus,Sistema de combustible,,No indicado,3.0,99000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0872,Ventilador de habit√°culo para bus,Climatizaci√≥n,,No indicado,4.0,99000.0,6.0,6.0,baja,baja,True,2026-05-22 20:41:10.387996
+REP-0224,Soporte de motor derecho para bus,Motor,,No indicado,4.0,99000.0,21.0,21.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0959,Sensor MAF de flujo de aire para bus,Sensores y electr√≥nica,,No indicado,4.0,99000.0,25.0,25.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0082,Disco de freno delantero para cami√≥n pesado,Sistema de frenos,,No indicado,2.0,100000.0,2.0,2.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0836,Foco delantero izquierdo para camioneta,Iluminaci√≥n,,No indicado,4.0,100000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0830,Foco delantero derecho para camioneta,Iluminaci√≥n,,No indicado,4.0,100000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0669,Sensor de presi√≥n de combustible para cami√≥n pesado,Sistema de combustible,,No indicado,4.0,105000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0661,Riel de inyecci√≥n para camioneta,Sistema de combustible,,No indicado,5.0,105000.0,23.0,10.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0339,Disco de embrague para bus,Transmisi√≥n,,No indicado,4.0,105000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0336,Cilindro maestro de embrague para cami√≥n pesado,Transmisi√≥n,,No indicado,4.0,105000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0003,Bomba central de freno para bus,Sistema de frenos,,No indicado,4.0,105000.0,8.0,8.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0397,Bater√≠a 60 Ah para auto liviano,Sistema el√©ctrico,,No indicado,2.0,105000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0393,Bater√≠a 45 Ah para camioneta,Sistema el√©ctrico,,No indicado,2.0,105000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0044,V√°lvula motor,Motor,,No indicado,30.0,105000.0,13.0,13.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0703,Silenciador trasero para camioneta,Sistema de escape,,No indicado,5.0,105000.0,10.0,10.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0968,Sensor MAP de presi√≥n absoluta para cami√≥n pesado,Sensores y electr√≥nica,,No indicado,4.0,105000.0,25.0,25.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0698,Sensor de ox√≠geno de tres v√≠as para cami√≥n liviano,Sistema de escape,,No indicado,3.0,105000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0690,Sensor de ox√≠geno de dos v√≠as para bus,Sistema de escape,,No indicado,3.0,105000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0986,Sensor de nivel de aceite para cami√≥n pesado,Sensores y electr√≥nica,,No indicado,4.0,105000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0849,Condensador de aire acondicionado para camioneta,Climatizaci√≥n,,No indicado,5.0,105000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0989,Sensor de pedal de acelerador para bus,Sensores y electr√≥nica,,No indicado,4.0,110000.0,8.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0941,Pretensor de cintur√≥n de seguridad para camioneta,Seguridad,,No indicado,5.0,110000.0,0.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0364,Prensa de embrague para cami√≥n liviano,Transmisi√≥n,,No indicado,4.0,110000.0,2.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0636,Inyector de gasolina para bus,Sistema de combustible,,No indicado,5.0,110000.0,2.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0055,Caliper de freno trasero izquierdo para cami√≥n liviano,Sistema de frenos,,No indicado,4.0,110000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0043,Caliper de freno trasero derecho para cami√≥n liviano,Sistema de frenos,,No indicado,4.0,110000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0913,C√°rter de aceite para camioneta,Lubricaci√≥n,,No indicado,5.0,110000.0,2.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0549,Bomba de direcci√≥n hidr√°ulica para auto liviano,Direcci√≥n,,No indicado,5.0,110000.0,5.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0908,Bomba de aceite para cami√≥n liviano,Lubricaci√≥n,,No indicado,5.0,110000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0381,Alternador para camioneta,Sistema el√©ctrico,,No indicado,4.0,110000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0839,Foco delantero izquierdo para van,Iluminaci√≥n,,No indicado,4.0,110000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0833,Foco delantero derecho para van,Iluminaci√≥n,,No indicado,4.0,110000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0855,Evaporador de aire acondicionado para camioneta,Climatizaci√≥n,,No indicado,5.0,110000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0026,Disco de freno frontal,Sistema de Frenos,,No indicado,30.0,110000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0811,Ampolleta LED H7 12/24 V para bus,Iluminaci√≥n,,No indicado,2.0,110000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-1052,Rodamiento de maza trasero para cami√≥n pesado,Tren trasero,,No indicado,3.0,115000.0,5.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0664,Riel de inyecci√≥n para van,Sistema de combustible,,No indicado,5.0,115000.0,23.0,10.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0282,Radiador de agua para cami√≥n liviano,Sistema de enfriamiento,,No indicado,4.0,115000.0,3.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0585,Manguera de alta presi√≥n de direcci√≥n para cami√≥n pesado,Direcci√≥n,,No indicado,4.0,115000.0,8.0,8.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0212,Kit de distribuci√≥n para bus,Motor,,No indicado,3.0,115000.0,21.0,21.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0203,Empaquetadura de culata para cami√≥n pesado,Motor,,No indicado,60.0,115000.0,0.0,4.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0936,Cintur√≥n de seguridad delantero para cami√≥n liviano,Seguridad,,No indicado,5.0,115000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0031,Caliper de freno delantero izquierdo para cami√≥n liviano,Sistema de frenos,,No indicado,4.0,115000.0,54.0,54.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0019,Caliper de freno delantero derecho para cami√≥n liviano,Sistema de frenos,,No indicado,4.0,115000.0,5.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0396,Bater√≠a 45 Ah para van,Sistema el√©ctrico,,No indicado,2.0,115000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0490,Bandeja de suspensi√≥n delantera izquierda para bus,Suspensi√≥n,,No indicado,3.0,115000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0484,Bandeja de suspensi√≥n delantera derecha para bus,Suspensi√≥n,,No indicado,3.0,115000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0706,Silenciador trasero para van,Sistema de escape,,No indicado,5.0,115000.0,10.0,10.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0686,Sensor de ox√≠geno de cuatro v√≠as para cami√≥n liviano,Sistema de escape,,No indicado,3.0,115000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0852,Condensador de aire acondicionado para van,Climatizaci√≥n,,No indicado,5.0,115000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0153,Servofreno para camioneta,Sistema de frenos,,No indicado,30.0,120000.0,10.0,10.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0944,Pretensor de cintur√≥n de seguridad para van,Seguridad,,No indicado,5.0,120000.0,0.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0752,neum√°tico 265/65R17 para camioneta,Neum√°ticos y ruedas,,No indicado,3.0,120000.0,0.0,22.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0441,Motor de partida para camioneta,Sistema el√©ctrico,,No indicado,4.0,120000.0,30.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0608,Manguera hidr√°ulica de alta presi√≥n para bus,Sistema hidr√°ulico,,No indicado,4.0,120000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0914,C√°rter de aceite para van,Lubricaci√≥n,,No indicado,5.0,120000.0,2.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0384,Alternador para van,Sistema el√©ctrico,,No indicado,4.0,120000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0708,Tubo de escape delantero para bus,Sistema de escape,,No indicado,5.0,120000.0,10.0,10.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0008,Sello de transmisi√≥n,Transmisi√≥n,,No indicado,30.0,120000.0,8.0,8.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0858,Evaporador de aire acondicionado para van,Climatizaci√≥n,,No indicado,5.0,120000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0264,Electroventilador de radiador para cami√≥n liviano,Sistema de enfriamiento,,No indicado,4.0,125000.0,16.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0100,Ventilador el√©ctrico,Sistema de Enfriamiento,,No indicado,30.0,125000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0377,Soporte de caja de cambios para cami√≥n pesado,Transmisi√≥n,,No indicado,4.0,125000.0,2.0,2.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0696,Sensor de ox√≠geno de tres v√≠as para bus,Sistema de escape,,No indicado,3.0,125000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0009,Bater√≠a 12V 100Ah,Sistema El√©ctrico,,No indicado,30.0,125000.0,5.0,5.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0504,Bandeja de suspensi√≥n trasera izquierda para cami√≥n liviano,Suspensi√≥n,,No indicado,4.0,125000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0498,Bandeja de suspensi√≥n trasera derecha para cami√≥n liviano,Suspensi√≥n,,No indicado,4.0,125000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0156,Servofreno para van,Sistema de frenos,,No indicado,30.0,130000.0,10.0,10.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-1036,Semieje homocin√©tico izquierdo para cami√≥n liviano,Tren delantero,,No indicado,4.0,130000.0,8.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-1030,Semieje homocin√©tico derecho para cami√≥n liviano,Tren delantero,,No indicado,4.0,130000.0,8.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0362,Prensa de embrague para bus,Transmisi√≥n,,No indicado,4.0,130000.0,2.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0444,Motor de partida para van,Sistema el√©ctrico,,No indicado,4.0,130000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0347,Kit de embrague para cami√≥n liviano,Transmisi√≥n,,No indicado,4.0,130000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0906,Bomba de aceite para bus,Lubricaci√≥n,,No indicado,5.0,130000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0399,Bater√≠a 60 Ah para camioneta,Sistema el√©ctrico,,No indicado,2.0,130000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0161,Tambor de freno trasero para cami√≥n pesado,Sistema de frenos,,No indicado,3.0,135000.0,10.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0721,Llanta de acero para cami√≥n pesado,Neum√°ticos y ruedas,,No indicado,4.0,135000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0052,Caliper de freno trasero izquierdo para bus,Sistema de frenos,,No indicado,4.0,135000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0040,Caliper de freno trasero derecho para bus,Sistema de frenos,,No indicado,4.0,135000.0,8.0,8.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0621,Bomba de combustible el√©ctrica para cami√≥n pesado,Sistema de combustible,,No indicado,3.0,135000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0227,Soporte de motor derecho para cami√≥n pesado,Motor,,No indicado,4.0,135000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0962,Sensor MAF de flujo de aire para cami√≥n pesado,Sensores y electr√≥nica,,No indicado,4.0,135000.0,25.0,25.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0551,Bomba de direcci√≥n hidr√°ulica para camioneta,Direcci√≥n,,No indicado,5.0,140000.0,8.0,8.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0611,Bomba de combustible di√©sel para auto liviano,Sistema de combustible,,No indicado,5.0,140000.0,3.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0402,Bater√≠a 60 Ah para van,Sistema el√©ctrico,,No indicado,2.0,140000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0684,Sensor de ox√≠geno de cuatro v√≠as para bus,Sistema de escape,,No indicado,3.0,140000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0280,Radiador de agua para bus,Sistema de enfriamiento,,No indicado,4.0,145000.0,3.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0342,Disco de embrague para cami√≥n pesado,Transmisi√≥n,,No indicado,4.0,145000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0934,Cintur√≥n de seguridad delantero para bus,Seguridad,,No indicado,5.0,145000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0027,Caliper de freno delantero izquierdo para bus,Sistema de frenos,,No indicado,4.0,145000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0015,Caliper de freno delantero derecho para bus,Sistema de frenos,,No indicado,4.0,145000.0,5.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0010,Bomba central de freno para cami√≥n pesado,Sistema de frenos,,No indicado,4.0,145000.0,5.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0693,Sensor de ox√≠geno de dos v√≠as para cami√≥n pesado,Sistema de escape,,No indicado,3.0,145000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0092,Sello diferencial reforzado,Transmisi√≥n,,No indicado,30.0,145000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0076,Kit limpieza inyectores motor,Motor,,No indicado,30.0,145000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0837,Foco delantero izquierdo para cami√≥n liviano,Iluminaci√≥n,,No indicado,4.0,145000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0831,Foco delantero derecho para cami√≥n liviano,Iluminaci√≥n,,No indicado,4.0,145000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0051,Barra estabilizadora,Sistema de Suspensi√≥n,,No indicado,30.0,145000.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0814,Ampolleta LED H7 12/24 V para cami√≥n pesado,Iluminaci√≥n,,No indicado,2.0,145000.0,0.0,0.0,media,alta,True,2026-05-22 20:41:10.387996
+REP-0992,Sensor de pedal de acelerador para cami√≥n pesado,Sensores y electr√≥nica,,No indicado,4.0,150000.0,8.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0639,Inyector de gasolina para cami√≥n pesado,Sistema de combustible,,No indicado,5.0,150000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0554,Bomba de direcci√≥n hidr√°ulica para van,Direcci√≥n,,No indicado,5.0,150000.0,8.0,8.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0011,Amortiguador hidr√°ulico frontal,Sistema de Suspensi√≥n,,No indicado,30.0,150000.0,5.0,5.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0662,Riel de inyecci√≥n para cami√≥n liviano,Sistema de combustible,,No indicado,5.0,155000.0,23.0,10.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0215,Kit de distribuci√≥n para cami√≥n pesado,Motor,,No indicado,3.0,155000.0,21.0,21.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0262,Electroventilador de radiador para bus,Sistema de enfriamiento,,No indicado,4.0,155000.0,16.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0394,Bater√≠a 45 Ah para cami√≥n liviano,Sistema el√©ctrico,,No indicado,2.0,155000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0493,Bandeja de suspensi√≥n delantera izquierda para cami√≥n pesado,Suspensi√≥n,,No indicado,3.0,155000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0487,Bandeja de suspensi√≥n delantera derecha para cami√≥n pesado,Suspensi√≥n,,No indicado,3.0,155000.0,3.0,3.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0704,Silenciador trasero para cami√≥n liviano,Sistema de escape,,No indicado,5.0,155000.0,10.0,10.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0850,Condensador de aire acondicionado para cami√≥n liviano,Climatizaci√≥n,,No indicado,5.0,155000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0502,Bandeja de suspensi√≥n trasera izquierda para bus,Suspensi√≥n,,No indicado,4.0,155000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0496,Bandeja de suspensi√≥n trasera derecha para bus,Suspensi√≥n,,No indicado,4.0,155000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-1034,Semieje homocin√©tico izquierdo para bus,Tren delantero,,No indicado,4.0,160000.0,8.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-1028,Semieje homocin√©tico derecho para bus,Tren delantero,,No indicado,4.0,160000.0,3.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0942,Pretensor de cintur√≥n de seguridad para cami√≥n liviano,Seguridad,,No indicado,5.0,160000.0,0.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0743,neum√°tico 11R22.5 para cami√≥n pesado,Neum√°ticos y ruedas,,No indicado,3.0,160000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0742,neum√°tico 11R22.5 para bus,Neum√°ticos y ruedas,,No indicado,3.0,160000.0,23.0,23.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0345,Kit de embrague para bus,Transmisi√≥n,,No indicado,4.0,160000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0382,Alternador para cami√≥n liviano,Sistema el√©ctrico,,No indicado,4.0,160000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0856,Evaporador de aire acondicionado para cami√≥n liviano,Climatizaci√≥n,,No indicado,5.0,160000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0610,Manguera hidr√°ulica de alta presi√≥n para cami√≥n pesado,Sistema hidr√°ulico,,No indicado,4.0,165000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0403,Bater√≠a 65 Ah EFB para auto liviano,Sistema el√©ctrico,,No indicado,2.0,165000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0094,Regulador de carga,Sistema El√©ctrico,,No indicado,30.0,165000.0,23.0,23.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0050,Motor de arranque,Sistema El√©ctrico,,No indicado,30.0,165000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0154,Servofreno para cami√≥n liviano,Sistema de frenos,,No indicado,30.0,170000.0,10.0,10.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0442,Motor de partida para cami√≥n liviano,Sistema el√©ctrico,,No indicado,4.0,170000.0,30.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0699,Sensor de ox√≠geno de tres v√≠as para cami√≥n pesado,Sistema de escape,,No indicado,3.0,170000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0613,Bomba de combustible di√©sel para camioneta,Sistema de combustible,,No indicado,5.0,175000.0,3.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0835,Foco delantero izquierdo para bus,Iluminaci√≥n,,No indicado,4.0,175000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0829,Foco delantero derecho para bus,Iluminaci√≥n,,No indicado,4.0,175000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0365,Prensa de embrague para cami√≥n pesado,Transmisi√≥n,,No indicado,4.0,180000.0,2.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0641,Inyector di√©sel common rail para auto liviano,Sistema de combustible,,No indicado,5.0,180000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0567,Cremallera de direcci√≥n hidr√°ulica para auto liviano,Direcci√≥n,,No indicado,5.0,180000.0,5.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0909,Bomba de aceite para cami√≥n pesado,Lubricaci√≥n,,No indicado,5.0,180000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0409,Bater√≠a 90 Ah para auto liviano,Sistema el√©ctrico,,No indicado,2.0,180000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0841,Compresor de aire acondicionado para auto liviano,Climatizaci√≥n,,No indicado,5.0,180000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0671,Catalizador para auto liviano,Sistema de escape,,No indicado,5.0,180000.0,23.0,23.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0660,Riel de inyecci√≥n para bus,Sistema de combustible,,No indicado,5.0,185000.0,23.0,10.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0057,Caliper de freno trasero izquierdo para cami√≥n pesado,Sistema de frenos,,No indicado,4.0,185000.0,1.0,1.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0045,Caliper de freno trasero derecho para cami√≥n pesado,Sistema de frenos,,No indicado,4.0,185000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0392,Bater√≠a 45 Ah para bus,Sistema el√©ctrico,,No indicado,2.0,185000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0034,Turbocompresor reparado,Motor,,No indicado,30.0,185000.0,8.0,8.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0702,Silenciador trasero para bus,Sistema de escape,,No indicado,5.0,185000.0,10.0,10.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0054,Correa de distribuci√≥n,Motor,,No indicado,30.0,185000.0,6.0,6.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0848,Condensador de aire acondicionado para bus,Climatizaci√≥n,,No indicado,5.0,185000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0754,neum√°tico 295/80R22.5 para cami√≥n pesado,Neum√°ticos y ruedas,,No indicado,3.0,190000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0753,neum√°tico 295/80R22.5 para bus,Neum√°ticos y ruedas,,No indicado,3.0,190000.0,0.0,22.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0616,Bomba de combustible di√©sel para van,Sistema de combustible,,No indicado,5.0,190000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0400,Bater√≠a 60 Ah para cami√≥n liviano,Sistema el√©ctrico,,No indicado,2.0,190000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0687,Sensor de ox√≠geno de cuatro v√≠as para cami√≥n pesado,Sistema de escape,,No indicado,3.0,190000.0,10.0,10.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0283,Radiador de agua para cami√≥n pesado,Sistema de enfriamiento,,No indicado,4.0,195000.0,3.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0937,Cintur√≥n de seguridad delantero para cami√≥n pesado,Seguridad,,No indicado,5.0,195000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0033,Caliper de freno delantero izquierdo para cami√≥n pesado,Sistema de frenos,,No indicado,4.0,195000.0,8.0,8.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0022,Caliper de freno delantero derecho para cami√≥n pesado,Sistema de frenos,,No indicado,4.0,195000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0064,M√∫ltiple de escape,Motor,,No indicado,30.0,195000.0,3.0,3.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0046,Cilindro maestro de frenos,Sistema de Frenos,,No indicado,30.0,195000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0940,Pretensor de cintur√≥n de seguridad para bus,Seguridad,,No indicado,5.0,200000.0,0.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0912,C√°rter de aceite para bus,Lubricaci√≥n,,No indicado,5.0,200000.0,2.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0552,Bomba de direcci√≥n hidr√°ulica para cami√≥n liviano,Direcci√≥n,,No indicado,5.0,200000.0,5.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0380,Alternador para bus,Sistema el√©ctrico,,No indicado,4.0,200000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0854,Evaporador de aire acondicionado para bus,Climatizaci√≥n,,No indicado,5.0,200000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0405,Bater√≠a 65 Ah EFB para camioneta,Sistema el√©ctrico,,No indicado,2.0,205000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0152,Servofreno para bus,Sistema de frenos,,No indicado,30.0,210000.0,10.0,10.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0440,Motor de partida para bus,Sistema el√©ctrico,,No indicado,4.0,210000.0,30.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0265,Electroventilador de radiador para cami√≥n pesado,Sistema de enfriamiento,,No indicado,4.0,210000.0,16.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0505,Bandeja de suspensi√≥n trasera izquierda para cami√≥n pesado,Suspensi√≥n,,No indicado,4.0,210000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0499,Bandeja de suspensi√≥n trasera derecha para cami√≥n pesado,Suspensi√≥n,,No indicado,4.0,210000.0,0.0,0.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-1037,Semieje homocin√©tico izquierdo para cami√≥n pesado,Tren delantero,,No indicado,4.0,215000.0,3.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-1031,Semieje homocin√©tico derecho para cami√≥n pesado,Tren delantero,,No indicado,4.0,215000.0,6.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0348,Kit de embrague para cami√≥n pesado,Transmisi√≥n,,No indicado,4.0,215000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0643,Inyector di√©sel common rail para camioneta,Sistema de combustible,,No indicado,5.0,225000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0569,Cremallera de direcci√≥n hidr√°ulica para camioneta,Direcci√≥n,,No indicado,5.0,225000.0,5.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0408,Bater√≠a 65 Ah EFB para van,Sistema el√©ctrico,,No indicado,2.0,225000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0843,Compresor de aire acondicionado para camioneta,Climatizaci√≥n,,No indicado,5.0,225000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0673,Catalizador para camioneta,Sistema de escape,,No indicado,5.0,225000.0,23.0,23.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0411,Bater√≠a 90 Ah para camioneta,Sistema el√©ctrico,,No indicado,2.0,230000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0398,Bater√≠a 60 Ah para bus,Sistema el√©ctrico,,No indicado,2.0,230000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0550,Bomba de direcci√≥n hidr√°ulica para bus,Direcci√≥n,,No indicado,5.0,240000.0,5.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0838,Foco delantero izquierdo para cami√≥n pesado,Iluminaci√≥n,,No indicado,4.0,240000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0832,Foco delantero derecho para cami√≥n pesado,Iluminaci√≥n,,No indicado,4.0,240000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0646,Inyector di√©sel common rail para van,Sistema de combustible,,No indicado,5.0,245000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0572,Cremallera de direcci√≥n hidr√°ulica para van,Direcci√≥n,,No indicado,5.0,245000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0414,Bater√≠a 90 Ah para van,Sistema el√©ctrico,,No indicado,2.0,245000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0058,Kit limpieza inyectores,Sistema de Combustible,,No indicado,30.0,245000.0,1.0,1.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0846,Compresor de aire acondicionado para van,Climatizaci√≥n,,No indicado,5.0,245000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0676,Catalizador para van,Sistema de escape,,No indicado,5.0,245000.0,23.0,23.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0614,Bomba de combustible di√©sel para cami√≥n liviano,Sistema de combustible,,No indicado,5.0,250000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0921,Airbag de conductor para auto liviano,Seguridad,,No indicado,5.0,250000.0,2.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0663,Riel de inyecci√≥n para cami√≥n pesado,Sistema de combustible,,No indicado,5.0,255000.0,23.0,10.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0395,Bater√≠a 45 Ah para cami√≥n pesado,Sistema el√©ctrico,,No indicado,2.0,255000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0705,Silenciador trasero para cami√≥n pesado,Sistema de escape,,No indicado,5.0,255000.0,10.0,5.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0851,Condensador de aire acondicionado para cami√≥n pesado,Climatizaci√≥n,,No indicado,5.0,255000.0,20.0,5.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0385,Bater√≠a 120 Ah para auto liviano,Sistema el√©ctrico,,No indicado,2.0,260000.0,20.0,20.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0927,Airbag de pasajero para auto liviano,Seguridad,,No indicado,5.0,260000.0,20.0,20.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0943,Pretensor de cintur√≥n de seguridad para cami√≥n pesado,Seguridad,,No indicado,5.0,270000.0,20.0,20.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0383,Alternador para cami√≥n pesado,Sistema el√©ctrico,,No indicado,4.0,270000.0,20.0,20.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0857,Evaporador de aire acondicionado para cami√≥n pesado,Climatizaci√≥n,,No indicado,5.0,270000.0,20.0,20.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0037,Bomba de combustible,Sistema de Combustible,,No indicado,30.0,275000.0,8.0,8.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0029,Alternador 12V 120A,Sistema El√©ctrico,,No indicado,30.0,275000.0,0.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0155,Servofreno para cami√≥n pesado,Sistema de frenos,,No indicado,30.0,285000.0,10.0,10.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0443,Motor de partida para cami√≥n pesado,Sistema el√©ctrico,,No indicado,4.0,285000.0,30.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0042,Cremallera de direcci√≥n,Sistema de Direcci√≥n,,No indicado,30.0,285000.0,3.0,3.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0081,Cilindro hidr√°ulico,Sistema Hidr√°ulico,,No indicado,30.0,285000.0,2.0,2.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0406,Bater√≠a 65 Ah EFB para cami√≥n liviano,Sistema el√©ctrico,,No indicado,2.0,295000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0612,Bomba de combustible di√©sel para bus,Sistema de combustible,,No indicado,5.0,310000.0,3.0,3.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0923,Airbag de conductor para camioneta,Seguridad,,No indicado,5.0,310000.0,2.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0401,Bater√≠a 60 Ah para cami√≥n pesado,Sistema el√©ctrico,,No indicado,2.0,315000.0,0.0,0.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0644,Inyector di√©sel common rail para cami√≥n liviano,Sistema de combustible,,No indicado,5.0,325000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0570,Cremallera de direcci√≥n hidr√°ulica para cami√≥n liviano,Direcci√≥n,,No indicado,5.0,325000.0,10.0,10.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0387,Bater√≠a 120 Ah para camioneta,Sistema el√©ctrico,,No indicado,2.0,325000.0,10.0,10.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0929,Airbag de pasajero para camioneta,Seguridad,,No indicado,5.0,325000.0,10.0,10.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0844,Compresor de aire acondicionado para cami√≥n liviano,Climatizaci√≥n,,No indicado,5.0,325000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0674,Catalizador para cami√≥n liviano,Sistema de escape,,No indicado,5.0,325000.0,23.0,23.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0039,Bomba hidr√°ulica reparada,Sistema Hidr√°ulico,,No indicado,30.0,325000.0,8.0,8.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0553,Bomba de direcci√≥n hidr√°ulica para cami√≥n pesado,Direcci√≥n,,No indicado,5.0,330000.0,5.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0412,Bater√≠a 90 Ah para cami√≥n liviano,Sistema el√©ctrico,,No indicado,2.0,330000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0926,Airbag de conductor para van,Seguridad,,No indicado,5.0,340000.0,5.0,4.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0390,Bater√≠a 120 Ah para van,Sistema el√©ctrico,,No indicado,2.0,350000.0,6.0,4.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0932,Airbag de pasajero para van,Seguridad,,No indicado,5.0,350000.0,5.0,4.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0404,Bater√≠a 65 Ah EFB para bus,Sistema el√©ctrico,,No indicado,2.0,365000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0028,Embrague completo,Transmisi√≥n,,No indicado,30.0,380000.0,5.0,0.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0642,Inyector di√©sel common rail para bus,Sistema de combustible,,No indicado,5.0,395000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0568,Cremallera de direcci√≥n hidr√°ulica para bus,Direcci√≥n,,No indicado,5.0,395000.0,5.0,5.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0600,Bomba hidr√°ulica auxiliar para cami√≥n liviano,Sistema hidr√°ulico,,No indicado,5.0,395000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0842,Compresor de aire acondicionado para bus,Climatizaci√≥n,,No indicado,5.0,395000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0672,Catalizador para bus,Sistema de escape,,No indicado,5.0,395000.0,23.0,23.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0410,Bater√≠a 90 Ah para bus,Sistema el√©ctrico,,No indicado,2.0,400000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0615,Bomba de combustible di√©sel para cami√≥n pesado,Sistema de combustible,,No indicado,5.0,420000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0924,Airbag de conductor para cami√≥n liviano,Seguridad,,No indicado,5.0,450000.0,2.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0024,Cig√ºe√±al rectificado,Motor,,No indicado,30.0,450000.0,8.0,1.0,media,media,True,2026-05-22 20:41:10.387996
+REP-0388,Bater√≠a 120 Ah para cami√≥n liviano,Sistema el√©ctrico,,No indicado,2.0,470000.0,0.0,1.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0930,Airbag de pasajero para cami√≥n liviano,Seguridad,,No indicado,5.0,470000.0,0.0,0.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0599,Bomba hidr√°ulica auxiliar para bus,Sistema hidr√°ulico,,No indicado,5.0,485000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0407,Bater√≠a 65 Ah EFB para cami√≥n pesado,Sistema el√©ctrico,,No indicado,2.0,495000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0603,Cilindro hidr√°ulico de levante para cami√≥n liviano,Sistema hidr√°ulico,,No indicado,5.0,500000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0645,Inyector di√©sel common rail para cami√≥n pesado,Sistema de combustible,,No indicado,5.0,540000.0,23.0,23.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0571,Cremallera de direcci√≥n hidr√°ulica para cami√≥n pesado,Direcci√≥n,,No indicado,5.0,540000.0,59.0,10.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0845,Compresor de aire acondicionado para cami√≥n pesado,Climatizaci√≥n,,No indicado,5.0,540000.0,3.0,3.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0675,Catalizador para cami√≥n pesado,Sistema de escape,,No indicado,5.0,540000.0,23.0,23.0,media,baja,True,2026-05-22 20:41:10.387996
+REP-0047,Caja de cambios reparada,Transmisi√≥n,,No indicado,30.0,550000.0,12.0,12.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0413,Bater√≠a 90 Ah para cami√≥n pesado,Sistema el√©ctrico,,No indicado,2.0,550000.0,25.0,25.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0922,Airbag de conductor para bus,Seguridad,,No indicado,5.0,550000.0,2.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0386,Bater√≠a 120 Ah para bus,Sistema el√©ctrico,,No indicado,2.0,570000.0,3.0,1.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0928,Airbag de pasajero para bus,Seguridad,,No indicado,5.0,570000.0,8.0,7.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0602,Cilindro hidr√°ulico de levante para bus,Sistema hidr√°ulico,,No indicado,5.0,620000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0601,Bomba hidr√°ulica auxiliar para cami√≥n pesado,Sistema hidr√°ulico,,No indicado,5.0,660000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0925,Airbag de conductor para cami√≥n pesado,Seguridad,,No indicado,5.0,750000.0,2.0,2.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0389,Bater√≠a 120 Ah para cami√≥n pesado,Sistema el√©ctrico,,No indicado,2.0,780000.0,0.0,1.0,alta,media,True,2026-05-22 20:41:10.387996
+REP-0931,Airbag de pasajero para cami√≥n pesado,Seguridad,,No indicado,5.0,780000.0,0.0,1.0,alta,baja,True,2026-05-22 20:41:10.387996
+REP-0604,Cilindro hidr√°ulico de levante para cami√≥n pesado,Sistema hidr√°ulico,,No indicado,5.0,840000.0,6.0,6.0,alta,baja,True,2026-05-22 20:41:10.387996

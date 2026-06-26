@@ -1,0 +1,46 @@
+======================================================================
+MANIFIESTO DE RESPALDO - BASE DE DATOS BAITECK PDM FLOTAS
+======================================================================
+
+Fecha de respaldo:    2026-06-09 21:43:51
+Duración:             65.53 segundos
+Base de datos:        aws-1-us-east-1.pooler.supabase.com:5432
+
+----------------------------------------------------------------------
+RESUMEN
+----------------------------------------------------------------------
+Tablas respaldadas exitosamente: 0
+Tablas con error:                18
+Total de registros:              404,906
+Tamaño total del respaldo:       47.95 MB
+
+----------------------------------------------------------------------
+DETALLE POR TABLA
+----------------------------------------------------------------------
+Tabla                                    Reg. BD     Reg. CSV       Tamaño Estado    
+----------------------------------------------------------------------
+activos                                    1,200        1,200    192.72 KB ✅ OK      
+alertas                                        0            0     123.00 B ✅ OK      
+audit_log                                      0            0      83.00 B ✅ OK      
+auditoria_calidad_datos                        0            0     125.00 B ✅ OK      
+disponibilidad_diaria                    217,200      217,200     14.51 MB ✅ OK      
+equivalencia_nomenclatura                    153          153     25.72 KB ✅ OK      
+features_activo_fecha                     21,600       21,600      3.78 MB ✅ OK      
+feedback_taller                                0            0     166.00 B ✅ OK      
+modelos_registro                               0            0     204.00 B ✅ OK      
+modo_falla                                    69           69      6.49 KB ✅ OK      
+ordenes_trabajo                           24,413       24,413      6.46 MB ✅ OK      
+ot_falla_evento                           24,425       24,425      6.21 MB ✅ OK      
+paneles                                       19           19      1.55 KB ✅ OK      
+repuestos_consumidos                     103,569      103,569     14.80 MB ✅ OK      
+repuestos_maestro                          1,053        1,053    154.12 KB ✅ OK      
+scoring_resultados                        10,800       10,800      1.75 MB ✅ OK      
+taxonomia_fallas                             405          405     62.00 KB ✅ OK      
+usuarios                                       0            0      57.00 B ✅ OK      
+----------------------------------------------------------------------
+
+RESTAURACIÓN:
+  Para restaurar esta base, usar el script Restaurar_base.py
+  apuntando a esta carpeta de respaldo.
+
+======================================================================

@@ -1,16 +1,16 @@
 """
 BAITECK — Dashboard Predictivo de Flotas — Versión refactorizada (Diseño v1.0)
-
+ 
 Estructura: 3 vistas (Estado y Riesgo, Plan de Acción, Impacto y Desempeño)
 Stack: Streamlit + Supabase (psycopg2) + Plotly
 Estado: Código funcional, sin dependencias externas de queries
-
+ 
 Cambios en esta versión:
 - Eliminadas importaciones de queries para evitar errores de módulo
 - Queries comentadas para uso futuro con src.queries
 - Todas las funciones integradas localmente
 """
-
+ 
 import os
 import pandas as pd
 import numpy as np
@@ -19,7 +19,7 @@ import streamlit as st
 from datetime import datetime, timedelta
 import plotly.graph_objects as go
 import plotly.express as px
-
+ 
 # ============================================================================
 # IMPORTACIONES FUTURAS (descomentar cuando src.queries esté disponible)
 # ============================================================================
@@ -33,17 +33,17 @@ import plotly.express as px
 #     query_feedback_taller_v3,
 #     query_alertas_confirmadas_v3,
 # )
-
+ 
 # ============================================================================
 # CONFIG Y CONEXIÓN
 # ============================================================================
-
+ 
 st.set_page_config(
     page_title="BAITECK — Dashboard PDM",
     layout="wide",
     initial_sidebar_state="expanded"
 )
-
+ 
 # CSS personalizado para mejor visual
 st.markdown("""
     <style>
@@ -73,7 +73,7 @@ st.markdown("""
     }
     </style>
 """, unsafe_allow_html=True)
-
+ 
 @st.cache_resource
 def get_db_connection():
     """Conexión a Supabase vía psycopg2 - Silenciosa si no hay conexión"""
@@ -84,7 +84,7 @@ def get_db_connection():
         # No mostrar error, simplemente retornar None
         # El dashboard funcionará con datos sintéticos
         return None
-
+ 
 def query_db(query_sql, params=None):
     """Ejecuta query SQL y retorna DataFrame vacío si no hay conexión"""
     conn = get_db_connection()
@@ -98,11 +98,11 @@ def query_db(query_sql, params=None):
     except Exception:
         conn.close()
         return pd.DataFrame()
-
+ 
 # ============================================================================
 # VISTA 1 — ESTADO DE FLOTA Y RIESGO PREDICTIVO
 # ============================================================================
-
+ 
 def vista_1_estado_riesgo():
     """Vista 1: Estado actual de flota y ranking de riesgo predictivo"""
     st.markdown("### 📊 Estado de Flota y Riesgo Predictivo")
@@ -259,11 +259,11 @@ def vista_1_estado_riesgo():
                         color_continuous_scale='Reds')
         fig_top.update_layout(height=300, margin=dict(l=0, r=0, t=30, b=0), showlegend=False)
         st.plotly_chart(fig_top, use_container_width=True)
-
+ 
 # ============================================================================
 # VISTA 2 — PLAN DE ACCIÓN: MANTENIMIENTO Y REPUESTOS
 # ============================================================================
-
+ 
 def vista_2_plan_accion():
     """Vista 2: Plan de intervenciones y repuestos recomendados"""
     st.markdown("### 🔧 Plan de acción: mantenimiento y repuestos")
@@ -385,11 +385,11 @@ def vista_2_plan_accion():
             'Próximo sistema': ['Motor', 'Frenos', 'Transmisión']
         })
         st.dataframe(pm_vencidas, use_container_width=True, hide_index=True)
-
+ 
 # ============================================================================
 # VISTA 3 — IMPACTO Y DESEMPEÑO DEL MODELO
 # ============================================================================
-
+ 
 def vista_3_impacto_desempeno():
     """Vista 3: Resultados económicos y desempeño del modelo"""
     st.markdown("### 📊 Impacto y desempeño del modelo")
@@ -556,11 +556,11 @@ def vista_3_impacto_desempeno():
         with col_roi2:
             st.metric("Payback estimado", "4.2 meses", delta="-0.8 meses")
             st.caption("Días para recuperar inversión")
-
+ 
 # ============================================================================
 # MAIN LAYOUT
 # ============================================================================
-
+ 
 def main():
     # Crear layout con columnas: título a la izquierda, logo a la derecha
     col_title, col_logo = st.columns([4, 1])
@@ -621,7 +621,7 @@ def main():
         "</div>",
         unsafe_allow_html=True
     )
-
+ 
 if __name__ == "__main__":
     main()
-
+ 

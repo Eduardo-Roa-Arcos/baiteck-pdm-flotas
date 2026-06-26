@@ -1,0 +1,7 @@
+vista,metrica,valor,valor_anterior,fecha_calculo
+Estado y Riesgo,Unidades operativas,1189.0,1189.0,2026-06-05 17:25:17.549776
+Estado y Riesgo,Disponibilidad,99.81932909071297,99.81932909071297,2026-06-05 17:25:18.120079
+Estado y Riesgo,MTBF,4150.876623376624,4150.876623376624,2026-06-05 17:25:18.687999
+Estado y Riesgo,P1 Crítica,0.0,0.0,2026-06-05 17:25:19.253117
+Estado y Riesgo,P2 Alta,16.0,16.0,2026-06-05 17:25:19.819996
+Estado y Riesgo,Fallas anticipadas,0.0,0.0,2026-06-05 17:25:20.383418

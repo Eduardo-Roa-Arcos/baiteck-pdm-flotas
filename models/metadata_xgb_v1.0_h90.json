@@ -1,0 +1,54 @@
+{
+  "version": "v1.0",
+  "horizonte_dias": 90,
+  "tipo_modelo": "XGBoost",
+  "fecha_entrenamiento": "2026-06-20T17:13:59.370153",
+  "n_train": 4998,
+  "n_test": 2142,
+  "n_features": 20,
+  "feature_cols": [
+    "edad_dias",
+    "edad_anos",
+    "odometro_actual",
+    "horometro_actual",
+    "km_dia_promedio",
+    "horas_dia_promedio",
+    "dias_desde_ultima_ot",
+    "ot_7d",
+    "ot_30d",
+    "ot_90d",
+    "corr_7d",
+    "corr_30d",
+    "corr_90d",
+    "costo_7d",
+    "costo_30d",
+    "costo_90d",
+    "mtbf_90d",
+    "dias_ult_correctiva_motor",
+    "dias_ult_correctiva_frenos",
+    "dias_ult_correctiva_transmision"
+  ],
+  "hiperparametros": {
+    "n_estimators": 200,
+    "max_depth": 5,
+    "learning_rate": 0.1,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "scale_pos_weight": 1.7953020134228188,
+    "random_state": 42
+  },
+  "threshold_default": 0.5,
+  "threshold_optimo": 0.5445075631141663,
+  "metricas_threshold_default": {
+    "auc": 0.8387438093444275,
+    "precision": 0.051775147928994084,
+    "recall": 0.813953488372093,
+    "f1_score": 0.09735744089012517
+  },
+  "metricas_threshold_optimo": {
+    "auc": 0.8387438093444275,
+    "precision": 0.058823529411764705,
+    "recall": 0.7209302325581395,
+    "f1_score": 0.10877192982456141
+  }
+}

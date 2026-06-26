@@ -1,5 +1,9 @@
 import pandas as pd
 import numpy as np
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent.parent.parent))
+
 from src.db import engine
 
 def construir_features(fecha_corte: str, horizonte_dias: int = 30) -> pd.DataFrame:
@@ -9,11 +13,18 @@ def construir_features(fecha_corte: str, horizonte_dias: int = 30) -> pd.DataFra
     Solo información ANTES de fecha_corte (evita fuga de información).
     
     Devuelve SOLO columnas que existen en features_activo_fecha de BD.
+    
+    ⭐ FIX FASE 1.1: Target corregido para evitar leakage
+       - Antes: [t, t+N) → incluía día t
+       - Ahora: (t, t+N] → desde t+1 hasta t+N inclusive
     """
     fecha = pd.Timestamp(fecha_corte)
 
     # Cargar datos
-    activos = pd.read_sql("SELECT * FROM activos", engine)
+    activos = pd.read_sql("""
+        SELECT * FROM activos
+        WHERE UPPER(COALESCE(estado_actual, 'Activo')) = 'ACTIVO' 
+    """, engine)    
     ots = pd.read_sql("SELECT * FROM ordenes_trabajo", engine)
 
     # Convertir fechas a datetime SIN timezone (para evitar conflictos)
@@ -21,7 +32,7 @@ def construir_features(fecha_corte: str, horizonte_dias: int = 30) -> pd.DataFra
     ots["fecha_apertura"] = pd.to_datetime(ots["fecha_apertura"], errors="coerce").dt.tz_localize(None)
     ots["fecha_cierre"] = pd.to_datetime(ots["fecha_cierre"], errors="coerce").dt.tz_localize(None)
 
-    # Filtrar OTs ANTES de fecha_corte
+    # Filtrar OTs ANTES de fecha_corte (estrictamente < t)
     ots_pasado = ots[ots["fecha_apertura"] < fecha].copy()
 
     # Base: información de activos (solo activo_id)
@@ -54,8 +65,11 @@ def construir_features(fecha_corte: str, horizonte_dias: int = 30) -> pd.DataFra
     features["km_dia_promedio"] = -1
     features["horas_dia_promedio"] = -1
 
+    # Ventanas FIJAS: [7, 30, 90] para TODOS los horizontes
+    dias_ventanas = [7, 30, 90]   
+
     # Conteo de OTs por ventana
-    for dias in [30, 90, 180]:
+    for dias in dias_ventanas:
         inicio = fecha - pd.Timedelta(days=dias)
         ots_ventana = ots_pasado[ots_pasado["fecha_apertura"] >= inicio]
 
@@ -66,7 +80,7 @@ def construir_features(fecha_corte: str, horizonte_dias: int = 30) -> pd.DataFra
         # OTs correctivas
         if len(ots_ventana) > 0:
             ots_correctivas = ots_ventana[
-                ots_ventana["tipo_ot"].str.lower().isin(["correctiva", "emergency"])
+                ots_ventana["tipo_ot"].str.lower().isin(["correctiva", "correctivo", "emergency"])
             ]
             count_correctivas = ots_correctivas.groupby("activo_id").size().rename(f"count_correctivas_{dias}d")
             features = features.merge(count_correctivas, on="activo_id", how="left")
@@ -79,19 +93,37 @@ def construir_features(fecha_corte: str, horizonte_dias: int = 30) -> pd.DataFra
             features[f"costo_total_{dias}d"] = 0
 
     # MTBF
-    features["mtbf_180d"] = -1
+    # ⚠️ TODO FASE 2.1: Calcular en lugar de hardcodear
+    # MTBF basado en la mayor ventana del horizonte
+    max_ventana = max(dias_ventanas)
+    features[f"mtbf_{max_ventana}d"] = -1
 
     # Días desde última correctiva por sistema
+    # ⚠️ TODO FASE 2.1: Calcular con JOIN a taxonomia_fallas
     for sistema, col_name in [("motor", "dias_ult_correctiva_motor"),
                                ("frenos", "dias_ult_correctiva_frenos"),
                                ("transmision", "dias_ult_correctiva_transmision")]:
         features[col_name] = -1
 
-    # TARGET: ¿habrá correctiva en próximos N días?
+    # ========================================================================
+    # ⭐ TARGET CORREGIDO (FASE 1.1)
+    # ========================================================================
+    # Pregunta: "¿Habrá correctiva entre t+1 y t+N?"
+    #
+    # ANTES (bug):  [fecha, fecha+N)  →  incluía día t (leakage sutil)
+    # AHORA (fix): (fecha, fecha+N]   →  desde t+1 hasta t+N inclusive
+    #
+    # Esto evita que una OT que se abre EN fecha_corte se use para predecir
+    # a sí misma (data leakage).
+    # ========================================================================
+    
     fin = fecha + pd.Timedelta(days=horizonte_dias)
-    ots_futuras = ots[(ots["fecha_apertura"] >= fecha) & (ots["fecha_apertura"] < fin)]
+    ots_futuras = ots[
+        (ots["fecha_apertura"] > fecha) &       # ⭐ FIX: > en lugar de >=
+        (ots["fecha_apertura"] <= fin)          # ⭐ FIX: <= en lugar de <
+    ]
     ots_correctivas_futuras = ots_futuras[
-        ots_futuras["tipo_ot"].str.lower().isin(["correctiva", "emergency"])
+        ots_futuras["tipo_ot"].str.lower().isin(["correctiva", "correctivo", "emergency"])
     ]
 
     activos_con_falla = set(ots_correctivas_futuras["activo_id"].unique())
@@ -102,20 +134,23 @@ def construir_features(fecha_corte: str, horizonte_dias: int = 30) -> pd.DataFra
     features[numeric_cols] = features[numeric_cols].fillna(-1)
 
     # ORDEN FINAL DE COLUMNAS (exacto a la BD)
+    # GENERAR COLUMNAS DINÁMICAMENTE SEGÚN VENTANAS
+    columnas_count_ot = [f"count_ot_{d}d" for d in dias_ventanas]
+    columnas_count_correctivas = [f"count_correctivas_{d}d" for d in dias_ventanas]
+    columnas_costo = [f"costo_total_{d}d" for d in dias_ventanas]
+    max_ventana = max(dias_ventanas)
+    
     columnas_orden = [
         "activo_id", "fecha_corte", "horizonte_dias",
         "edad_dias", "edad_anos",
         "odometro_actual", "horometro_actual",
         "km_dia_promedio", "horas_dia_promedio",
         "dias_desde_ultima_ot",
-        "count_ot_30d", "count_ot_90d", "count_ot_180d",
-        "count_correctivas_30d", "count_correctivas_90d", "count_correctivas_180d",
-        "costo_total_30d", "costo_total_90d", "costo_total_180d",
-        "mtbf_180d",
+    ] + columnas_count_ot + columnas_count_correctivas + columnas_costo + [
+        f"mtbf_{max_ventana}d",
         "dias_ult_correctiva_motor", "dias_ult_correctiva_frenos", "dias_ult_correctiva_transmision",
         "target"
     ]
-
     # Seleccionar solo las columnas que existen
     features = features[[col for col in columnas_orden if col in features.columns]]
 

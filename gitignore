@@ -1,0 +1,83 @@
+# Environment
+.env
+.env.local
+.env.*.local
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Backups & Development files
+*_back*.py
+*_old*.py
+*_backup*.py
+Copia de *
+*_copia*
+*_test*.py
+test_*.py
+debug_*.py
+check_*.py
+validar_*.py
+diagnostico_*.py
+
+# Temporary dashboard versions
+dashboard_*.py
+!dashboard.py
+!dashboard_com.py
+
+# Backups & SQL dumps
+*.sql
+backups/
+respaldos/
+backup_*.py
+respaldar_*.py
+restaurar_*.py
+
+# Development & deprecated folders
+src/OLD/
+src/debug/
+models/
+RES_mpmf/
+01-programas de carga/
+
+# Data files
+*.csv
+*.xlsx
+*.xls
+ordenes_trabajo*.csv
+repuestos_maestro*.csv
+
+# Output files
+output.log
+*.pyc
+
+# Node modules (if any)
+node_modules/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+
+# Cache
+.streamlit/
+.cache/

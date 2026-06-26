@@ -1,0 +1,70 @@
+created_at,modo,palabras_claves,id_modo_falla
+2026-05-30 20:36:45+00:00,fuga,"fuga,pierde,perdida,gotea,rezuma,filtracion",2
+2026-05-30 20:36:45+00:00,obstruccion,"tapado,obstruido,bloqueado,sucio,colmatado",3
+2026-05-30 20:36:45+00:00,rotura,"roto,quebrado,cortado,fracturado,rajado,trizado",4
+2026-05-30 20:36:45+00:00,corrosion,"corrosion,oxidado,sulfatado,picado",5
+2026-05-30 20:36:45+00:00,holgura,"juego,holgura,suelto,flojo,desajustado",6
+2026-05-30 20:36:45+00:00,desalineacion,"desalineado,descentrado,fuera de alineacion",7
+2026-05-30 20:36:45+00:00,contaminacion,"contaminado,sucio,agua en aceite,combustible contaminado",8
+2026-05-30 20:36:45+00:00,sobrecalentamiento,"sobrecalienta,recalienta,temperatura alta,caliente",9
+2026-05-30 20:36:45+00:00,baja_presion,"baja presion,sin presion,presion insuficiente",10
+2026-05-30 20:36:45+00:00,bajo_nivel,"bajo nivel,sin aceite,sin refrigerante,nivel bajo",11
+2026-05-30 20:36:45+00:00,ruido,"ruido,chirrido,zumbido,golpeteo,traqueteo,cruje",12
+2026-05-30 20:36:45+00:00,vibracion,"vibra,vibracion,temblor,oscilacion",13
+2026-05-30 20:36:45+00:00,no_funciona,"no funciona,no opera,no responde,inoperativo",14
+2026-05-30 20:36:45+00:00,no_arranca,"no parte,no arranca,no enciende,no da partida",15
+2026-05-30 20:36:45+00:00,no_carga,"no carga,sin carga,alternador no carga,carga baja",16
+2026-05-30 20:36:45+00:00,corto_circuito,"corto,cortocircuito,quema fusible",17
+2026-05-30 20:36:45+00:00,circuito_abierto,"circuito abierto,cable cortado,sin continuidad",18
+2026-05-30 20:36:45+00:00,falso_contacto,"falso contacto,intermitente,conector flojo",19
+2026-05-30 20:36:45+00:00,comunicacion,"error comunicacion,can bus,sin comunicacion,modulo no responde",20
+2026-05-30 20:36:45+00:00,sensor_fuera_rango,"sensor malo,lectura erratica,fuera de rango,se�al invalida",21
+2026-05-30 20:36:45+00:00,software_calibracion,"calibracion,actualizacion,programacion,parametrizacion",22
+2026-05-30 20:36:45+00:00,degradacion_bateria,"soh bajo,autonomia baja,degradacion,rango reducido",23
+2026-05-30 20:36:45+00:00,desbalance_celdas,"celda desbalanceada,diferencia voltaje,balanceo,bms alerta",24
+2026-05-30 20:36:45+00:00,aislamiento_hv,"fuga alta tension,aislamiento bajo,fallo aislamiento,hv leak",25
+2026-05-30 20:36:45+00:00,carga_lenta_no_carga_ev,"no carga,carga lenta,carga interrumpida,puerto carga,obc",26
+2026-05-30 20:36:45+00:00,desgaste,"desgaste,gastado,consumido,fin vida,delgado,cristalizado",1
+2026-05-31 04:17:53.269650+00:00,descarga,"descargada,se descarga,sin carga,bateria baja",27
+2026-05-31 04:17:53.269650+00:00,patinamiento,"patina,resbala,no transmite,embrague patina",28
+2026-05-31 04:17:53.269650+00:00,pinchazo,"pinchazo,pinchado,desinflado,clavo",29
+2026-05-31 04:17:53.269650+00:00,reventon,"reventon,reventado,estallo neumatico",30
+2026-05-31 04:17:53.269650+00:00,desgaste_irregular,"desgaste irregular,desgaste disparejo,corte",31
+2026-05-31 04:17:53.269650+00:00,desbalanceo,"desbalanceo,vibra a velocidad,balanceo rueda",32
+2026-05-31 04:17:53.269650+00:00,perdida_potencia,"perdida potencia,sin fuerza,falto poder,no rinde",33
+2026-05-31 04:17:53.269650+00:00,humo,"humo,humea,humo blanco,humo negro,humo azul",34
+2026-05-31 04:17:53.269650+00:00,golpeteo,"golpeteo,cascabeleo,pistoneo,detonacion",35
+2026-05-31 04:17:53.269650+00:00,falla_encendido,"no enciende,falla encendido,misfire,tironeo encendido",36
+2026-05-31 04:17:53.269650+00:00,compresion_baja,"compresion baja,sin compresion,baja compresion",37
+2026-05-31 04:17:53.269650+00:00,regeneracion_fallida,"regeneracion fallida,no regenera,dpf lleno",38
+2026-05-31 04:17:53.269650+00:00,exceso_emisiones,"exceso emisiones,humo excesivo,gases,opacidad",39
+2026-05-31 04:17:53.269650+00:00,mezcla_incorrecta,"mezcla rica,mezcla pobre,mezcla incorrecta,ralenti irregular",40
+2026-05-31 04:17:53.269650+00:00,no_entra_cambio,"no entra cambio,cuesta cambio,saca cambio,no engrana",41
+2026-05-31 04:17:53.269650+00:00,golpe,"golpe,golpea,impacto,juego al acelerar",42
+2026-05-31 04:17:53.269650+00:00,fuga_aire,"fuga aire,pierde aire,perdida presion aire",43
+2026-05-31 04:17:53.269650+00:00,bloqueo,"bloqueo,se bloquea,traba,rueda trabada",44
+2026-05-31 04:17:53.269650+00:00,desajuste,"desajuste,desajustado,fuera de ajuste,descalibrado mecanico",45
+2026-05-31 04:17:53.269650+00:00,dureza,"dura,duro,endurecido,cuesta girar",46
+2026-05-31 04:17:53.269650+00:00,desnivel,"desnivel,ladeado,hundido,asentado",47
+2026-05-31 04:17:53.269650+00:00,fatiga,"fatiga,vencido,colapsado,perdio firmeza",48
+2026-05-31 04:17:53.269650+00:00,rodamiento_ruido,"rodamiento,ruido rueda,zumbido rueda,maza",49
+2026-05-31 04:17:53.269650+00:00,quemado,"quemado,fundido,se quemo,ampolleta quemada",50
+2026-05-31 04:17:53.269650+00:00,intermitente,"intermitente,a ratos,por momentos,falla intermitente",51
+2026-05-31 04:17:53.269650+00:00,dano,"dano,danado,golpeado,roto carroceria,abollado",52
+2026-05-31 04:17:53.269650+00:00,deformacion,"deformacion,deformado,torcido,doblado",53
+2026-05-31 04:17:53.269650+00:00,no_enfria,"no enfria,no enfria ac,sin frio,aire caliente",54
+2026-05-31 04:17:53.269650+00:00,ventilador_falla,"ventilador no gira,ventilador falla,electroventilador",55
+2026-05-31 04:17:53.269650+00:00,no_acciona,"no acciona,no levanta,no responde hidraulico,no opera pto",56
+2026-05-31 04:17:53.269650+00:00,sobretemperatura,"sobretemperatura,temperatura alta bateria,celda caliente",57
+2026-05-31 04:17:53.269650+00:00,degradacion,"degradacion,soh bajo,autonomia reducida,perdida capacidad",58
+2026-05-31 04:17:53.269650+00:00,desbalance,"desbalance celdas,diferencia voltaje,desequilibrio",59
+2026-05-31 04:17:53.269650+00:00,aislamiento_bajo,"aislamiento bajo,fuga hv,fallo aislamiento,hv leak",60
+2026-05-31 04:17:53.269650+00:00,inversor_falla,"inversor falla,fallo inversor,error inversor",61
+2026-05-31 04:17:53.269650+00:00,motor_falla,"motor electrico falla,fallo motor traccion",62
+2026-05-31 04:17:53.269650+00:00,carga_lenta,"carga lenta,carga demora,carga reducida",63
+2026-05-31 04:17:53.269650+00:00,regeneracion_baja,"regeneracion baja,poca regeneracion,freno regen debil",64
+2026-05-31 04:17:53.269650+00:00,fallo_sistema_hibrido,"fallo sistema hibrido,error hibrido,check hybrid",65
+2026-05-31 04:17:53.269650+00:00,sin_senal,"sin senal,sin gps,perdida senal,sin cobertura",66
+2026-05-31 04:17:53.269650+00:00,sensor_sucio,"sensor sucio,camara sucia,radar obstruido,lente sucio",67
+2026-05-31 04:17:53.269650+00:00,desconexion,"desconexion,desconectado,perdida conexion,offline",68
+2026-05-31 04:17:53.269650+00:00,mala_conexion,"mala conexion,conexion deficiente,contacto deficiente",69

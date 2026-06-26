@@ -1,0 +1,154 @@
+id,sistema_ot,componente_ot,modo_falla_ot,frecuencia,sistema_catalogo,componente_catalogo,id_modo_falla,modo_catalogo,tipo_mantenimiento,taxonomia_id,created_at
+1,Sistema de Frenos,Pastillas de Freno,Desgaste,779,frenos_servicio,pastillas,1,desgaste,correctivo,c61a620b-f547-442b-8398-8f1587873670,2026-05-31 12:50:59.087554+00:00
+2,Motor,Correa,Desgaste,621,motor_combustion,correa,1,desgaste,correctivo,4b51c98e-434a-49b4-af38-fb5b732f1c4e,2026-05-31 12:50:59.087554+00:00
+3,Sistema de Enfriamiento,Manguera,Desgaste,602,refrigeracion,mangueras,1,desgaste,correctivo,7f9b00f1-431d-4d1a-9e41-4ecfbd53c33a,2026-05-31 12:50:59.087554+00:00
+4,Sistema de Frenos,Líquido de Frenos,Contaminación,507,frenos_servicio,liquido_freno,8,contaminacion,correctivo,67854105-57d6-4f5e-9a75-67aab1693c98,2026-05-31 12:50:59.087554+00:00
+5,Sistema de Frenos,Líquido de Frenos,Bajo nivel,475,frenos_servicio,liquido_freno,11,bajo_nivel,correctivo,26beb828-1cda-49b0-96ad-9683c301a411,2026-05-31 12:50:59.087554+00:00
+6,Motor,Aceite de Motor,Bajo nivel,439,motor_combustion,aceite_motor,11,bajo_nivel,correctivo,92c60014-e28f-454f-93da-1aec6932ce51,2026-05-31 12:50:59.087554+00:00
+7,Motor,Aceite de Motor,Contaminación,425,motor_combustion,aceite_motor,8,contaminacion,correctivo,82e385eb-7c10-4720-9f74-78f1baf1e5cc,2026-05-31 12:50:59.087554+00:00
+8,Sistema de Combustible,Filtro de Combustible,Contaminación,416,combustible_admision,filtro_combustible,8,contaminacion,correctivo,d055da44-1ecf-4b9e-a4db-efd81d00cbe3,2026-05-31 12:50:59.087554+00:00
+9,Sistema de Combustible,Filtro de Combustible,Obstrucción,401,combustible_admision,filtro_combustible,3,obstruccion,correctivo,b0f8f6db-23d0-48d3-ab73-c1b0db26d9ee,2026-05-31 12:50:59.087554+00:00
+10,Transmisión,Sello,Desgaste,377,transmision,retenes,1,desgaste,correctivo,83106c13-b85f-4555-82cd-50c24f426dc7,2026-05-31 12:50:59.087554+00:00
+11,Sistema de Enfriamiento,Refrigerante,Bajo nivel,371,refrigeracion,refrigerante,11,bajo_nivel,correctivo,176bc5dd-76e5-4cb6-9863-3e53712584e5,2026-05-31 12:50:59.087554+00:00
+12,Sistema de Enfriamiento,Refrigerante,Contaminación,369,refrigeracion,refrigerante,8,contaminacion,correctivo,2c77f267-8ba0-48e7-b306-35535eecf55f,2026-05-31 12:50:59.087554+00:00
+13,Sistema de Lubricación,Filtro de Aceite,Contaminación,290,lubricacion,filtro_aceite,8,contaminacion,correctivo,a857c5b2-11e9-40fb-9c89-2008160ae24e,2026-05-31 12:50:59.087554+00:00
+14,Sistema de Lubricación,Filtro de Aceite,Obstrucción,289,lubricacion,filtro_aceite,3,obstruccion,correctivo,a9b43222-2ab5-4bf4-8746-e5830b62d1c0,2026-05-31 12:50:59.087554+00:00
+15,Sistema de Lubricación,Aceite,Contaminación,285,lubricacion,aceite_motor,8,contaminacion,correctivo,6dd8215d-b342-4bcd-9ab1-f008e74008ef,2026-05-31 12:50:59.087554+00:00
+16,Motor,Filtro de Aire,Obstrucción,283,motor_combustion,filtro_aire,3,obstruccion,correctivo,e7e9208c-ad93-4907-9de9-c55b91c17d32,2026-05-31 12:50:59.087554+00:00
+17,Suspensión,Barra Estabilizadora,Desgaste,282,suspension,barra_estabilizadora,1,desgaste,correctivo,b2766954-89e7-426e-b946-81496fef6177,2026-05-31 12:50:59.087554+00:00
+18,Motor,Filtro de Aire,Contaminación,276,motor_combustion,filtro_aire,8,contaminacion,correctivo,8bbfede0-5be8-40c2-8be7-15f3bb82df8f,2026-05-31 12:50:59.087554+00:00
+19,Sistema de Dirección,Aceite de Dirección,Bajo nivel,273,direccion,aceite_direccion,11,bajo_nivel,correctivo,e1ffd6b9-d048-4919-bacb-52f0202e7160,2026-05-31 12:50:59.087554+00:00
+20,Sistema de Frenos,Sensor ABS,Lectura anómala,272,frenos_servicio,abs,21,sensor_fuera_rango,correctivo,27b5bcf1-6aba-4996-99ef-4c58ba30a0d6,2026-05-31 12:50:59.087554+00:00
+21,Sistema de Frenos,Sensor ABS,Falla eléctrica,270,frenos_servicio,abs,21,sensor_fuera_rango,correctivo,27b5bcf1-6aba-4996-99ef-4c58ba30a0d6,2026-05-31 12:50:59.087554+00:00
+22,Sistema de Lubricación,Aceite,Bajo nivel,266,lubricacion,aceite_motor,11,bajo_nivel,correctivo,37b1abc4-e5d8-4b72-840f-64b8f5a625c5,2026-05-31 12:50:59.087554+00:00
+23,Motor,Filtro de Aire,Limpieza requerida,263,motor_combustion,filtro_aire,3,obstruccion,preventivo,e7e9208c-ad93-4907-9de9-c55b91c17d32,2026-05-31 12:50:59.087554+00:00
+24,Sistema de Lubricación,Bomba de Aceite,Bajo rendimiento,263,lubricacion,bomba_aceite,10,baja_presion,correctivo,bf7b57f6-6021-46a6-9367-2659b9f7a686,2026-05-31 12:50:59.087554+00:00
+25,Transmisión,Aceite de Transmisión,Bajo nivel,260,transmision,aceite_transmision,11,bajo_nivel,correctivo,6b6c68a6-b843-48a7-b921-314e59565cdd,2026-05-31 12:50:59.087554+00:00
+26,Suspensión,Amortiguador,Desgaste,258,suspension,amortiguadores,1,desgaste,correctivo,4922cb12-4a55-4c4e-83e4-775edeea2ce3,2026-05-31 12:50:59.087554+00:00
+27,Transmisión,Aceite de Transmisión,Contaminación,247,transmision,aceite_transmision,8,contaminacion,correctivo,cef101a4-57c5-4d77-aab3-ea1e62146f50,2026-05-31 12:50:59.087554+00:00
+28,Suspensión,Buje de Suspensión,Desgaste,243,suspension,bujes,1,desgaste,correctivo,a73aeb17-e111-4437-8bf9-07168ed41dc8,2026-05-31 12:50:59.087554+00:00
+29,Sistema Eléctrico,Cableado,Falla eléctrica,242,electrico_12v_24v,arnes,17,corto_circuito,correctivo,15bc8282-d5f4-48ad-9195-abfc53744d19,2026-05-31 12:50:59.087554+00:00
+30,Sistema de Dirección,Aceite de Dirección,Contaminación,240,direccion,aceite_direccion,8,contaminacion,correctivo,5202d3db-123c-44c4-910c-c0403357bfe5,2026-05-31 12:50:59.087554+00:00
+31,Sistema Eléctrico,Fusible,Falla eléctrica,240,electrico_12v_24v,fusibles,50,quemado,correctivo,2bb930c7-be05-4e43-b0db-7107d3aafb06,2026-05-31 12:50:59.087554+00:00
+32,Sistema Eléctrico,Alternador,Bajo rendimiento,240,electrico_12v_24v,alternador,16,no_carga,correctivo,37587f89-fe23-4f54-b87a-e663fc57b9d9,2026-05-31 12:50:59.087554+00:00
+33,Sistema Eléctrico,Cableado,Corrosión,239,electrico_12v_24v,arnes,5,corrosion,correctivo,cf3a7d86-dc90-4552-a4c3-bdd055dbb635,2026-05-31 12:50:59.087554+00:00
+34,Sistema de Lubricación,Bomba de Aceite,Pérdida de presión,236,lubricacion,bomba_aceite,10,baja_presion,correctivo,bf7b57f6-6021-46a6-9367-2659b9f7a686,2026-05-31 12:50:59.087554+00:00
+35,Sistema Eléctrico,Batería,Falla eléctrica,234,electrico_12v_24v,bateria_12v_24v,27,descarga,correctivo,e61459db-16e6-4abc-9f9c-78380109836f,2026-05-31 12:50:59.087554+00:00
+36,Suspensión,Soporte,Fatiga de material,233,suspension,soporte_motor,48,fatiga,correctivo,9429801f-c0f3-4737-bba2-c2818771e4bb,2026-05-31 12:50:59.087554+00:00
+37,Suspensión,Soporte,Rotura,232,suspension,soporte_motor,4,rotura,correctivo,037f5657-5aba-4913-bc63-70c784a553ef,2026-05-31 12:50:59.087554+00:00
+38,Suspensión,Resorte,Rotura,221,suspension,espirales,4,rotura,correctivo,c656f85b-758f-4a09-80f1-65061fde4f0b,2026-05-31 12:50:59.087554+00:00
+39,Sistema Eléctrico,Alternador,Falla eléctrica,220,electrico_12v_24v,alternador,16,no_carga,correctivo,37587f89-fe23-4f54-b87a-e663fc57b9d9,2026-05-31 12:50:59.087554+00:00
+40,Sistema Eléctrico,Fusible,Rotura,207,electrico_12v_24v,fusibles,4,rotura,correctivo,97fca0f8-9647-4c71-beb6-69919208aa5d,2026-05-31 12:50:59.087554+00:00
+41,Sistema de Frenos,Disco de Freno,Desgaste,205,frenos_servicio,discos,1,desgaste,correctivo,54a23560-950b-48a9-9463-e9a1a3b5e805,2026-05-31 12:50:59.087554+00:00
+42,Sistema Eléctrico,Batería,Bajo rendimiento,205,electrico_12v_24v,bateria_12v_24v,58,degradacion,correctivo,f2872149-f11d-4daf-b2f6-4c9bc15fddd8,2026-05-31 12:50:59.087554+00:00
+43,Motor,Casquetes,Desgaste,204,motor_combustion,casquetes,1,desgaste,correctivo,86cc92e6-19e2-4d0f-83f3-a63f8e347ea2,2026-05-31 12:50:59.087554+00:00
+44,Suspensión,Resorte,Fatiga de material,202,suspension,espirales,48,fatiga,correctivo,1e66b2f3-bf18-4679-9051-b5c6c22c045f,2026-05-31 12:50:59.087554+00:00
+45,Sistema Hidráulico,Aceite Hidráulico,Contaminación,193,hidraulico_neumatico_auxiliar,aceite_hidraulico,8,contaminacion,correctivo,eae58507-0894-4c07-8220-07bbc0b12aa1,2026-05-31 12:50:59.087554+00:00
+46,Sistema Hidráulico,Manguera Hidráulica,Desgaste,191,hidraulico_neumatico_auxiliar,mangueras_hidraulicas,1,desgaste,correctivo,ac92d4fb-e013-4d3c-8990-98d311ba7bf9,2026-05-31 12:50:59.087554+00:00
+47,Sistema de Enfriamiento,Termostato,Bajo rendimiento,186,refrigeracion,termostato,14,no_funciona,correctivo,64fa6304-7f56-42d1-8696-c5c48e6bec35,2026-05-31 12:50:59.087554+00:00
+48,Sistema de Frenos,Bomba de Freno,Fuga,179,frenos_servicio,cilindro_freno,2,fuga,correctivo,ac5889a2-7b4f-4893-a5da-f9c2d74e69ef,2026-05-31 12:50:59.087554+00:00
+49,Sistema de Frenos,Pastillas de Freno,Ruido anormal,177,frenos_servicio,pastillas,12,ruido,correctivo,87441fda-1ed5-4fc4-bde6-684703fe0366,2026-05-31 12:50:59.087554+00:00
+50,Motor,Inyector,Obstrucción,175,motor_combustion,inyectores,3,obstruccion,correctivo,e5667b15-ae34-4fa5-9de7-7f69b83df7cd,2026-05-31 12:50:59.087554+00:00
+51,Transmisión,Embrague,Desgaste,173,transmision,embrague,1,desgaste,correctivo,bc18e407-858e-4139-9ea4-06341661c2fc,2026-05-31 12:50:59.087554+00:00
+52,Motor,Sensor,Lectura anómala,168,motor_combustion,sensores,21,sensor_fuera_rango,correctivo,5aa6a24e-7560-4312-84cf-cbc7c21515e3,2026-05-31 12:50:59.087554+00:00
+53,Sistema de Enfriamiento,Termostato,Sobrecalentamiento,167,refrigeracion,termostato,9,sobrecalentamiento,correctivo,c2c4c4b9-d0a9-4e04-a7cb-7542459a6309,2026-05-31 12:50:59.087554+00:00
+54,Sistema Hidráulico,Aceite Hidráulico,Bajo nivel,165,hidraulico_neumatico_auxiliar,aceite_hidraulico,11,bajo_nivel,correctivo,cd39da2f-5b81-478c-b787-05779f81bb7e,2026-05-31 12:50:59.087554+00:00
+55,Sistema de Frenos,Bomba de Freno,Bajo rendimiento,162,frenos_servicio,cilindro_freno,10,baja_presion,correctivo,13264cd4-3f74-4510-9d78-569475dd2998,2026-05-31 12:50:59.087554+00:00
+56,Sistema de Frenos,Disco de Freno,Desbalanceo,158,frenos_servicio,discos,32,desbalanceo,correctivo,1910438a-a45d-4219-9279-919c2614b0c8,2026-05-31 12:50:59.087554+00:00
+57,Sistema Eléctrico,Sensor,Falla eléctrica,154,electrico_12v_24v,sensores,21,sensor_fuera_rango,correctivo,4e4396e0-674a-4fa1-8d45-c33c5e764d68,2026-05-31 12:50:59.087554+00:00
+58,Transmisión,Embrague,Bajo rendimiento,153,transmision,embrague,1,desgaste,correctivo,bc18e407-858e-4139-9ea4-06341661c2fc,2026-05-31 12:50:59.087554+00:00
+59,Sistema de Frenos,Bomba de Freno,Pérdida de presión,150,frenos_servicio,cilindro_freno,10,baja_presion,correctivo,13264cd4-3f74-4510-9d78-569475dd2998,2026-05-31 12:50:59.087554+00:00
+60,Motor,Sensor,Falla eléctrica,149,motor_combustion,sensores,21,sensor_fuera_rango,correctivo,5aa6a24e-7560-4312-84cf-cbc7c21515e3,2026-05-31 12:50:59.087554+00:00
+61,Motor,Sensor,Bajo rendimiento,147,motor_combustion,sensores,21,sensor_fuera_rango,correctivo,5aa6a24e-7560-4312-84cf-cbc7c21515e3,2026-05-31 12:50:59.087554+00:00
+62,Sistema de Frenos,Disco de Freno,Vibración,147,frenos_servicio,discos,13,vibracion,correctivo,d05ad85e-540b-4268-91f4-db61d043a837,2026-05-31 12:50:59.087554+00:00
+63,Sistema Eléctrico,Sensor,Lectura anómala,146,electrico_12v_24v,sensores,21,sensor_fuera_rango,correctivo,4e4396e0-674a-4fa1-8d45-c33c5e764d68,2026-05-31 12:50:59.087554+00:00
+64,Sistema de Lubricación,Empaquetadura,Desgaste,144,lubricacion,empaquetadura,1,desgaste,correctivo,868ba06e-0230-4e4f-9c7f-a2875a7bc841,2026-05-31 12:50:59.087554+00:00
+65,Sistema Eléctrico,Sensor,Bajo rendimiento,144,electrico_12v_24v,sensores,21,sensor_fuera_rango,correctivo,4e4396e0-674a-4fa1-8d45-c33c5e764d68,2026-05-31 12:50:59.087554+00:00
+66,Transmisión,Caja de Cambios,Desgaste,138,transmision,caja_cambios,1,desgaste,correctivo,51beac30-ca7e-4f61-a91c-b1a9bbdc5968,2026-05-31 12:50:59.087554+00:00
+67,Sistema de Enfriamiento,Radiador,Obstrucción,137,refrigeracion,radiador,3,obstruccion,correctivo,068162ad-cf53-4938-87c7-8f2bba8d330e,2026-05-31 12:50:59.087554+00:00
+68,Sistema de Combustible,Tanque,Corrosión,134,combustible_admision,tanque_combustible,5,corrosion,correctivo,9fc6ad11-7092-457c-87bc-44d7554a7825,2026-05-31 12:50:59.087554+00:00
+69,Sistema de Combustible,Sensor de Presión,Lectura anómala,133,combustible_admision,sensores,21,sensor_fuera_rango,correctivo,68d6acf6-81d6-4491-b9d7-d77667e902cd,2026-05-31 12:50:59.087554+00:00
+70,Sistema de Dirección,Rótula,Desgaste,133,direccion,rotulas,1,desgaste,correctivo,a19a7e6d-4339-43d5-9fe3-78d6bb7c334e,2026-05-31 12:50:59.087554+00:00
+71,Motor,Inyector,Fuga,132,motor_combustion,inyectores,2,fuga,correctivo,c03f8dfe-2395-43cd-9729-4ef9019123a5,2026-05-31 12:50:59.087554+00:00
+72,Sistema de Dirección,Cremallera,Desgaste,131,direccion,cremallera,1,desgaste,correctivo,3e34ff9a-ca28-4668-a528-beaea0c2299a,2026-05-31 12:50:59.087554+00:00
+73,Motor,Casquetes,Ruido anormal,130,motor_combustion,casquetes,12,ruido,correctivo,a01c67a0-5da6-4800-949c-67909f670322,2026-05-31 12:50:59.087554+00:00
+74,Motor,Casquetes,Fatiga de material,129,motor_combustion,casquetes,48,fatiga,correctivo,4d0738bf-496a-40ae-994a-908af8a14ca2,2026-05-31 12:50:59.087554+00:00
+75,Sistema de Combustible,Bomba de Combustible,Pérdida de presión,128,combustible_admision,bomba_combustible,10,baja_presion,correctivo,ad2ef224-5f43-4bc2-ad75-6c5c44d6eae5,2026-05-31 12:50:59.087554+00:00
+76,Transmisión,Sello,Fuga,128,transmision,retenes,2,fuga,correctivo,7c64339b-fcfe-4e5a-b599-d6daabe64237,2026-05-31 12:50:59.087554+00:00
+77,Motor,Inyector,Bajo rendimiento,126,motor_combustion,inyectores,3,obstruccion,correctivo,e5667b15-ae34-4fa5-9de7-7f69b83df7cd,2026-05-31 12:50:59.087554+00:00
+78,Motor,Correa,Ruido anormal,126,motor_combustion,correa,12,ruido,correctivo,df0a751b-00df-4745-be37-17400cdf5aa6,2026-05-31 12:50:59.087554+00:00
+79,Sistema de Combustible,Inyector,Obstrucción,125,combustible_admision,inyectores,3,obstruccion,correctivo,38f97d82-689f-464c-9084-aba32372b729,2026-05-31 12:50:59.087554+00:00
+80,Sistema de Combustible,Sensor de Presión,Falla eléctrica,125,combustible_admision,sensores,21,sensor_fuera_rango,correctivo,68d6acf6-81d6-4491-b9d7-d77667e902cd,2026-05-31 12:50:59.087554+00:00
+81,Sistema de Enfriamiento,Ventilador,Rotura,125,refrigeracion,ventilador,4,rotura,correctivo,315dac1b-9adc-4f16-ac35-f468ffb83d5f,2026-05-31 12:50:59.087554+00:00
+82,Sistema de Enfriamiento,Ventilador,Falla eléctrica,125,refrigeracion,ventilador,55,ventilador_falla,correctivo,14ee9d85-2d16-4f42-a61b-ff651073cbd4,2026-05-31 12:50:59.087554+00:00
+83,Sistema de Dirección,Bomba de Dirección,Fuga,124,direccion,bomba_direccion,2,fuga,correctivo,d966445e-bd5d-4cc1-b9bf-895a3d561984,2026-05-31 12:50:59.087554+00:00
+84,Suspensión,Barra Estabilizadora,Rotura,124,suspension,barra_estabilizadora,4,rotura,correctivo,07ef3b04-7ed6-44e2-9bdd-65b9e3f990e4,2026-05-31 12:50:59.087554+00:00
+85,Sistema de Enfriamiento,Ventilador,Sobrecalentamiento,123,refrigeracion,ventilador,9,sobrecalentamiento,correctivo,3a17a8a4-194a-4d11-8e4d-54e6a69d1a9a,2026-05-31 12:50:59.087554+00:00
+86,Sistema de Dirección,Bomba de Dirección,Pérdida de presión,123,direccion,bomba_direccion,10,baja_presion,correctivo,11b9f4ba-ac42-4376-b3ec-fc52df6c7c7f,2026-05-31 12:50:59.087554+00:00
+87,Motor,Bomba,Pérdida de presión,121,motor_combustion,bomba_agua,10,baja_presion,correctivo,52a19485-f618-4262-9781-771200f928d4,2026-05-31 12:50:59.087554+00:00
+88,Motor,Correa,Rotura,121,motor_combustion,correa,4,rotura,correctivo,ed426988-2d58-41ac-b392-c9ce1eb02ec5,2026-05-31 12:50:59.087554+00:00
+89,Motor,Bomba,Rotura,121,motor_combustion,bomba_agua,4,rotura,correctivo,5c8d5a81-7e2e-4ffc-ac8c-be75b95e30d9,2026-05-31 12:50:59.087554+00:00
+90,Motor,Bomba,Bajo rendimiento,121,motor_combustion,bomba_agua,10,baja_presion,correctivo,52a19485-f618-4262-9781-771200f928d4,2026-05-31 12:50:59.087554+00:00
+91,Transmisión,Eje,Vibración,118,transmision,eje,13,vibracion,correctivo,05ffb00d-9f2c-41c7-b6cb-6ec45d330ace,2026-05-31 12:50:59.087554+00:00
+92,Sistema de Combustible,Bomba de Combustible,Bajo rendimiento,116,combustible_admision,bomba_combustible,10,baja_presion,correctivo,ad2ef224-5f43-4bc2-ad75-6c5c44d6eae5,2026-05-31 12:50:59.087554+00:00
+93,Transmisión,Eje,Desbalanceo,113,transmision,eje,32,desbalanceo,correctivo,b919bf93-d7be-475c-9a08-0a7e0b82ae16,2026-05-31 12:50:59.087554+00:00
+94,Sistema de Enfriamiento,Manguera,Rotura,109,refrigeracion,mangueras,4,rotura,correctivo,ecca40cc-af20-4509-a193-fa34117f751f,2026-05-31 12:50:59.087554+00:00
+95,Sistema Hidráulico,Válvula,Obstrucción,108,hidraulico_neumatico_auxiliar,valvulas,3,obstruccion,correctivo,4c19631e-0688-4a5c-91ec-809fd57207ab,2026-05-31 12:50:59.087554+00:00
+96,Sistema Hidráulico,Tubería,Corrosión,107,hidraulico_neumatico_auxiliar,tuberia,5,corrosion,correctivo,f89a56f0-79f0-4643-a99b-b044fecaff76,2026-05-31 12:50:59.087554+00:00
+97,Motor,Bomba,Fuga,106,motor_combustion,bomba_agua,2,fuga,correctivo,d800ea4d-ae7b-41a8-ae88-cceb13bade31,2026-05-31 12:50:59.087554+00:00
+98,Suspensión,Amortiguador,Fuga,105,suspension,amortiguadores,2,fuga,correctivo,bfdfeb22-06ef-4fa2-b8f8-e1d513415c03,2026-05-31 12:50:59.087554+00:00
+99,Suspensión,Buje de Suspensión,Ruido anormal,101,suspension,bujes,12,ruido,correctivo,52bd6a89-cc52-4b7f-9d91-a2dedbbc936e,2026-05-31 12:50:59.087554+00:00
+100,Sistema de Combustible,Tanque,Fuga,99,combustible_admision,tanque_combustible,2,fuga,correctivo,ef3985b2-8b87-4a67-9b11-374e7191bd99,2026-05-31 12:50:59.087554+00:00
+101,Suspensión,Amortiguador,Ruido anormal,98,suspension,amortiguadores,12,ruido,correctivo,92496ef9-210d-479c-8c50-3d1883089692,2026-05-31 12:50:59.087554+00:00
+102,Sistema de Dirección,Cremallera,Fuga,96,direccion,cremallera,2,fuga,correctivo,e4a5170d-eb9a-4d23-b6c7-7ccb3a5ba758,2026-05-31 12:50:59.087554+00:00
+103,Transmisión,Caja de Cambios,Rotura,96,transmision,caja_cambios,4,rotura,correctivo,5a51b388-d0da-4aeb-915b-be1317b3b911,2026-05-31 12:50:59.087554+00:00
+104,Transmisión,Caja de Cambios,Ruido anormal,95,transmision,caja_cambios,12,ruido,correctivo,6db0262e-185e-4b19-8026-fad631b8d663,2026-05-31 12:50:59.087554+00:00
+105,Sistema de Enfriamiento,Manguera,Fuga,95,refrigeracion,mangueras,2,fuga,correctivo,8c189596-82ba-4286-ab3f-130a114da163,2026-05-31 12:50:59.087554+00:00
+106,Sistema de Dirección,Rótula,Ruido anormal,93,direccion,rotulas,12,ruido,correctivo,9aa562cb-35d3-47da-ac7c-e62dcfbb2d08,2026-05-31 12:50:59.087554+00:00
+107,Suspensión,Buje de Suspensión,Vibración,93,suspension,bujes,13,vibracion,correctivo,bb81c0e2-7ad0-4f69-9b12-79729e7d088d,2026-05-31 12:50:59.087554+00:00
+108,Sistema de Lubricación,Cárter,Rotura,92,lubricacion,carter,4,rotura,correctivo,a32d2548-d425-41c9-a89d-670f228a9fe5,2026-05-31 12:50:59.087554+00:00
+109,Transmisión,Eje,Fatiga de material,90,transmision,eje,48,fatiga,correctivo,2b7ea75a-9b0d-4611-84b2-dcdbc9321192,2026-05-31 12:50:59.087554+00:00
+110,Sistema Hidráulico,Bomba Hidráulica,Bajo rendimiento,89,hidraulico_neumatico_auxiliar,bombas_hidraulicas,10,baja_presion,correctivo,1fca4a8d-ad2d-4e8d-b31c-c4b3688f7c3c,2026-05-31 12:50:59.087554+00:00
+111,Sistema Hidráulico,Bomba Hidráulica,Pérdida de presión,86,hidraulico_neumatico_auxiliar,bombas_hidraulicas,10,baja_presion,correctivo,1fca4a8d-ad2d-4e8d-b31c-c4b3688f7c3c,2026-05-31 12:50:59.087554+00:00
+112,Sistema Hidráulico,Manguera Hidráulica,Rotura,86,hidraulico_neumatico_auxiliar,mangueras_hidraulicas,4,rotura,correctivo,651445b9-7bb3-4e01-af04-79e64a2d6767,2026-05-31 12:50:59.087554+00:00
+113,Sistema de Lubricación,Cárter,Fuga,85,lubricacion,carter,2,fuga,correctivo,8b7203f0-ef5f-4d40-8036-2839f4321efb,2026-05-31 12:50:59.087554+00:00
+114,Sistema de Dirección,Terminal de Dirección,Desgaste,83,direccion,terminales,1,desgaste,correctivo,4838e76a-9dfe-435b-837c-ec5780078658,2026-05-31 12:50:59.087554+00:00
+115,Sistema de Enfriamiento,Radiador,Corrosión,83,refrigeracion,radiador,5,corrosion,correctivo,1ae00ef7-36e2-48a2-9c60-389510cc10e5,2026-05-31 12:50:59.087554+00:00
+116,Sistema Hidráulico,Tubería,Fuga,82,hidraulico_neumatico_auxiliar,tuberia,2,fuga,correctivo,2c89ddd5-5af6-4d0d-a589-6d61e2eddd4f,2026-05-31 12:50:59.087554+00:00
+117,Sistema Hidráulico,Tubería,Rotura,81,hidraulico_neumatico_auxiliar,tuberia,4,rotura,correctivo,5379a797-b435-4253-af75-39c19c5d571d,2026-05-31 12:50:59.087554+00:00
+118,Sistema Hidráulico,Manguera Hidráulica,Fuga,79,hidraulico_neumatico_auxiliar,mangueras_hidraulicas,2,fuga,correctivo,f1f7142d-4c9a-4bec-8542-9d58f39ea4ae,2026-05-31 12:50:59.087554+00:00
+119,Sistema de Dirección,Terminal de Dirección,Vibración,77,direccion,terminales,13,vibracion,correctivo,cd3073bd-a73b-4101-86c0-04232e0fd979,2026-05-31 12:50:59.087554+00:00
+120,Sistema Hidráulico,Válvula,Bajo rendimiento,72,hidraulico_neumatico_auxiliar,valvulas,3,obstruccion,correctivo,4c19631e-0688-4a5c-91ec-809fd57207ab,2026-05-31 12:50:59.087554+00:00
+121,Sistema de Enfriamiento,Radiador,Sobrecalentamiento,72,refrigeracion,radiador,9,sobrecalentamiento,correctivo,3a37ed0f-a553-4285-a80f-574006ee2def,2026-05-31 12:50:59.087554+00:00
+122,Sistema Hidráulico,Bomba Hidráulica,Fuga,72,hidraulico_neumatico_auxiliar,bombas_hidraulicas,2,fuga,correctivo,303c8ba7-75d8-42ac-a6f6-ff222af07a4a,2026-05-31 12:50:59.087554+00:00
+123,Sistema de Enfriamiento,Radiador,Fuga,71,refrigeracion,radiador,2,fuga,correctivo,dc40a1ae-f2cb-4138-b110-6c42f1c1ebb4,2026-05-31 12:50:59.087554+00:00
+124,Sistema Hidráulico,Válvula,Fuga,69,hidraulico_neumatico_auxiliar,valvulas,2,fuga,correctivo,053a001c-b775-4ed9-9ed8-419cf28e4132,2026-05-31 12:50:59.087554+00:00
+125,Sistema de Combustible,Inyector,Fuga,68,combustible_admision,inyectores,2,fuga,correctivo,9be74cbe-bd0d-4935-9193-e63ec3aaff6d,2026-05-31 12:50:59.087554+00:00
+126,Sistema de Combustible,Inyector,Bajo rendimiento,66,combustible_admision,inyectores,3,obstruccion,correctivo,38f97d82-689f-464c-9084-aba32372b729,2026-05-31 12:50:59.087554+00:00
+127,Sistema de Dirección,Terminal de Dirección,Ruido anormal,57,direccion,terminales,12,ruido,correctivo,5581b22c-8f77-4b1f-8cf5-f425e97f08a2,2026-05-31 12:50:59.087554+00:00
+128,Sistema de Lubricación,Empaquetadura,Fuga,55,lubricacion,empaquetadura,2,fuga,correctivo,61a2f4d8-dc92-40c2-b5e7-1beedbfb85bd,2026-05-31 12:50:59.087554+00:00
+129,Sistema de Escape,Catalizador,Obstrucción,54,escape_emisiones,catalizador,3,obstruccion,correctivo,bc9ee195-f23e-44b4-9b7b-b6af21d6d5e5,2026-05-31 12:50:59.087554+00:00
+130,Sistema de Combustible,Filtro de Combustible,Bajo rendimiento,51,combustible_admision,filtro_combustible,3,obstruccion,correctivo,b0f8f6db-23d0-48d3-ab73-c1b0db26d9ee,2026-05-31 12:50:59.087554+00:00
+131,Sistema de Escape,Tubo de Escape,Corrosión,49,escape_emisiones,tubo_escape,5,corrosion,correctivo,2a9d8d4b-3b6d-471d-ae5c-1e796d40668a,2026-05-31 12:50:59.087554+00:00
+132,Sistema de Escape,Sensor de Oxígeno,Lectura anómala,45,escape_emisiones,sensor_o2_nox,21,sensor_fuera_rango,correctivo,982ba517-d315-4bbb-a5c8-52e163d93143,2026-05-31 12:50:59.087554+00:00
+133,Sistema de Escape,Sensor de Oxígeno,Falla eléctrica,44,escape_emisiones,sensor_o2_nox,21,sensor_fuera_rango,correctivo,982ba517-d315-4bbb-a5c8-52e163d93143,2026-05-31 12:50:59.087554+00:00
+134,Sistema de Escape,Silenciador,Corrosión,41,escape_emisiones,silenciador,5,corrosion,correctivo,6eaae94e-7c33-41a9-9da7-717f2889fc4b,2026-05-31 12:50:59.087554+00:00
+135,Sistema de Escape,Tubo de Escape,Rotura,38,escape_emisiones,tubo_escape,4,rotura,correctivo,e6d17a76-1363-456b-ac15-1f2f545ca6f1,2026-05-31 12:50:59.087554+00:00
+136,Sistema de Escape,Abrazadera,Rotura,37,escape_emisiones,abrazadera,4,rotura,correctivo,1a7f5085-13cb-48d9-8575-506525349a91,2026-05-31 12:50:59.087554+00:00
+137,Carrocería / Chasis,Cabina,Rotura,32,carroceria_chasis,cabina,4,rotura,correctivo,b1da0f6f-f9b4-4a59-86eb-a24566446a98,2026-05-31 12:50:59.087554+00:00
+138,Carrocería / Chasis,Cabina,Corrosión,32,carroceria_chasis,cabina,5,corrosion,correctivo,b14bf23b-6734-4d49-8420-c6dcafb2be56,2026-05-31 12:50:59.087554+00:00
+139,Carrocería / Chasis,Parachoques,Corrosión,31,carroceria_chasis,parachoques,5,corrosion,correctivo,4c2b4023-e4bd-49f6-9a56-173aca07c379,2026-05-31 12:50:59.087554+00:00
+140,Carrocería / Chasis,Soporte,Rotura,29,carroceria_chasis,soporte_motor,4,rotura,correctivo,0f0452f9-6e8c-423b-b1a3-708118fcb2bc,2026-05-31 12:50:59.087554+00:00
+141,Sistema de Escape,Silenciador,Rotura,29,escape_emisiones,silenciador,4,rotura,correctivo,e26548a6-849b-4d9d-93f6-6b99503191e7,2026-05-31 12:50:59.087554+00:00
+142,Carrocería / Chasis,Parachoques,Rotura,27,carroceria_chasis,parachoques,4,rotura,correctivo,b66e9113-2b78-4c15-8669-ac8e2d56a34e,2026-05-31 12:50:59.087554+00:00
+143,Carrocería / Chasis,Perno,Corrosión,27,carroceria_chasis,perno,5,corrosion,correctivo,01e250fa-1fb8-478f-9ca5-e5c72db4d71e,2026-05-31 12:50:59.087554+00:00
+144,Sistema de Escape,Catalizador,Bajo rendimiento,26,escape_emisiones,catalizador,3,obstruccion,correctivo,bc9ee195-f23e-44b4-9b7b-b6af21d6d5e5,2026-05-31 12:50:59.087554+00:00
+145,Carrocería / Chasis,Perno,Rotura,25,carroceria_chasis,perno,4,rotura,correctivo,66084047-6191-4fc9-8ad8-e5cd58b69f06,2026-05-31 12:50:59.087554+00:00
+146,Carrocería / Chasis,Chasis,Corrosión,22,carroceria_chasis,chasis,5,corrosion,correctivo,47a3637c-9577-4766-ab7f-b84979cc1ff0,2026-05-31 12:50:59.087554+00:00
+147,Sistema de Escape,Abrazadera,Corrosión,21,escape_emisiones,abrazadera,5,corrosion,correctivo,5153b5b7-0b09-4e8d-8bb0-3f43bd4f2732,2026-05-31 12:50:59.087554+00:00
+148,Carrocería / Chasis,Soporte,Fatiga de material,21,carroceria_chasis,soporte_motor,48,fatiga,correctivo,ae641374-a648-41b0-85ae-eea416eaad88,2026-05-31 12:50:59.087554+00:00
+149,Carrocería / Chasis,Chasis,Fatiga de material,21,carroceria_chasis,chasis,48,fatiga,correctivo,6f91b52f-d105-4586-a5d3-9f5e7a7a3499,2026-05-31 12:50:59.087554+00:00
+150,Carrocería / Chasis,Chasis,Rotura,19,carroceria_chasis,chasis,4,rotura,correctivo,a6d2fb71-7664-4a24-9dca-99ace923c4b2,2026-05-31 12:50:59.087554+00:00
+151,Motor,Filtro de Aire,Vibración,1,motor_combustion,filtro_aire,13,vibracion,correctivo,d3808a28-8b04-4d57-a269-f76ff8825a54,2026-05-31 12:50:59.087554+00:00
+152,Transmisión,Aceite de Transmisión,Vibración,1,transmision,aceite_transmision,13,vibracion,correctivo,b9ed2797-044b-4d66-9673-a8e584c002c4,2026-05-31 12:50:59.087554+00:00
+153,Sistema de Lubricación,Cárter,Desgaste,1,lubricacion,carter,1,desgaste,correctivo,966053c1-ba2d-415f-aa61-aef6a4bc3b69,2026-05-31 12:50:59.087554+00:00

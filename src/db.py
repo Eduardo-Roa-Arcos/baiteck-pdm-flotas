@@ -43,7 +43,6 @@ if not DATABASE_URL:
 # ============================================================
 # CREAR ENGINE DE SQLALCHEMY
 # ============================================================
-print(f"DEBUG: DATABASE_URL = {DATABASE_URL}")
 engine: Engine = create_engine(
     DATABASE_URL,
     pool_pre_ping=True,

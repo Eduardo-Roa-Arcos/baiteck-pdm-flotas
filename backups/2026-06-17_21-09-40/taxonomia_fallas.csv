@@ -1,0 +1,406 @@
+taxonomia_id,sistema,componente,descripcion_estandar,activo,created_at,id_modo_falla,subsistema,aplica_combustion,aplica_hibrido,aplica_electrico
+dda9df4e-18f8-453b-aa18-e14d63dbddfb,motor_combustion,bloque,Rotura en bloque,True,2026-05-31 04:23:17.257255+00:00,4,bloque_motor,True,True,False
+7bc6bdca-3437-43e6-a66a-4e9ea7a84e12,motor_combustion,bloque,Sobrecalentamiento en bloque,True,2026-05-31 04:23:17.257255+00:00,9,bloque_motor,True,True,False
+e8d70b23-47e8-4608-b59c-994b49793de7,motor_combustion,bloque,Fuga en bloque,True,2026-05-31 04:23:17.257255+00:00,2,bloque_motor,True,True,False
+4f139853-1a09-48af-8ba3-89a696fef9c6,motor_combustion,culata,Rotura en culata,True,2026-05-31 04:23:17.257255+00:00,4,bloque_motor,True,True,False
+63e68bdd-6bdb-4789-a1a9-5f6c4280effa,motor_combustion,culata,Sobrecalentamiento en culata,True,2026-05-31 04:23:17.257255+00:00,9,bloque_motor,True,True,False
+679792b8-4cfa-458f-a061-6c518cdddd57,motor_combustion,culata,Fuga en culata,True,2026-05-31 04:23:17.257255+00:00,2,bloque_motor,True,True,False
+fb48fbbd-63d6-4364-b408-fade7e980136,motor_combustion,empaquetadura,Fuga en empaquetadura,True,2026-05-31 04:23:17.257255+00:00,2,bloque_motor,True,True,False
+6e99b9d2-dfab-4000-9d4e-b6bf16719956,motor_combustion,empaquetadura,Rotura en empaquetadura,True,2026-05-31 04:23:17.257255+00:00,4,bloque_motor,True,True,False
+6d29438c-c0e4-4022-a177-c3d118572913,motor_combustion,pistones,Golpeteo en pistones,True,2026-05-31 04:23:17.257255+00:00,35,tren_alternativo,True,True,False
+5017686b-3dbe-42ce-afc6-8a94431c9a1b,motor_combustion,pistones,Compresion baja en pistones,True,2026-05-31 04:23:17.257255+00:00,37,tren_alternativo,True,True,False
+3401edab-ec3d-412b-a49a-1126421da60d,motor_combustion,pistones,Desgaste en pistones,True,2026-05-31 04:23:17.257255+00:00,1,tren_alternativo,True,True,False
+c4bb2096-e372-4374-8bf5-8c11a3cd4d74,motor_combustion,valvulas,Golpeteo en valvulas,True,2026-05-31 04:23:17.257255+00:00,35,distribucion,True,True,False
+aa63b83b-cdc7-4b28-96d2-60293327081e,motor_combustion,valvulas,Compresion baja en valvulas,True,2026-05-31 04:23:17.257255+00:00,37,distribucion,True,True,False
+5d8b4ce7-f778-4eeb-aa91-6e60d32df5e3,motor_combustion,valvulas,Desgaste en valvulas,True,2026-05-31 04:23:17.257255+00:00,1,distribucion,True,True,False
+31f47256-d475-4a69-ac76-ac1e76e35df1,motor_combustion,valvulas,Falla encendido en valvulas,True,2026-05-31 04:23:17.257255+00:00,36,distribucion,True,True,False
+e2bcfb0b-0b3d-4338-857b-ca76ff2b4aad,motor_combustion,turbo,Fuga en turbo,True,2026-05-31 04:23:17.257255+00:00,2,sobrealimentacion,True,True,False
+405fa589-ccb0-4a90-b592-9d567982f297,motor_combustion,turbo,Ruido en turbo,True,2026-05-31 04:23:17.257255+00:00,12,sobrealimentacion,True,True,False
+b11c57c0-c5b5-4d3b-a91e-602242247caf,motor_combustion,turbo,Perdida potencia en turbo,True,2026-05-31 04:23:17.257255+00:00,33,sobrealimentacion,True,True,False
+fd24d1ca-f9ee-44b3-8d07-3dd13f533e92,motor_combustion,turbo,Sobrecalentamiento en turbo,True,2026-05-31 04:23:17.257255+00:00,9,sobrealimentacion,True,True,False
+580b47a3-c9d0-4ff5-9097-aacb47a5256e,motor_combustion,motor,No arranca en motor,True,2026-05-31 04:23:17.257255+00:00,15,general,True,True,False
+72f20ac5-525a-4f19-a1ef-310ccdf74cc8,motor_combustion,motor,Perdida potencia en motor,True,2026-05-31 04:23:17.257255+00:00,33,general,True,True,False
+121533cc-cced-4c76-9d4a-937ec58ce6ae,motor_combustion,motor,Humo en motor,True,2026-05-31 04:23:17.257255+00:00,34,general,True,True,False
+5b41a760-8e0d-4241-8c94-9698649528a0,motor_combustion,motor,Sobrecalentamiento en motor,True,2026-05-31 04:23:17.257255+00:00,9,general,True,True,False
+60b63521-5701-422c-87d1-47dd25fc4602,motor_combustion,motor,Golpeteo en motor,True,2026-05-31 04:23:17.257255+00:00,35,general,True,True,False
+edd5d5c7-6f7e-47a1-91d9-2c61038d4c7a,motor_combustion,motor,Falla encendido en motor,True,2026-05-31 04:23:17.257255+00:00,36,general,True,True,False
+55017fe5-ee92-4fe2-9039-5826c72be1c8,lubricacion,aceite_motor,Fuga en aceite motor,True,2026-05-31 04:23:17.257255+00:00,2,aceite_motor,True,True,False
+37b1abc4-e5d8-4b72-840f-64b8f5a625c5,lubricacion,aceite_motor,Bajo nivel en aceite motor,True,2026-05-31 04:23:17.257255+00:00,11,aceite_motor,True,True,False
+6dd8215d-b342-4bcd-9ab1-f008e74008ef,lubricacion,aceite_motor,Contaminacion en aceite motor,True,2026-05-31 04:23:17.257255+00:00,8,aceite_motor,True,True,False
+aeabac1a-5702-4b75-8822-394176f2b85f,lubricacion,retenes,Fuga en retenes,True,2026-05-31 04:23:17.257255+00:00,2,aceite_motor,True,True,False
+8b7203f0-ef5f-4d40-8036-2839f4321efb,lubricacion,carter,Fuga en carter,True,2026-05-31 04:23:17.257255+00:00,2,aceite_motor,True,True,False
+a32d2548-d425-41c9-a89d-670f228a9fe5,lubricacion,carter,Rotura en carter,True,2026-05-31 04:23:17.257255+00:00,4,aceite_motor,True,True,False
+a9b43222-2ab5-4bf4-8746-e5830b62d1c0,lubricacion,filtro_aceite,Obstruccion en filtro aceite,True,2026-05-31 04:23:17.257255+00:00,3,filtracion,True,True,False
+a857c5b2-11e9-40fb-9c89-2008160ae24e,lubricacion,filtro_aceite,Contaminacion en filtro aceite,True,2026-05-31 04:23:17.257255+00:00,8,filtracion,True,True,False
+bf7b57f6-6021-46a6-9367-2659b9f7a686,lubricacion,bomba_aceite,Baja presion en bomba aceite,True,2026-05-31 04:23:17.257255+00:00,10,presion,True,True,False
+bb736e3f-ddcf-4043-b9f2-36460b203f3f,lubricacion,bomba_aceite,No funciona en bomba aceite,True,2026-05-31 04:23:17.257255+00:00,14,presion,True,True,False
+11b2eaed-5977-4e86-b464-52edd812996c,lubricacion,bomba_aceite,Desgaste en bomba aceite,True,2026-05-31 04:23:17.257255+00:00,1,presion,True,True,False
+dc40a1ae-f2cb-4138-b110-6c42f1c1ebb4,refrigeracion,radiador,Fuga en radiador,True,2026-05-31 04:23:17.257255+00:00,2,intercambio,True,True,True
+068162ad-cf53-4938-87c7-8f2bba8d330e,refrigeracion,radiador,Obstruccion en radiador,True,2026-05-31 04:23:17.257255+00:00,3,intercambio,True,True,True
+3a37ed0f-a553-4285-a80f-574006ee2def,refrigeracion,radiador,Sobrecalentamiento en radiador,True,2026-05-31 04:23:17.257255+00:00,9,intercambio,True,True,True
+05691c8c-b3ae-4e77-b957-51188d8a5a38,refrigeracion,bomba_agua,Fuga en bomba agua,True,2026-05-31 04:23:17.257255+00:00,2,circulacion,True,True,True
+acab20d7-05fb-4b1c-a943-036d259e88c4,refrigeracion,bomba_agua,No funciona en bomba agua,True,2026-05-31 04:23:17.257255+00:00,14,circulacion,True,True,True
+5481903b-ca2d-4f51-9d4f-4fbdd11eb167,refrigeracion,bomba_agua,Ruido en bomba agua,True,2026-05-31 04:23:17.257255+00:00,12,circulacion,True,True,True
+64fa6304-7f56-42d1-8696-c5c48e6bec35,refrigeracion,termostato,No funciona en termostato,True,2026-05-31 04:23:17.257255+00:00,14,control_termico,True,True,True
+c2c4c4b9-d0a9-4e04-a7cb-7542459a6309,refrigeracion,termostato,Sobrecalentamiento en termostato,True,2026-05-31 04:23:17.257255+00:00,9,control_termico,True,True,True
+8c189596-82ba-4286-ab3f-130a114da163,refrigeracion,mangueras,Fuga en mangueras,True,2026-05-31 04:23:17.257255+00:00,2,conduccion,True,True,True
+ecca40cc-af20-4509-a193-fa34117f751f,refrigeracion,mangueras,Rotura en mangueras,True,2026-05-31 04:23:17.257255+00:00,4,conduccion,True,True,True
+14ee9d85-2d16-4f42-a61b-ff651073cbd4,refrigeracion,ventilador,Ventilador falla en ventilador,True,2026-05-31 04:23:17.257255+00:00,55,ventilacion,True,True,True
+bd65efb1-e26f-40f8-9ea2-2f23e805f23e,refrigeracion,ventilador,No funciona en ventilador,True,2026-05-31 04:23:17.257255+00:00,14,ventilacion,True,True,True
+176bc5dd-76e5-4cb6-9863-3e53712584e5,refrigeracion,refrigerante,Bajo nivel en refrigerante,True,2026-05-31 04:23:17.257255+00:00,11,fluido,True,True,True
+2c77f267-8ba0-48e7-b306-35535eecf55f,refrigeracion,refrigerante,Contaminacion en refrigerante,True,2026-05-31 04:23:17.257255+00:00,8,fluido,True,True,True
+165c5972-3ee9-4e7d-ae7f-cb3c71a154ff,refrigeracion,refrigerante,Fuga en refrigerante,True,2026-05-31 04:23:17.257255+00:00,2,fluido,True,True,True
+ad2ef224-5f43-4bc2-ad75-6c5c44d6eae5,combustible_admision,bomba_combustible,Baja presion en bomba combustible,True,2026-05-31 04:23:17.257255+00:00,10,alimentacion,True,True,False
+84ed9bba-7b0a-4df5-af6a-9a4e4cb6ab6f,combustible_admision,bomba_combustible,No funciona en bomba combustible,True,2026-05-31 04:23:17.257255+00:00,14,alimentacion,True,True,False
+ea9463a5-1d7a-4d97-84f4-730a3d632492,combustible_admision,bomba_combustible,Contaminacion en bomba combustible,True,2026-05-31 04:23:17.257255+00:00,8,alimentacion,True,True,False
+b0f8f6db-23d0-48d3-ab73-c1b0db26d9ee,combustible_admision,filtro_combustible,Obstruccion en filtro combustible,True,2026-05-31 04:23:17.257255+00:00,3,filtracion,True,True,False
+d055da44-1ecf-4b9e-a4db-efd81d00cbe3,combustible_admision,filtro_combustible,Contaminacion en filtro combustible,True,2026-05-31 04:23:17.257255+00:00,8,filtracion,True,True,False
+38f97d82-689f-464c-9084-aba32372b729,combustible_admision,inyectores,Obstruccion en inyectores,True,2026-05-31 04:23:17.257255+00:00,3,inyeccion,True,True,False
+9be74cbe-bd0d-4935-9193-e63ec3aaff6d,combustible_admision,inyectores,Fuga en inyectores,True,2026-05-31 04:23:17.257255+00:00,2,inyeccion,True,True,False
+c8d1ff3b-569f-478d-97bc-8656577405d4,combustible_admision,inyectores,Mezcla incorrecta en inyectores,True,2026-05-31 04:23:17.257255+00:00,40,inyeccion,True,True,False
+2d470123-e268-47e3-907e-306c5dabd3eb,combustible_admision,riel_comun,Baja presion en riel comun,True,2026-05-31 04:23:17.257255+00:00,10,inyeccion,True,True,False
+56383d86-7071-4baa-82d4-464f90356f8a,combustible_admision,riel_comun,Fuga en riel comun,True,2026-05-31 04:23:17.257255+00:00,2,inyeccion,True,True,False
+9c7b9ed6-d188-4995-90db-4f1d36a156df,combustible_admision,cuerpo_aceleracion,Obstruccion en cuerpo aceleracion,True,2026-05-31 04:23:17.257255+00:00,3,admision,True,True,False
+fc109809-bd8a-4e10-94d7-b0ca480f1bcd,combustible_admision,cuerpo_aceleracion,Sensor fuera rango en cuerpo aceleracion,True,2026-05-31 04:23:17.257255+00:00,21,admision,True,True,False
+6953176b-7d5e-434f-b3d0-da8692af318c,combustible_admision,sensor_maf_map,Sensor fuera rango en sensor maf map,True,2026-05-31 04:23:17.257255+00:00,21,sensores,True,True,False
+5ad81eb0-d36e-42e8-bf20-0cbf6b43d7a0,combustible_admision,sensor_maf_map,Mezcla incorrecta en sensor maf map,True,2026-05-31 04:23:17.257255+00:00,40,sensores,True,True,False
+542eec1e-fe91-4d95-aa71-f9105bbb6fb5,escape_emisiones,dpf,Obstruccion en dpf,True,2026-05-31 04:23:17.257255+00:00,3,postratamiento,True,True,False
+052fef9e-dba5-4c51-9a1a-2eaf36fce843,escape_emisiones,dpf,Regeneracion fallida en dpf,True,2026-05-31 04:23:17.257255+00:00,38,postratamiento,True,True,False
+ee32a1d5-bc08-4a9d-959b-fee5239610f8,escape_emisiones,egr,Obstruccion en egr,True,2026-05-31 04:23:17.257255+00:00,3,recirculacion,True,True,False
+ef87f83a-56d8-4712-9a9f-19d0f3238f9f,escape_emisiones,egr,No funciona en egr,True,2026-05-31 04:23:17.257255+00:00,14,recirculacion,True,True,False
+bc9ee195-f23e-44b4-9b7b-b6af21d6d5e5,escape_emisiones,catalizador,Obstruccion en catalizador,True,2026-05-31 04:23:17.257255+00:00,3,postratamiento,True,True,False
+e4e70037-fb64-44e9-8cf8-c2e60d99f56f,escape_emisiones,catalizador,Exceso emisiones en catalizador,True,2026-05-31 04:23:17.257255+00:00,39,postratamiento,True,True,False
+982ba517-d315-4bbb-a5c8-52e163d93143,escape_emisiones,sensor_o2_nox,Sensor fuera rango en sensor o2 nox,True,2026-05-31 04:23:17.257255+00:00,21,sensores,True,True,False
+0fdfc6da-5dec-4e6a-b086-576f9422cec7,escape_emisiones,sensor_o2_nox,Exceso emisiones en sensor o2 nox,True,2026-05-31 04:23:17.257255+00:00,39,sensores,True,True,False
+af9a2fcc-efe7-4892-a98a-8eb134dd7641,escape_emisiones,adblue_scr,No funciona en adblue scr,True,2026-05-31 04:23:17.257255+00:00,14,scr,True,True,False
+b0a1da7f-b1a4-4738-90cc-b278e041dac9,escape_emisiones,adblue_scr,Contaminacion en adblue scr,True,2026-05-31 04:23:17.257255+00:00,8,scr,True,True,False
+e05ca271-698b-4572-9e7d-d75adab1cabe,escape_emisiones,adblue_scr,Exceso emisiones en adblue scr,True,2026-05-31 04:23:17.257255+00:00,39,scr,True,True,False
+6db0262e-185e-4b19-8026-fad631b8d663,transmision,caja_cambios,Ruido en caja cambios,True,2026-05-31 04:23:17.257255+00:00,12,caja,True,True,True
+e3713bb7-63d3-47fe-afba-16f54605b4c7,transmision,caja_cambios,No entra cambio en caja cambios,True,2026-05-31 04:23:17.257255+00:00,41,caja,True,True,True
+cb19f498-128c-4a2d-828c-7491f4fa4e65,transmision,caja_cambios,Fuga en caja cambios,True,2026-05-31 04:23:17.257255+00:00,2,caja,True,True,True
+d1a184ec-7a86-4910-a0bd-c5226fec5b3a,transmision,caja_cambios,Sobrecalentamiento en caja cambios,True,2026-05-31 04:23:17.257255+00:00,9,caja,True,True,True
+62113ebe-25ca-4007-8626-b7b2a1bc934b,transmision,caja_cambios,Vibracion en caja cambios,True,2026-05-31 04:23:17.257255+00:00,13,caja,True,True,True
+fab14b60-6eef-4a32-8bcb-234d7a750de9,transmision,embrague,Patinamiento en embrague,True,2026-05-31 04:23:17.257255+00:00,28,acoplamiento,True,True,True
+bc18e407-858e-4139-9ea4-06341661c2fc,transmision,embrague,Desgaste en embrague,True,2026-05-31 04:23:17.257255+00:00,1,acoplamiento,True,True,True
+ad7d1c78-ae5e-45ba-9ae0-22d457ec176e,transmision,embrague,Ruido en embrague,True,2026-05-31 04:23:17.257255+00:00,12,acoplamiento,True,True,True
+b8cef677-f07a-49b0-b72b-b5d62602550f,transmision,convertidor_par,Patinamiento en convertidor par,True,2026-05-31 04:23:17.257255+00:00,28,acoplamiento,True,True,True
+3fe4ad6a-cb00-4413-93dd-ad70ffbd134e,transmision,convertidor_par,Sobrecalentamiento en convertidor par,True,2026-05-31 04:23:17.257255+00:00,9,acoplamiento,True,True,True
+8de0dee7-a30e-4a11-b2ef-23a61418acb9,transmision,convertidor_par,Vibracion en convertidor par,True,2026-05-31 04:23:17.257255+00:00,13,acoplamiento,True,True,True
+f746350e-6b05-4d77-aaa1-1b9a73ceab06,transmision,diferencial,Ruido en diferencial,True,2026-05-31 04:23:17.257255+00:00,12,diferencial,True,True,True
+d0421069-7814-4fa7-b8d8-6a26a3f64525,transmision,diferencial,Fuga en diferencial,True,2026-05-31 04:23:17.257255+00:00,2,diferencial,True,True,True
+fd618e81-3f8e-4e60-8353-c4746d36ca05,transmision,diferencial,Desgaste en diferencial,True,2026-05-31 04:23:17.257255+00:00,1,diferencial,True,True,True
+2e7ca01e-3f7f-43de-a8ad-febb9d7deaa4,transmision,cardan,Vibracion en cardan,True,2026-05-31 04:23:17.257255+00:00,13,transmision_final,True,True,True
+b6fc9580-6fdf-4b38-919b-299b8112362a,transmision,cardan,Ruido en cardan,True,2026-05-31 04:23:17.257255+00:00,12,transmision_final,True,True,True
+cee56b01-33bd-42d8-92c5-d84c186a1beb,transmision,cardan,Holgura en cardan,True,2026-05-31 04:23:17.257255+00:00,6,transmision_final,True,True,True
+037cde8f-134e-45de-984e-2e2db591a992,transmision,cardan,Golpe en cardan,True,2026-05-31 04:23:17.257255+00:00,42,transmision_final,True,True,True
+c61a620b-f547-442b-8398-8f1587873670,frenos_servicio,pastillas,Desgaste en pastillas,True,2026-05-31 04:23:17.257255+00:00,1,friccion,True,True,True
+87441fda-1ed5-4fc4-bde6-684703fe0366,frenos_servicio,pastillas,Ruido en pastillas,True,2026-05-31 04:23:17.257255+00:00,12,friccion,True,True,True
+ae22b239-28aa-4fe3-9580-2e10f945faab,frenos_servicio,pastillas,Sobrecalentamiento en pastillas,True,2026-05-31 04:23:17.257255+00:00,9,friccion,True,True,True
+54a23560-950b-48a9-9463-e9a1a3b5e805,frenos_servicio,discos,Desgaste en discos,True,2026-05-31 04:23:17.257255+00:00,1,friccion,True,True,True
+d05ad85e-540b-4268-91f4-db61d043a837,frenos_servicio,discos,Vibracion en discos,True,2026-05-31 04:23:17.257255+00:00,13,friccion,True,True,True
+034ed55e-8144-47ed-8e29-a1c4cf5b59af,frenos_servicio,discos,Rotura en discos,True,2026-05-31 04:23:17.257255+00:00,4,friccion,True,True,True
+e8d1bcfb-c309-412b-aaee-91580d9127ee,frenos_servicio,tambores,Desgaste en tambores,True,2026-05-31 04:23:17.257255+00:00,1,friccion,True,True,True
+d4491931-0042-4832-aca2-7a5ff6bf8399,frenos_servicio,tambores,Vibracion en tambores,True,2026-05-31 04:23:17.257255+00:00,13,friccion,True,True,True
+3cf96a3b-9795-4620-ab87-cfb3e660e3b1,frenos_servicio,balatas,Desgaste en balatas,True,2026-05-31 04:23:17.257255+00:00,1,friccion,True,True,True
+eafdddd2-5de0-42f7-8929-34ac27c53ba2,frenos_servicio,balatas,Ruido en balatas,True,2026-05-31 04:23:17.257255+00:00,12,friccion,True,True,True
+742f0e68-a98c-483f-ad11-600f9f8ff0bc,frenos_servicio,caliper,No funciona en caliper,True,2026-05-31 04:23:17.257255+00:00,14,actuacion,True,True,True
+d122c122-fa9d-4704-a2a3-4b0ea1d7f3d5,frenos_servicio,caliper,Fuga en caliper,True,2026-05-31 04:23:17.257255+00:00,2,actuacion,True,True,True
+de3b9e7a-ba12-4023-b0d7-0543d1a1857c,frenos_servicio,caliper,Bloqueo en caliper,True,2026-05-31 04:23:17.257255+00:00,44,actuacion,True,True,True
+ac5889a2-7b4f-4893-a5da-f9c2d74e69ef,frenos_servicio,cilindro_freno,Fuga en cilindro freno,True,2026-05-31 04:23:17.257255+00:00,2,hidraulico,True,True,True
+13264cd4-3f74-4510-9d78-569475dd2998,frenos_servicio,cilindro_freno,Baja presion en cilindro freno,True,2026-05-31 04:23:17.257255+00:00,10,hidraulico,True,True,True
+26beb828-1cda-49b0-96ad-9683c301a411,frenos_servicio,liquido_freno,Bajo nivel en liquido freno,True,2026-05-31 04:23:17.257255+00:00,11,hidraulico,True,True,True
+67854105-57d6-4f5e-9a75-67aab1693c98,frenos_servicio,liquido_freno,Contaminacion en liquido freno,True,2026-05-31 04:23:17.257255+00:00,8,hidraulico,True,True,True
+a970ee0d-31bd-4ada-b86b-6673805779fc,frenos_servicio,lineas_freno,Fuga en lineas freno,True,2026-05-31 04:23:17.257255+00:00,2,conduccion,True,True,True
+720c8c52-05cc-48f1-97a0-975064002f51,frenos_servicio,lineas_freno,Corrosion en lineas freno,True,2026-05-31 04:23:17.257255+00:00,5,conduccion,True,True,True
+c1447101-5128-44ee-bcc4-781cbd4257a4,frenos_servicio,lineas_freno,Rotura en lineas freno,True,2026-05-31 04:23:17.257255+00:00,4,conduccion,True,True,True
+4a2cd0ee-75d2-4643-8f84-47484177f4e7,frenos_aire_abs_ebs,compresor_aire,No funciona en compresor aire,True,2026-05-31 04:23:17.257255+00:00,14,aire,True,True,True
+c5c5a792-ffcc-4890-a6f1-d9022b5dfb0c,frenos_aire_abs_ebs,compresor_aire,Fuga aire en compresor aire,True,2026-05-31 04:23:17.257255+00:00,43,aire,True,True,True
+c33807b2-33a1-4cca-b296-f745c2693fcf,frenos_aire_abs_ebs,compresor_aire,Sobrecalentamiento en compresor aire,True,2026-05-31 04:23:17.257255+00:00,9,aire,True,True,True
+5b74f570-85e6-48b8-8e88-109b6c2bed42,frenos_aire_abs_ebs,camaras_freno,Fuga aire en camaras freno,True,2026-05-31 04:23:17.257255+00:00,43,aire,True,True,True
+6b349de3-a7fb-4627-a838-f350df121b20,frenos_aire_abs_ebs,camaras_freno,No funciona en camaras freno,True,2026-05-31 04:23:17.257255+00:00,14,aire,True,True,True
+e06668f0-16e5-410c-897c-c0936864aec9,frenos_aire_abs_ebs,valvulas_freno,Fuga aire en valvulas freno,True,2026-05-31 04:23:17.257255+00:00,43,aire,True,True,True
+294d9196-e867-4f3a-91c7-267784876542,frenos_aire_abs_ebs,valvulas_freno,Bloqueo en valvulas freno,True,2026-05-31 04:23:17.257255+00:00,44,aire,True,True,True
+e50beed0-0125-4dda-972d-3ab273e9d730,frenos_aire_abs_ebs,valvulas_freno,Desajuste en valvulas freno,True,2026-05-31 04:23:17.257255+00:00,45,aire,True,True,True
+f26f22f1-4ba1-4680-844c-8d493905316a,frenos_aire_abs_ebs,lineas_aire,Fuga aire en lineas aire,True,2026-05-31 04:23:17.257255+00:00,43,aire,True,True,True
+232851bf-8f31-4f0e-85e3-83e406a46929,frenos_aire_abs_ebs,abs,Sensor fuera rango en abs,True,2026-05-31 04:23:17.257255+00:00,21,control,True,True,True
+59d765b6-be1d-4aee-ab64-823eecacc354,frenos_aire_abs_ebs,abs,No funciona en abs,True,2026-05-31 04:23:17.257255+00:00,14,control,True,True,True
+a59d11d0-b1f3-48c3-8709-172af4071df3,frenos_aire_abs_ebs,abs,Comunicacion en abs,True,2026-05-31 04:23:17.257255+00:00,20,control,True,True,True
+e418b43d-2d04-4c63-b92f-9db0e64d3969,frenos_aire_abs_ebs,ebs,Sensor fuera rango en ebs,True,2026-05-31 04:23:17.257255+00:00,21,control,True,True,True
+9db24a61-a90e-40ac-a2e1-8dcce7d81623,frenos_aire_abs_ebs,ebs,No funciona en ebs,True,2026-05-31 04:23:17.257255+00:00,14,control,True,True,True
+accd1d6a-c484-4778-b38f-ffed63abf650,frenos_aire_abs_ebs,ebs,Comunicacion en ebs,True,2026-05-31 04:23:17.257255+00:00,20,control,True,True,True
+78e2104e-899f-4ce4-afa9-a7224d14e170,frenos_aire_abs_ebs,sensor_rueda,Sensor fuera rango en sensor rueda,True,2026-05-31 04:23:17.257255+00:00,21,sensores,True,True,True
+34249055-9aee-4b1b-8d4a-82263bcdff32,frenos_aire_abs_ebs,sensor_rueda,Falso contacto en sensor rueda,True,2026-05-31 04:23:17.257255+00:00,19,sensores,True,True,True
+f849b47b-aa37-4aa3-a340-9c65bf62128b,direccion,cremallera,Holgura en cremallera,True,2026-05-31 04:23:17.257255+00:00,6,engranaje,True,True,True
+e4a5170d-eb9a-4d23-b6c7-7ccb3a5ba758,direccion,cremallera,Fuga en cremallera,True,2026-05-31 04:23:17.257255+00:00,2,engranaje,True,True,True
+04049bf2-b858-4e4d-a17f-6ded3b37142c,direccion,cremallera,Dureza en cremallera,True,2026-05-31 04:23:17.257255+00:00,46,engranaje,True,True,True
+d966445e-bd5d-4cc1-b9bf-895a3d561984,direccion,bomba_direccion,Fuga en bomba direccion,True,2026-05-31 04:23:17.257255+00:00,2,asistencia,True,True,True
+95994695-6c4a-4264-b228-b336c5b293ef,direccion,bomba_direccion,Dureza en bomba direccion,True,2026-05-31 04:23:17.257255+00:00,46,asistencia,True,True,True
+e7ae8014-3ae3-4e87-8bd9-4ddb03d5c5a7,direccion,bomba_direccion,Ruido en bomba direccion,True,2026-05-31 04:23:17.257255+00:00,12,asistencia,True,True,True
+1888e467-cc0d-492a-af36-62123d3bb554,direccion,bomba_direccion,No funciona en bomba direccion,True,2026-05-31 04:23:17.257255+00:00,14,asistencia,True,True,True
+8f1114cf-ed45-4f0b-9b2a-db1971141c1b,direccion,terminales,Holgura en terminales,True,2026-05-31 04:23:17.257255+00:00,6,articulacion,True,True,True
+4838e76a-9dfe-435b-837c-ec5780078658,direccion,terminales,Desgaste en terminales,True,2026-05-31 04:23:17.257255+00:00,1,articulacion,True,True,True
+0730f138-f2d0-4eec-b8a2-f13f77dad51e,direccion,rotulas,Holgura en rotulas,True,2026-05-31 04:23:17.257255+00:00,6,articulacion,True,True,True
+a19a7e6d-4339-43d5-9fe3-78d6bb7c334e,direccion,rotulas,Desgaste en rotulas,True,2026-05-31 04:23:17.257255+00:00,1,articulacion,True,True,True
+1660ed21-ebba-462b-8037-0a6f3d4f304e,direccion,alineacion,Desalineacion en alineacion,True,2026-05-31 04:23:17.257255+00:00,7,geometria,True,True,True
+02120c24-7629-4bea-b150-6f937e393f10,direccion,alineacion,Vibracion en alineacion,True,2026-05-31 04:23:17.257255+00:00,13,geometria,True,True,True
+bfdfeb22-06ef-4fa2-b8f8-e1d513415c03,suspension,amortiguadores,Fuga en amortiguadores,True,2026-05-31 04:23:17.257255+00:00,2,amortiguacion,True,True,True
+4922cb12-4a55-4c4e-83e4-775edeea2ce3,suspension,amortiguadores,Desgaste en amortiguadores,True,2026-05-31 04:23:17.257255+00:00,1,amortiguacion,True,True,True
+92496ef9-210d-479c-8c50-3d1883089692,suspension,amortiguadores,Ruido en amortiguadores,True,2026-05-31 04:23:17.257255+00:00,12,amortiguacion,True,True,True
+90f60fde-54df-4a05-92d7-1d1d356e020f,suspension,ballestas,Rotura en ballestas,True,2026-05-31 04:23:17.257255+00:00,4,elastico,True,True,True
+7dc74296-7584-4d52-98bb-e8bcc7277970,suspension,ballestas,Fatiga en ballestas,True,2026-05-31 04:23:17.257255+00:00,48,elastico,True,True,True
+0510e534-8b70-41b6-ba85-4c0a51231c7e,suspension,ballestas,Ruido en ballestas,True,2026-05-31 04:23:17.257255+00:00,12,elastico,True,True,True
+c656f85b-758f-4a09-80f1-65061fde4f0b,suspension,espirales,Rotura en espirales,True,2026-05-31 04:23:17.257255+00:00,4,elastico,True,True,True
+1e66b2f3-bf18-4679-9051-b5c6c22c045f,suspension,espirales,Fatiga en espirales,True,2026-05-31 04:23:17.257255+00:00,48,elastico,True,True,True
+ce833a59-e76a-40b3-9922-980c7360b2c9,suspension,espirales,Desnivel en espirales,True,2026-05-31 04:23:17.257255+00:00,47,elastico,True,True,True
+a73aeb17-e111-4437-8bf9-07168ed41dc8,suspension,bujes,Desgaste en bujes,True,2026-05-31 04:23:17.257255+00:00,1,union,True,True,True
+149da1b1-7159-4425-92f7-fbb51813e359,suspension,bujes,Holgura en bujes,True,2026-05-31 04:23:17.257255+00:00,6,union,True,True,True
+52bd6a89-cc52-4b7f-9d91-a2dedbbc936e,suspension,bujes,Ruido en bujes,True,2026-05-31 04:23:17.257255+00:00,12,union,True,True,True
+b423ea48-27fe-4d52-a054-ec8d8579311b,suspension,barra_estabilizadora,Holgura en barra estabilizadora,True,2026-05-31 04:23:17.257255+00:00,6,estabilidad,True,True,True
+cc6add0c-ff8b-4047-b994-393bfffb801f,suspension,barra_estabilizadora,Ruido en barra estabilizadora,True,2026-05-31 04:23:17.257255+00:00,12,estabilidad,True,True,True
+07ef3b04-7ed6-44e2-9bdd-65b9e3f990e4,suspension,barra_estabilizadora,Rotura en barra estabilizadora,True,2026-05-31 04:23:17.257255+00:00,4,estabilidad,True,True,True
+864e0633-8b30-433b-b386-20e79a1b08a1,suspension,fuelles_neumaticos,Fuga en fuelles neumaticos,True,2026-05-31 04:23:17.257255+00:00,2,neumatica,True,True,True
+21fdd826-f61a-4940-a646-ed7f1c528925,suspension,fuelles_neumaticos,Desnivel en fuelles neumaticos,True,2026-05-31 04:23:17.257255+00:00,47,neumatica,True,True,True
+dea3c37b-36dc-421f-92cc-5343893c87b4,suspension,fuelles_neumaticos,Rotura en fuelles neumaticos,True,2026-05-31 04:23:17.257255+00:00,4,neumatica,True,True,True
+cafd9033-559e-446b-8d13-c4791736e7a6,ruedas_neumaticos,neumaticos,Desgaste irregular en neumaticos,True,2026-05-31 04:23:17.257255+00:00,31,rodadura,True,True,True
+81f974f7-c696-4378-94d1-89f309d4cae0,ruedas_neumaticos,neumaticos,Pinchazo en neumaticos,True,2026-05-31 04:23:17.257255+00:00,29,rodadura,True,True,True
+87c26ac9-c8ae-4eed-b778-d0dbc194a556,ruedas_neumaticos,neumaticos,Baja presion en neumaticos,True,2026-05-31 04:23:17.257255+00:00,10,rodadura,True,True,True
+2feda21a-6d34-4142-b87a-1e70011aa9cd,ruedas_neumaticos,neumaticos,Reventon en neumaticos,True,2026-05-31 04:23:17.257255+00:00,30,rodadura,True,True,True
+ae286498-31dd-40f3-a3d4-16588432060a,ruedas_neumaticos,llantas,Deformacion en llantas,True,2026-05-31 04:23:17.257255+00:00,53,soporte,True,True,True
+67cb8851-6440-4e23-b533-724bfe77bb20,ruedas_neumaticos,llantas,Rotura en llantas,True,2026-05-31 04:23:17.257255+00:00,4,soporte,True,True,True
+aa25443a-339c-4580-87fa-5cf092d3d520,ruedas_neumaticos,valvulas_neumatico,Fuga en valvulas neumatico,True,2026-05-31 04:23:17.257255+00:00,2,presion,True,True,True
+530c103b-8f8d-4a33-8c70-b2f1e2538879,ruedas_neumaticos,valvulas_neumatico,Baja presion en valvulas neumatico,True,2026-05-31 04:23:17.257255+00:00,10,presion,True,True,True
+db874f42-e53a-42af-872c-a8846b82e644,ruedas_neumaticos,rodamientos,Rodamiento ruido en rodamientos,True,2026-05-31 04:23:17.257255+00:00,49,giro,True,True,True
+3eff8dcd-86ce-4eca-af01-5fa235233b89,ruedas_neumaticos,rodamientos,Holgura en rodamientos,True,2026-05-31 04:23:17.257255+00:00,6,giro,True,True,True
+d720bf6d-7930-4be9-be9f-098841cf3b5d,ruedas_neumaticos,rodamientos,Desgaste en rodamientos,True,2026-05-31 04:23:17.257255+00:00,1,giro,True,True,True
+71538541-14ae-4135-9cbb-27ec2803dde9,ruedas_neumaticos,mazas,Holgura en mazas,True,2026-05-31 04:23:17.257255+00:00,6,giro,True,True,True
+efa1b605-87dd-4c1b-9e5f-4f1350407a0d,ruedas_neumaticos,mazas,Rodamiento ruido en mazas,True,2026-05-31 04:23:17.257255+00:00,49,giro,True,True,True
+7c51be28-d2fb-418c-823e-c491f151ebf3,ruedas_neumaticos,tuercas_rueda,Holgura en tuercas rueda,True,2026-05-31 04:23:17.257255+00:00,6,sujecion,True,True,True
+37d27371-024e-41c6-a0a2-1ae4f15acec3,ruedas_neumaticos,tuercas_rueda,Desajuste en tuercas rueda,True,2026-05-31 04:23:17.257255+00:00,45,sujecion,True,True,True
+6fb2024b-1426-40a4-b3da-0d5466004d7d,ruedas_neumaticos,conjunto_rueda,Desbalanceo en conjunto rueda,True,2026-05-31 04:23:17.257255+00:00,32,balanceo,True,True,True
+fe6eb528-1498-408c-9b0c-1eb430875f44,ruedas_neumaticos,conjunto_rueda,Vibracion en conjunto rueda,True,2026-05-31 04:23:17.257255+00:00,13,balanceo,True,True,True
+e61459db-16e6-4abc-9f9c-78380109836f,electrico_12v_24v,bateria_12v_24v,Descarga en bateria 12v 24v,True,2026-05-31 04:23:17.257255+00:00,27,almacenamiento,True,True,True
+4fb9fe61-68b8-4af5-b9f8-688b03148ba4,electrico_12v_24v,bateria_12v_24v,No carga en bateria 12v 24v,True,2026-05-31 04:23:17.257255+00:00,16,almacenamiento,True,True,True
+cb5ca30a-e4d3-4286-b1c1-7fd496dd8407,electrico_12v_24v,bateria_12v_24v,Corrosion en bateria 12v 24v,True,2026-05-31 04:23:17.257255+00:00,5,almacenamiento,True,True,True
+80ca844e-8bc4-4cd2-9600-1e34fcdcb703,electrico_12v_24v,bateria_12v_24v,Bajo nivel en bateria 12v 24v,True,2026-05-31 04:23:17.257255+00:00,11,almacenamiento,True,True,True
+37587f89-fe23-4f54-b87a-e663fc57b9d9,electrico_12v_24v,alternador,No carga en alternador,True,2026-05-31 04:23:17.257255+00:00,16,carga,True,True,True
+08fe87ad-bf77-45ad-94d4-34b4b2bb4d08,electrico_12v_24v,alternador,Ruido en alternador,True,2026-05-31 04:23:17.257255+00:00,12,carga,True,True,True
+cbe92d92-3385-4558-9042-a0c9f665cb4f,electrico_12v_24v,alternador,Falso contacto en alternador,True,2026-05-31 04:23:17.257255+00:00,19,carga,True,True,True
+adc62192-d22f-4c96-81b5-2321ce255d11,electrico_12v_24v,motor_partida,No arranca en motor partida,True,2026-05-31 04:23:17.257255+00:00,15,arranque,True,True,True
+416f5171-c82f-48bc-a949-3e706ad57ffa,electrico_12v_24v,motor_partida,No funciona en motor partida,True,2026-05-31 04:23:17.257255+00:00,14,arranque,True,True,True
+8f2db059-d07a-4e95-8fba-ea2a2c8ff61f,electrico_12v_24v,motor_partida,Ruido en motor partida,True,2026-05-31 04:23:17.257255+00:00,12,arranque,True,True,True
+5a5dd553-1060-47a6-8d36-3cdfc46c63cb,electrico_12v_24v,fusibles,Corto circuito en fusibles,True,2026-05-31 04:23:17.257255+00:00,17,proteccion,True,True,True
+150509b2-7622-4cce-805b-d510283fa975,electrico_12v_24v,fusibles,Circuito abierto en fusibles,True,2026-05-31 04:23:17.257255+00:00,18,proteccion,True,True,True
+2bb930c7-be05-4e43-b0db-7107d3aafb06,electrico_12v_24v,fusibles,Quemado en fusibles,True,2026-05-31 04:23:17.257255+00:00,50,proteccion,True,True,True
+dfa3cfe3-7b41-430e-8f89-ae1a1881258d,electrico_12v_24v,reles,No funciona en reles,True,2026-05-31 04:23:17.257255+00:00,14,conmutacion,True,True,True
+0afc7bd3-ed16-43b7-b8c0-f8b9425e1bcb,electrico_12v_24v,reles,Falso contacto en reles,True,2026-05-31 04:23:17.257255+00:00,19,conmutacion,True,True,True
+15bc8282-d5f4-48ad-9195-abfc53744d19,electrico_12v_24v,arnes,Corto circuito en arnes,True,2026-05-31 04:23:17.257255+00:00,17,cableado,True,True,True
+8b81cd11-5db4-43e5-87a6-2f9cdc9f0b3b,electrico_12v_24v,arnes,Circuito abierto en arnes,True,2026-05-31 04:23:17.257255+00:00,18,cableado,True,True,True
+e012af43-3ca9-4ec1-ada6-b7c8110f3174,electrico_12v_24v,arnes,Falso contacto en arnes,True,2026-05-31 04:23:17.257255+00:00,19,cableado,True,True,True
+2500bcc6-a03a-4617-ac75-7a8b2bc75eb4,electrico_12v_24v,masas,Falso contacto en masas,True,2026-05-31 04:23:17.257255+00:00,19,masa,True,True,True
+865a422e-253e-4e25-98b1-6aa8fbc78f40,electrico_12v_24v,masas,Corrosion en masas,True,2026-05-31 04:23:17.257255+00:00,5,masa,True,True,True
+f45e5714-3176-4899-ae6b-08756d8a7fab,iluminacion_senaletica,luces,Quemado en luces,True,2026-05-31 04:23:17.257255+00:00,50,frontal,True,True,True
+d58321ab-c06a-4580-a4db-10bd2d6eb331,iluminacion_senaletica,luces,No funciona en luces,True,2026-05-31 04:23:17.257255+00:00,14,frontal,True,True,True
+66b31d95-b578-4e00-a61f-e2a8fb06bb18,iluminacion_senaletica,luces,Intermitente en luces,True,2026-05-31 04:23:17.257255+00:00,51,frontal,True,True,True
+fd61831a-5538-4124-858f-45c01c44c34e,iluminacion_senaletica,focos,Quemado en focos,True,2026-05-31 04:23:17.257255+00:00,50,frontal,True,True,True
+2bdf0f68-bb50-43f7-8fbb-39c10c9f250b,iluminacion_senaletica,focos,No funciona en focos,True,2026-05-31 04:23:17.257255+00:00,14,frontal,True,True,True
+46afec09-ec59-4df5-a38c-29bb08fe90c0,iluminacion_senaletica,intermitentes,Intermitente en intermitentes,True,2026-05-31 04:23:17.257255+00:00,51,senalizacion,True,True,True
+71ea9c3f-c476-4fce-803b-56c59668c918,iluminacion_senaletica,intermitentes,No funciona en intermitentes,True,2026-05-31 04:23:17.257255+00:00,14,senalizacion,True,True,True
+668a1586-4c11-4a68-9d01-ae423cdb0ec5,iluminacion_senaletica,intermitentes,Quemado en intermitentes,True,2026-05-31 04:23:17.257255+00:00,50,senalizacion,True,True,True
+c6be90fe-1abd-4cd6-b9e2-6f4b8bd5bdf2,iluminacion_senaletica,stop,Quemado en stop,True,2026-05-31 04:23:17.257255+00:00,50,trasera,True,True,True
+b112f62d-d3b1-496c-a0f9-e9234d3cf782,iluminacion_senaletica,stop,No funciona en stop,True,2026-05-31 04:23:17.257255+00:00,14,trasera,True,True,True
+d26bb32a-d9d9-4424-9819-a32e6cbde781,iluminacion_senaletica,balizas,No funciona en balizas,True,2026-05-31 04:23:17.257255+00:00,14,auxiliar,True,True,True
+9b1a8fdc-672c-4ac6-857e-b9ad75d73e9c,iluminacion_senaletica,balizas,Quemado en balizas,True,2026-05-31 04:23:17.257255+00:00,50,auxiliar,True,True,True
+bfde4502-5f1a-4519-b62d-b7de24138631,electronica_control,ecu,Comunicacion en ecu,True,2026-05-31 04:23:17.257255+00:00,20,control,True,True,True
+8c25d03a-c0ff-4dcc-b851-dc9238be9183,electronica_control,ecu,Software calibracion en ecu,True,2026-05-31 04:23:17.257255+00:00,22,control,True,True,True
+c04c2cf8-3e96-4df3-9b25-6ce46039fbb1,electronica_control,ecu,No funciona en ecu,True,2026-05-31 04:23:17.257255+00:00,14,control,True,True,True
+7f850e01-99e5-4353-bed5-9fd6af1f23f4,electronica_control,sensores,Sensor fuera rango en sensores,True,2026-05-31 04:23:17.257255+00:00,21,sensorica,True,True,True
+4c0bc717-9a05-440a-aabb-0de84547815e,electronica_control,sensores,Falso contacto en sensores,True,2026-05-31 04:23:17.257255+00:00,19,sensorica,True,True,True
+b8d883e7-9a93-413e-bfbb-2f8fefbb2020,electronica_control,actuadores,No funciona en actuadores,True,2026-05-31 04:23:17.257255+00:00,14,actuacion,True,True,True
+0559cba1-b539-4b0b-807a-b8cd2653d616,electronica_control,actuadores,Sensor fuera rango en actuadores,True,2026-05-31 04:23:17.257255+00:00,21,actuacion,True,True,True
+6d3a85a2-33df-4c75-ae3e-1a58ac60f3c3,electronica_control,can_bus,Comunicacion en can bus,True,2026-05-31 04:23:17.257255+00:00,20,red,True,True,True
+d7a3eb39-9a49-47a0-950d-4def994583d1,electronica_control,can_bus,Falso contacto en can bus,True,2026-05-31 04:23:17.257255+00:00,19,red,True,True,True
+26896120-7433-4df3-ad77-f0568cc88614,electronica_control,modulos,Comunicacion en modulos,True,2026-05-31 04:23:17.257255+00:00,20,modulos,True,True,True
+bc6c7a56-a60b-4131-b8fe-6a5c0d3af205,electronica_control,modulos,No funciona en modulos,True,2026-05-31 04:23:17.257255+00:00,14,modulos,True,True,True
+68803e4e-76fb-47e5-aa13-728bceac43ce,electronica_control,modulos,Software calibracion en modulos,True,2026-05-31 04:23:17.257255+00:00,22,modulos,True,True,True
+9a693e3a-2e49-4f2d-b244-7766efaad35b,carroceria_chasis,puertas,Dano en puertas,True,2026-05-31 04:23:17.257255+00:00,52,cierres,True,True,True
+c62a11ad-ae54-45ee-9c3d-a7cf8cbf3d46,carroceria_chasis,puertas,Desajuste en puertas,True,2026-05-31 04:23:17.257255+00:00,45,cierres,True,True,True
+b928fd01-193f-40ea-835d-f2e6bc1a298b,carroceria_chasis,puertas,No funciona en puertas,True,2026-05-31 04:23:17.257255+00:00,14,cierres,True,True,True
+68f77f5c-026d-482c-9414-5b12c72eb039,carroceria_chasis,cerraduras,No funciona en cerraduras,True,2026-05-31 04:23:17.257255+00:00,14,cierres,True,True,True
+51f39a86-beef-4869-a818-00e217280c60,carroceria_chasis,cerraduras,Desgaste en cerraduras,True,2026-05-31 04:23:17.257255+00:00,1,cierres,True,True,True
+58686da5-5961-47ee-9987-f09e4d76e200,carroceria_chasis,bisagras,Holgura en bisagras,True,2026-05-31 04:23:17.257255+00:00,6,cierres,True,True,True
+871fdce2-237a-4244-9b8b-1bf076ec5a8e,carroceria_chasis,bisagras,Corrosion en bisagras,True,2026-05-31 04:23:17.257255+00:00,5,cierres,True,True,True
+521a690b-d083-4c3c-942c-832f046315a9,carroceria_chasis,bisagras,Ruido en bisagras,True,2026-05-31 04:23:17.257255+00:00,12,cierres,True,True,True
+9c3df567-2407-4b20-b7a4-8eb973879c88,carroceria_chasis,parachoques,Dano en parachoques,True,2026-05-31 04:23:17.257255+00:00,52,exterior,True,True,True
+ccb346a4-22ae-4850-9bfc-a91a7049832a,carroceria_chasis,parachoques,Deformacion en parachoques,True,2026-05-31 04:23:17.257255+00:00,53,exterior,True,True,True
+b66e9113-2b78-4c15-8669-ac8e2d56a34e,carroceria_chasis,parachoques,Rotura en parachoques,True,2026-05-31 04:23:17.257255+00:00,4,exterior,True,True,True
+05ad98cc-dd18-4347-bca0-440cf80a83ad,carroceria_chasis,espejos,Rotura en espejos,True,2026-05-31 04:23:17.257255+00:00,4,exterior,True,True,True
+bcec368a-fe81-4b11-9dbd-a2e6bb9218cf,carroceria_chasis,espejos,Dano en espejos,True,2026-05-31 04:23:17.257255+00:00,52,exterior,True,True,True
+65bea314-fd7f-4692-8b5b-4752e4cd0546,carroceria_chasis,espejos,No funciona en espejos,True,2026-05-31 04:23:17.257255+00:00,14,exterior,True,True,True
+94efb3e1-88f3-4e5b-a35d-313253f0c4f5,carroceria_chasis,vidrios,Rotura en vidrios,True,2026-05-31 04:23:17.257255+00:00,4,exterior,True,True,True
+9bee5837-bd40-4278-8278-6ca44d876bfb,carroceria_chasis,vidrios,Dano en vidrios,True,2026-05-31 04:23:17.257255+00:00,52,exterior,True,True,True
+47a3637c-9577-4766-ab7f-b84979cc1ff0,carroceria_chasis,chasis,Corrosion en chasis,True,2026-05-31 04:23:17.257255+00:00,5,estructura,True,True,True
+0438a5b6-bd65-41cd-9c82-6ea29e15ae12,carroceria_chasis,chasis,Deformacion en chasis,True,2026-05-31 04:23:17.257255+00:00,53,estructura,True,True,True
+a6d2fb71-7664-4a24-9dca-99ace923c4b2,carroceria_chasis,chasis,Rotura en chasis,True,2026-05-31 04:23:17.257255+00:00,4,estructura,True,True,True
+58dadbef-6277-4fe8-ad4a-34469fc1936e,climatizacion_hvac,compresor_ac,No enfria en compresor ac,True,2026-05-31 04:23:17.257255+00:00,54,frio,True,True,True
+d07c24c0-8f47-493f-ac0d-d3b2348ad36b,climatizacion_hvac,compresor_ac,Ruido en compresor ac,True,2026-05-31 04:23:17.257255+00:00,12,frio,True,True,True
+a438398b-e707-41e6-804d-b6d0d48c530b,climatizacion_hvac,compresor_ac,Fuga en compresor ac,True,2026-05-31 04:23:17.257255+00:00,2,frio,True,True,True
+0ac97d29-48a7-477e-99af-358257916279,climatizacion_hvac,compresor_ac,No funciona en compresor ac,True,2026-05-31 04:23:17.257255+00:00,14,frio,True,True,True
+e94669e1-4560-4296-8567-a201380a71ec,climatizacion_hvac,evaporador,Fuga en evaporador,True,2026-05-31 04:23:17.257255+00:00,2,intercambio,True,True,True
+cfa6652c-26a6-4633-aa8c-c4bcc3fb8322,climatizacion_hvac,evaporador,Obstruccion en evaporador,True,2026-05-31 04:23:17.257255+00:00,3,intercambio,True,True,True
+748ee868-6b90-4a9c-b205-bd28423d286a,climatizacion_hvac,evaporador,No enfria en evaporador,True,2026-05-31 04:23:17.257255+00:00,54,intercambio,True,True,True
+9a6362b7-7f6a-4d21-af88-63f56c43da67,climatizacion_hvac,condensador,Fuga en condensador,True,2026-05-31 04:23:17.257255+00:00,2,intercambio,True,True,True
+1d212cc0-6e04-4b1a-b108-82b1606bdf8d,climatizacion_hvac,condensador,Obstruccion en condensador,True,2026-05-31 04:23:17.257255+00:00,3,intercambio,True,True,True
+a77452eb-8656-44cb-a2f4-af6551aa7005,climatizacion_hvac,ventilador_cabina,Ventilador falla en ventilador cabina,True,2026-05-31 04:23:17.257255+00:00,55,ventilacion,True,True,True
+84d9fc40-77e0-4cab-a1c2-25c44616d4ea,climatizacion_hvac,ventilador_cabina,Ruido en ventilador cabina,True,2026-05-31 04:23:17.257255+00:00,12,ventilacion,True,True,True
+694857f6-33bc-4362-a48b-c1a76eeb9657,climatizacion_hvac,ventilador_cabina,No funciona en ventilador cabina,True,2026-05-31 04:23:17.257255+00:00,14,ventilacion,True,True,True
+c3555a56-83d9-4434-b522-2f150b721c7e,climatizacion_hvac,calefaccion,No funciona en calefaccion,True,2026-05-31 04:23:17.257255+00:00,14,calor,True,True,True
+4b8d1ee7-c30a-48d5-84d1-4bd71e27b76c,climatizacion_hvac,calefaccion,Fuga en calefaccion,True,2026-05-31 04:23:17.257255+00:00,2,calor,True,True,True
+5464d310-0b54-4f82-a966-27e761c3fd55,seguridad_confort,cinturones,No funciona en cinturones,True,2026-05-31 04:23:17.257255+00:00,14,retencion,True,True,True
+bd09b7e0-e65e-4bff-84ce-10309780513b,seguridad_confort,cinturones,Dano en cinturones,True,2026-05-31 04:23:17.257255+00:00,52,retencion,True,True,True
+e33506b2-954d-4831-a14a-4a0103a258cd,seguridad_confort,airbags,No funciona en airbags,True,2026-05-31 04:23:17.257255+00:00,14,retencion,True,True,True
+b0c23b27-b371-4d1a-abf4-602525cf2e9f,seguridad_confort,airbags,Sensor fuera rango en airbags,True,2026-05-31 04:23:17.257255+00:00,21,retencion,True,True,True
+42d41d4d-8ed0-46dd-b60a-157169663abd,seguridad_confort,limpiaparabrisas,No funciona en limpiaparabrisas,True,2026-05-31 04:23:17.257255+00:00,14,vision,True,True,True
+d1178b1b-cfe9-4654-a00f-1070b5a40bcb,seguridad_confort,limpiaparabrisas,Desgaste en limpiaparabrisas,True,2026-05-31 04:23:17.257255+00:00,1,vision,True,True,True
+8b5fc07d-2ef6-404d-9284-e559cecb7866,seguridad_confort,bocina,No funciona en bocina,True,2026-05-31 04:23:17.257255+00:00,14,aviso,True,True,True
+0dd3f3c6-e0b6-490c-bc9e-f9d19301458e,seguridad_confort,bocina,Falso contacto en bocina,True,2026-05-31 04:23:17.257255+00:00,19,aviso,True,True,True
+85a2f9ab-eb17-4da6-8385-61fe8cfc8fe4,seguridad_confort,sensor_estacionamiento,No funciona en sensor estacionamiento,True,2026-05-31 04:23:17.257255+00:00,14,asistencia,True,True,True
+2d42683c-8b9b-4ebe-8b50-8eec57206793,seguridad_confort,sensor_estacionamiento,Sensor fuera rango en sensor estacionamiento,True,2026-05-31 04:23:17.257255+00:00,21,asistencia,True,True,True
+1fca4a8d-ad2d-4e8d-b31c-c4b3688f7c3c,hidraulico_neumatico_auxiliar,bombas_hidraulicas,Baja presion en bombas hidraulicas,True,2026-05-31 04:23:17.257255+00:00,10,presion,True,True,True
+303c8ba7-75d8-42ac-a6f6-ff222af07a4a,hidraulico_neumatico_auxiliar,bombas_hidraulicas,Fuga en bombas hidraulicas,True,2026-05-31 04:23:17.257255+00:00,2,presion,True,True,True
+7d9caa14-0219-4783-a582-c039a4595dcf,hidraulico_neumatico_auxiliar,bombas_hidraulicas,No acciona en bombas hidraulicas,True,2026-05-31 04:23:17.257255+00:00,56,presion,True,True,True
+48d4b2a4-63f0-47ea-8dd5-59b4fb788c16,hidraulico_neumatico_auxiliar,cilindros,Fuga en cilindros,True,2026-05-31 04:23:17.257255+00:00,2,actuacion,True,True,True
+4fe1c3c2-4c5a-4de9-9b69-30c5942b05d0,hidraulico_neumatico_auxiliar,cilindros,No acciona en cilindros,True,2026-05-31 04:23:17.257255+00:00,56,actuacion,True,True,True
+ac4b53e5-5d4c-45d0-a5c1-0d0c0dba0931,hidraulico_neumatico_auxiliar,cilindros,Desgaste en cilindros,True,2026-05-31 04:23:17.257255+00:00,1,actuacion,True,True,True
+f1f7142d-4c9a-4bec-8542-9d58f39ea4ae,hidraulico_neumatico_auxiliar,mangueras_hidraulicas,Fuga en mangueras hidraulicas,True,2026-05-31 04:23:17.257255+00:00,2,conduccion,True,True,True
+651445b9-7bb3-4e01-af04-79e64a2d6767,hidraulico_neumatico_auxiliar,mangueras_hidraulicas,Rotura en mangueras hidraulicas,True,2026-05-31 04:23:17.257255+00:00,4,conduccion,True,True,True
+e08cc215-80e2-4912-8fd9-65dcd0156ac8,hidraulico_neumatico_auxiliar,pto,No acciona en pto,True,2026-05-31 04:23:17.257255+00:00,56,toma_fuerza,True,True,True
+4d25c6c2-6037-4e77-a89b-313940decab0,hidraulico_neumatico_auxiliar,pto,Ruido en pto,True,2026-05-31 04:23:17.257255+00:00,12,toma_fuerza,True,True,True
+b9ae5937-d5f4-4d3e-9130-b4513e5c6feb,hidraulico_neumatico_auxiliar,pto,Sobrecalentamiento en pto,True,2026-05-31 04:23:17.257255+00:00,9,toma_fuerza,True,True,True
+9a432736-422c-41ec-964a-9ac2de38dcf8,hidraulico_neumatico_auxiliar,compresores,No funciona en compresores,True,2026-05-31 04:23:17.257255+00:00,14,aire,True,True,True
+fad3b6cf-5803-4df6-ad72-9fe7f3bffcc8,hidraulico_neumatico_auxiliar,compresores,Fuga aire en compresores,True,2026-05-31 04:23:17.257255+00:00,43,aire,True,True,True
+a3c23499-fa16-407c-88ba-c7a7e0453c7c,hidraulico_neumatico_auxiliar,compresores,Sobrecalentamiento en compresores,True,2026-05-31 04:23:17.257255+00:00,9,aire,True,True,True
+992722d8-c7d7-4a26-8bb8-6276e90fcf3e,alto_voltaje_ev_hibrido,bateria_traccion,Degradacion en bateria traccion,True,2026-05-31 04:23:17.257255+00:00,58,almacenamiento,False,True,True
+801eb80d-2f11-4e7c-b119-15c2428c4e0d,alto_voltaje_ev_hibrido,bateria_traccion,Sobretemperatura en bateria traccion,True,2026-05-31 04:23:17.257255+00:00,57,almacenamiento,False,True,True
+1bb76883-ce06-4d29-891f-f363f8dc0316,alto_voltaje_ev_hibrido,bateria_traccion,No carga en bateria traccion,True,2026-05-31 04:23:17.257255+00:00,16,almacenamiento,False,True,True
+c9bb3edf-2163-4cdd-a3c1-80a5210c8efe,alto_voltaje_ev_hibrido,modulos_hv,Desbalance en modulos hv,True,2026-05-31 04:23:17.257255+00:00,59,almacenamiento,False,True,True
+2e07af16-ed15-4599-8ae4-faf255c5646e,alto_voltaje_ev_hibrido,modulos_hv,Sobretemperatura en modulos hv,True,2026-05-31 04:23:17.257255+00:00,57,almacenamiento,False,True,True
+28b8f2fe-a49d-4315-983a-d8c4fa24c855,alto_voltaje_ev_hibrido,celdas,Desbalance en celdas,True,2026-05-31 04:23:17.257255+00:00,59,almacenamiento,False,True,True
+021f2494-a2c4-4a69-9ae3-694778d61803,alto_voltaje_ev_hibrido,celdas,Degradacion en celdas,True,2026-05-31 04:23:17.257255+00:00,58,almacenamiento,False,True,True
+fafa08b9-fb82-431d-b781-03c47dea67cf,alto_voltaje_ev_hibrido,contactores,No funciona en contactores,True,2026-05-31 04:23:17.257255+00:00,14,conmutacion,False,True,True
+98404137-5abb-4b4e-b82a-0e3970fc293c,alto_voltaje_ev_hibrido,contactores,Falso contacto en contactores,True,2026-05-31 04:23:17.257255+00:00,19,conmutacion,False,True,True
+b2e6534d-7820-44e2-959a-4d2aa4a5780e,alto_voltaje_ev_hibrido,bms,Comunicacion en bms,True,2026-05-31 04:23:17.257255+00:00,20,gestion,False,True,True
+1044ce3f-30c1-4da1-98dd-b60871fbd445,alto_voltaje_ev_hibrido,bms,Sensor fuera rango en bms,True,2026-05-31 04:23:17.257255+00:00,21,gestion,False,True,True
+e492c5c4-5c7a-48cd-9b75-4cb2e3f78456,alto_voltaje_ev_hibrido,bms,Desbalance en bms,True,2026-05-31 04:23:17.257255+00:00,59,gestion,False,True,True
+298b851a-1190-41ec-8323-5b65d8aa1e6d,alto_voltaje_ev_hibrido,cableado_hv,Aislamiento bajo en cableado hv,True,2026-05-31 04:23:17.257255+00:00,60,cableado,False,True,True
+ada80fa5-8f40-4920-91e1-fdbe6a53d084,alto_voltaje_ev_hibrido,cableado_hv,Falso contacto en cableado hv,True,2026-05-31 04:23:17.257255+00:00,19,cableado,False,True,True
+98b3bcbf-5dad-40c5-be43-ed196db76c12,traccion_electrica,motor_electrico,Motor falla en motor electrico,True,2026-05-31 04:23:17.257255+00:00,62,propulsion,False,True,True
+78c94f0c-547d-41f8-9c0c-8b6e7a7dcf93,traccion_electrica,motor_electrico,Sobretemperatura en motor electrico,True,2026-05-31 04:23:17.257255+00:00,57,propulsion,False,True,True
+702bcb7d-0630-4bd4-bae3-90b4137028a7,traccion_electrica,motor_electrico,Ruido en motor electrico,True,2026-05-31 04:23:17.257255+00:00,12,propulsion,False,True,True
+9e80d37d-ce3a-407d-88c3-9ab836dc8ba9,traccion_electrica,inversor,Inversor falla en inversor,True,2026-05-31 04:23:17.257255+00:00,61,potencia,False,True,True
+362ac852-d32f-4406-befa-bb46d45d06d3,traccion_electrica,inversor,Sobretemperatura en inversor,True,2026-05-31 04:23:17.257255+00:00,57,potencia,False,True,True
+9cb195c9-df1e-4314-98e1-75dad8536375,traccion_electrica,inversor,Comunicacion en inversor,True,2026-05-31 04:23:17.257255+00:00,20,potencia,False,True,True
+2edc7513-5707-46b2-b64f-6f67efe53552,traccion_electrica,convertidor_dcdc,No funciona en convertidor dcdc,True,2026-05-31 04:23:17.257255+00:00,14,conversion,False,True,True
+b73361f2-b478-4297-93da-dbf949a3e008,traccion_electrica,convertidor_dcdc,Sobretemperatura en convertidor dcdc,True,2026-05-31 04:23:17.257255+00:00,57,conversion,False,True,True
+634e51ae-e3ac-4dd8-84d9-06ac08640187,traccion_electrica,obc,No carga en obc,True,2026-05-31 04:23:17.257255+00:00,16,carga,False,True,True
+ba10dea4-8695-4571-b9c3-c60d689f474b,traccion_electrica,obc,Carga lenta en obc,True,2026-05-31 04:23:17.257255+00:00,63,carga,False,True,True
+fadeefaf-7599-4645-acb2-1a803f980910,traccion_electrica,obc,Sobretemperatura en obc,True,2026-05-31 04:23:17.257255+00:00,57,carga,False,True,True
+d27c6230-6cf0-49dc-8bba-9903dfdd9c84,traccion_electrica,puerto_carga,No carga en puerto carga,True,2026-05-31 04:23:17.257255+00:00,16,carga,False,True,True
+106dfb6e-4f65-4d94-ba2f-e7431cecf046,traccion_electrica,puerto_carga,Falso contacto en puerto carga,True,2026-05-31 04:23:17.257255+00:00,19,carga,False,True,True
+6dcb4dae-b7fa-4786-b92f-5261274bb45c,traccion_electrica,puerto_carga,Dano en puerto carga,True,2026-05-31 04:23:17.257255+00:00,52,carga,False,True,True
+e37d6d34-c1a9-4892-9e69-ca8f0b45779b,frenado_regenerativo,motor_generador,Regeneracion baja en motor generador,True,2026-05-31 04:23:17.257255+00:00,64,generacion,False,True,True
+8c8e54e3-8f5d-49b9-89d3-0fa2b8ef8297,frenado_regenerativo,motor_generador,Motor falla en motor generador,True,2026-05-31 04:23:17.257255+00:00,62,generacion,False,True,True
+4bd41b2a-6b3d-4c22-877c-e9264ed48116,frenado_regenerativo,sensores_freno_regen,Sensor fuera rango en sensores freno regen,True,2026-05-31 04:23:17.257255+00:00,21,sensores,False,True,True
+a0401a6c-bcdc-4061-a97e-ec3f738f0597,frenado_regenerativo,sensores_freno_regen,Regeneracion baja en sensores freno regen,True,2026-05-31 04:23:17.257255+00:00,64,sensores,False,True,True
+87d842d9-6dca-415f-afb2-426684d1c496,frenado_regenerativo,control_regeneracion,Fallo sistema hibrido en control regeneracion,True,2026-05-31 04:23:17.257255+00:00,65,control,False,True,True
+94379c7d-01ab-49ce-9e80-de5ebc3a9937,frenado_regenerativo,control_regeneracion,Regeneracion baja en control regeneracion,True,2026-05-31 04:23:17.257255+00:00,64,control,False,True,True
+bb1f5117-96c9-4e47-a5e9-557987884646,frenado_regenerativo,control_regeneracion,Comunicacion en control regeneracion,True,2026-05-31 04:23:17.257255+00:00,20,control,False,True,True
+d436cdf2-fd7a-4cfe-9a0a-75981c0bc80d,telematica_adas,gps,Sin senal en gps,True,2026-05-31 04:23:17.257255+00:00,66,posicion,True,True,True
+2f93a49b-c4ee-425b-a392-fe6b2855a41b,telematica_adas,gps,Desconexion en gps,True,2026-05-31 04:23:17.257255+00:00,68,posicion,True,True,True
+76d4f049-e31b-40f8-a9ab-74eb98c41324,telematica_adas,modem,Sin senal en modem,True,2026-05-31 04:23:17.257255+00:00,66,conectividad,True,True,True
+4ba400b4-9a81-49c9-b11b-4166da6925bc,telematica_adas,modem,Comunicacion en modem,True,2026-05-31 04:23:17.257255+00:00,20,conectividad,True,True,True
+cf847962-a00e-471b-b487-30c2c7700b3a,telematica_adas,modem,Desconexion en modem,True,2026-05-31 04:23:17.257255+00:00,68,conectividad,True,True,True
+009b575f-93c9-41ca-8988-5658d20ba659,telematica_adas,camaras,Sensor sucio en camaras,True,2026-05-31 04:23:17.257255+00:00,67,vision,True,True,True
+4e828a64-7e7a-4efa-8ee6-3b073e98b723,telematica_adas,camaras,No funciona en camaras,True,2026-05-31 04:23:17.257255+00:00,14,vision,True,True,True
+252761dc-b8bd-45a8-96a3-98ccc3e1a35d,telematica_adas,camaras,Desconexion en camaras,True,2026-05-31 04:23:17.257255+00:00,68,vision,True,True,True
+d2586c63-5690-474d-891b-94729822440e,telematica_adas,radar,Sensor sucio en radar,True,2026-05-31 04:23:17.257255+00:00,67,deteccion,True,True,True
+8e8ed5c3-3167-4045-acf3-66e0b01afa37,telematica_adas,radar,Sensor fuera rango en radar,True,2026-05-31 04:23:17.257255+00:00,21,deteccion,True,True,True
+3c8236d3-4404-4263-8626-ac93aca89789,telematica_adas,radar,Software calibracion en radar,True,2026-05-31 04:23:17.257255+00:00,22,deteccion,True,True,True
+a4ff8697-296b-49ee-875b-08506e8b4cc9,telematica_adas,lidar,Sensor sucio en lidar,True,2026-05-31 04:23:17.257255+00:00,67,deteccion,True,True,True
+9e733934-0ae5-4000-91a3-b49203f22a65,telematica_adas,lidar,Sensor fuera rango en lidar,True,2026-05-31 04:23:17.257255+00:00,21,deteccion,True,True,True
+5664bf92-e5ee-4498-8994-b5b2f8882fbd,telematica_adas,lidar,Software calibracion en lidar,True,2026-05-31 04:23:17.257255+00:00,22,deteccion,True,True,True
+4b51c98e-434a-49b4-af38-fb5b732f1c4e,motor_combustion,correa,Desgaste en correa,True,2026-05-31 12:45:13.684797+00:00,1,distribucion,True,True,False
+7f9b00f1-431d-4d1a-9e41-4ecfbd53c33a,refrigeracion,mangueras,Desgaste en mangueras,True,2026-05-31 12:45:13.684797+00:00,1,conduccion,True,True,True
+92c60014-e28f-454f-93da-1aec6932ce51,motor_combustion,aceite_motor,Bajo nivel en aceite motor,True,2026-05-31 12:45:13.684797+00:00,11,aceite_motor,True,True,False
+82e385eb-7c10-4720-9f74-78f1baf1e5cc,motor_combustion,aceite_motor,Contaminacion en aceite motor,True,2026-05-31 12:45:13.684797+00:00,8,aceite_motor,True,True,False
+83106c13-b85f-4555-82cd-50c24f426dc7,transmision,retenes,Desgaste en retenes,True,2026-05-31 12:45:13.684797+00:00,1,aceite_motor,True,True,True
+e7e9208c-ad93-4907-9de9-c55b91c17d32,motor_combustion,filtro_aire,Obstruccion en filtro aire,True,2026-05-31 12:45:13.684797+00:00,3,admision,True,True,False
+b2766954-89e7-426e-b946-81496fef6177,suspension,barra_estabilizadora,Desgaste en barra estabilizadora,True,2026-05-31 12:45:13.684797+00:00,1,estabilidad,True,True,True
+8bbfede0-5be8-40c2-8be7-15f3bb82df8f,motor_combustion,filtro_aire,Contaminacion en filtro aire,True,2026-05-31 12:45:13.684797+00:00,8,admision,True,True,False
+e1ffd6b9-d048-4919-bacb-52f0202e7160,direccion,aceite_direccion,Bajo nivel en aceite direccion,True,2026-05-31 12:45:13.684797+00:00,11,asistencia,True,True,True
+27b5bcf1-6aba-4996-99ef-4c58ba30a0d6,frenos_servicio,abs,Sensor fuera rango en abs,True,2026-05-31 12:45:13.684797+00:00,21,control,True,True,True
+6b6c68a6-b843-48a7-b921-314e59565cdd,transmision,aceite_transmision,Bajo nivel en aceite transmision,True,2026-05-31 12:45:13.684797+00:00,11,caja,True,True,True
+cef101a4-57c5-4d77-aab3-ea1e62146f50,transmision,aceite_transmision,Contaminacion en aceite transmision,True,2026-05-31 12:45:13.684797+00:00,8,caja,True,True,True
+5202d3db-123c-44c4-910c-c0403357bfe5,direccion,aceite_direccion,Contaminacion en aceite direccion,True,2026-05-31 12:45:13.684797+00:00,8,asistencia,True,True,True
+cf3a7d86-dc90-4552-a4c3-bdd055dbb635,electrico_12v_24v,arnes,Corrosion en arnes,True,2026-05-31 12:45:13.684797+00:00,5,cableado,True,True,True
+9429801f-c0f3-4737-bba2-c2818771e4bb,suspension,soporte_motor,Fatiga en soporte motor,True,2026-05-31 12:45:13.684797+00:00,48,anclaje,True,True,True
+037f5657-5aba-4913-bc63-70c784a553ef,suspension,soporte_motor,Rotura en soporte motor,True,2026-05-31 12:45:13.684797+00:00,4,anclaje,True,True,True
+97fca0f8-9647-4c71-beb6-69919208aa5d,electrico_12v_24v,fusibles,Rotura en fusibles,True,2026-05-31 12:45:13.684797+00:00,4,proteccion,True,True,True
+f2872149-f11d-4daf-b2f6-4c9bc15fddd8,electrico_12v_24v,bateria_12v_24v,Degradacion en bateria 12v 24v,True,2026-05-31 12:45:13.684797+00:00,58,almacenamiento,True,True,True
+86cc92e6-19e2-4d0f-83f3-a63f8e347ea2,motor_combustion,casquetes,Desgaste en casquetes,True,2026-05-31 12:45:13.684797+00:00,1,tren_alternativo,True,True,False
+eae58507-0894-4c07-8220-07bbc0b12aa1,hidraulico_neumatico_auxiliar,aceite_hidraulico,Contaminacion en aceite hidraulico,True,2026-05-31 12:45:13.684797+00:00,8,fluido,True,True,True
+ac92d4fb-e013-4d3c-8990-98d311ba7bf9,hidraulico_neumatico_auxiliar,mangueras_hidraulicas,Desgaste en mangueras hidraulicas,True,2026-05-31 12:45:13.684797+00:00,1,conduccion,True,True,True
+e5667b15-ae34-4fa5-9de7-7f69b83df7cd,motor_combustion,inyectores,Obstruccion en inyectores,True,2026-05-31 12:45:13.684797+00:00,3,inyeccion,True,True,False
+5aa6a24e-7560-4312-84cf-cbc7c21515e3,motor_combustion,sensores,Sensor fuera rango en sensores,True,2026-05-31 12:45:13.684797+00:00,21,sensorica,True,True,False
+cd39da2f-5b81-478c-b787-05779f81bb7e,hidraulico_neumatico_auxiliar,aceite_hidraulico,Bajo nivel en aceite hidraulico,True,2026-05-31 12:45:13.684797+00:00,11,fluido,True,True,True
+1910438a-a45d-4219-9279-919c2614b0c8,frenos_servicio,discos,Desbalanceo en discos,True,2026-05-31 12:45:13.684797+00:00,32,friccion,True,True,True
+4e4396e0-674a-4fa1-8d45-c33c5e764d68,electrico_12v_24v,sensores,Sensor fuera rango en sensores,True,2026-05-31 12:45:13.684797+00:00,21,sensorica,True,True,True
+868ba06e-0230-4e4f-9c7f-a2875a7bc841,lubricacion,empaquetadura,Desgaste en empaquetadura,True,2026-05-31 12:45:13.684797+00:00,1,sellado,True,True,False
+51beac30-ca7e-4f61-a91c-b1a9bbdc5968,transmision,caja_cambios,Desgaste en caja cambios,True,2026-05-31 12:45:13.684797+00:00,1,caja,True,True,True
+9fc6ad11-7092-457c-87bc-44d7554a7825,combustible_admision,tanque_combustible,Corrosion en tanque combustible,True,2026-05-31 12:45:13.684797+00:00,5,almacenamiento,True,True,False
+68d6acf6-81d6-4491-b9d7-d77667e902cd,combustible_admision,sensores,Sensor fuera rango en sensores,True,2026-05-31 12:45:13.684797+00:00,21,sensorica,True,True,False
+c03f8dfe-2395-43cd-9729-4ef9019123a5,motor_combustion,inyectores,Fuga en inyectores,True,2026-05-31 12:45:13.684797+00:00,2,inyeccion,True,True,False
+3e34ff9a-ca28-4668-a528-beaea0c2299a,direccion,cremallera,Desgaste en cremallera,True,2026-05-31 12:45:13.684797+00:00,1,engranaje,True,True,True
+a01c67a0-5da6-4800-949c-67909f670322,motor_combustion,casquetes,Ruido en casquetes,True,2026-05-31 12:45:13.684797+00:00,12,tren_alternativo,True,True,False
+4d0738bf-496a-40ae-994a-908af8a14ca2,motor_combustion,casquetes,Fatiga en casquetes,True,2026-05-31 12:45:13.684797+00:00,48,tren_alternativo,True,True,False
+7c64339b-fcfe-4e5a-b599-d6daabe64237,transmision,retenes,Fuga en retenes,True,2026-05-31 12:45:13.684797+00:00,2,aceite_motor,True,True,True
+df0a751b-00df-4745-be37-17400cdf5aa6,motor_combustion,correa,Ruido en correa,True,2026-05-31 12:45:13.684797+00:00,12,distribucion,True,True,False
+315dac1b-9adc-4f16-ac35-f468ffb83d5f,refrigeracion,ventilador,Rotura en ventilador,True,2026-05-31 12:45:13.684797+00:00,4,ventilacion,True,True,True
+3a17a8a4-194a-4d11-8e4d-54e6a69d1a9a,refrigeracion,ventilador,Sobrecalentamiento en ventilador,True,2026-05-31 12:45:13.684797+00:00,9,ventilacion,True,True,True
+11b9f4ba-ac42-4376-b3ec-fc52df6c7c7f,direccion,bomba_direccion,Baja presion en bomba direccion,True,2026-05-31 12:45:13.684797+00:00,10,asistencia,True,True,True
+52a19485-f618-4262-9781-771200f928d4,motor_combustion,bomba_agua,Baja presion en bomba agua,True,2026-05-31 12:45:13.684797+00:00,10,circulacion,True,True,False
+ed426988-2d58-41ac-b392-c9ce1eb02ec5,motor_combustion,correa,Rotura en correa,True,2026-05-31 12:45:13.684797+00:00,4,distribucion,True,True,False
+5c8d5a81-7e2e-4ffc-ac8c-be75b95e30d9,motor_combustion,bomba_agua,Rotura en bomba agua,True,2026-05-31 12:45:13.684797+00:00,4,circulacion,True,True,False
+05ffb00d-9f2c-41c7-b6cb-6ec45d330ace,transmision,eje,Vibracion en eje,True,2026-05-31 12:45:13.684797+00:00,13,transmision_final,True,True,True
+b919bf93-d7be-475c-9a08-0a7e0b82ae16,transmision,eje,Desbalanceo en eje,True,2026-05-31 12:45:13.684797+00:00,32,transmision_final,True,True,True
+4c19631e-0688-4a5c-91ec-809fd57207ab,hidraulico_neumatico_auxiliar,valvulas,Obstruccion en valvulas,True,2026-05-31 12:45:13.684797+00:00,3,control,True,True,True
+f89a56f0-79f0-4643-a99b-b044fecaff76,hidraulico_neumatico_auxiliar,tuberia,Corrosion en tuberia,True,2026-05-31 12:45:13.684797+00:00,5,conduccion,True,True,True
+d800ea4d-ae7b-41a8-ae88-cceb13bade31,motor_combustion,bomba_agua,Fuga en bomba agua,True,2026-05-31 12:45:13.684797+00:00,2,circulacion,True,True,False
+ef3985b2-8b87-4a67-9b11-374e7191bd99,combustible_admision,tanque_combustible,Fuga en tanque combustible,True,2026-05-31 12:45:13.684797+00:00,2,almacenamiento,True,True,False
+5a51b388-d0da-4aeb-915b-be1317b3b911,transmision,caja_cambios,Rotura en caja cambios,True,2026-05-31 12:45:13.684797+00:00,4,caja,True,True,True
+9aa562cb-35d3-47da-ac7c-e62dcfbb2d08,direccion,rotulas,Ruido en rotulas,True,2026-05-31 12:45:13.684797+00:00,12,articulacion,True,True,True
+bb81c0e2-7ad0-4f69-9b12-79729e7d088d,suspension,bujes,Vibracion en bujes,True,2026-05-31 12:45:13.684797+00:00,13,union,True,True,True
+2b7ea75a-9b0d-4611-84b2-dcdbc9321192,transmision,eje,Fatiga en eje,True,2026-05-31 12:45:13.684797+00:00,48,transmision_final,True,True,True
+1ae00ef7-36e2-48a2-9c60-389510cc10e5,refrigeracion,radiador,Corrosion en radiador,True,2026-05-31 12:45:13.684797+00:00,5,intercambio,True,True,True
+2c89ddd5-5af6-4d0d-a589-6d61e2eddd4f,hidraulico_neumatico_auxiliar,tuberia,Fuga en tuberia,True,2026-05-31 12:45:13.684797+00:00,2,conduccion,True,True,True
+5379a797-b435-4253-af75-39c19c5d571d,hidraulico_neumatico_auxiliar,tuberia,Rotura en tuberia,True,2026-05-31 12:45:13.684797+00:00,4,conduccion,True,True,True
+cd3073bd-a73b-4101-86c0-04232e0fd979,direccion,terminales,Vibracion en terminales,True,2026-05-31 12:45:13.684797+00:00,13,articulacion,True,True,True
+053a001c-b775-4ed9-9ed8-419cf28e4132,hidraulico_neumatico_auxiliar,valvulas,Fuga en valvulas,True,2026-05-31 12:45:13.684797+00:00,2,control,True,True,True
+5581b22c-8f77-4b1f-8cf5-f425e97f08a2,direccion,terminales,Ruido en terminales,True,2026-05-31 12:45:13.684797+00:00,12,articulacion,True,True,True
+61a2f4d8-dc92-40c2-b5e7-1beedbfb85bd,lubricacion,empaquetadura,Fuga en empaquetadura,True,2026-05-31 12:45:13.684797+00:00,2,sellado,True,True,False
+2a9d8d4b-3b6d-471d-ae5c-1e796d40668a,escape_emisiones,tubo_escape,Corrosion en tubo escape,True,2026-05-31 12:45:13.684797+00:00,5,conduccion,True,True,False
+6eaae94e-7c33-41a9-9da7-717f2889fc4b,escape_emisiones,silenciador,Corrosion en silenciador,True,2026-05-31 12:45:13.684797+00:00,5,conduccion,True,True,False
+e6d17a76-1363-456b-ac15-1f2f545ca6f1,escape_emisiones,tubo_escape,Rotura en tubo escape,True,2026-05-31 12:45:13.684797+00:00,4,conduccion,True,True,False
+1a7f5085-13cb-48d9-8575-506525349a91,escape_emisiones,abrazadera,Rotura en abrazadera,True,2026-05-31 12:45:13.684797+00:00,4,conduccion,True,True,False
+b1da0f6f-f9b4-4a59-86eb-a24566446a98,carroceria_chasis,cabina,Rotura en cabina,True,2026-05-31 12:45:13.684797+00:00,4,estructura,True,True,True
+b14bf23b-6734-4d49-8420-c6dcafb2be56,carroceria_chasis,cabina,Corrosion en cabina,True,2026-05-31 12:45:13.684797+00:00,5,estructura,True,True,True
+4c2b4023-e4bd-49f6-9a56-173aca07c379,carroceria_chasis,parachoques,Corrosion en parachoques,True,2026-05-31 12:45:13.684797+00:00,5,exterior,True,True,True
+0f0452f9-6e8c-423b-b1a3-708118fcb2bc,carroceria_chasis,soporte_motor,Rotura en soporte motor,True,2026-05-31 12:45:13.684797+00:00,4,anclaje,True,True,True
+e26548a6-849b-4d9d-93f6-6b99503191e7,escape_emisiones,silenciador,Rotura en silenciador,True,2026-05-31 12:45:13.684797+00:00,4,conduccion,True,True,False
+01e250fa-1fb8-478f-9ca5-e5c72db4d71e,carroceria_chasis,perno,Corrosion en perno,True,2026-05-31 12:45:13.684797+00:00,5,sujecion,True,True,True
+66084047-6191-4fc9-8ad8-e5cd58b69f06,carroceria_chasis,perno,Rotura en perno,True,2026-05-31 12:45:13.684797+00:00,4,sujecion,True,True,True
+5153b5b7-0b09-4e8d-8bb0-3f43bd4f2732,escape_emisiones,abrazadera,Corrosion en abrazadera,True,2026-05-31 12:45:13.684797+00:00,5,conduccion,True,True,False
+ae641374-a648-41b0-85ae-eea416eaad88,carroceria_chasis,soporte_motor,Fatiga en soporte motor,True,2026-05-31 12:45:13.684797+00:00,48,anclaje,True,True,True
+6f91b52f-d105-4586-a5d3-9f5e7a7a3499,carroceria_chasis,chasis,Fatiga en chasis,True,2026-05-31 12:45:13.684797+00:00,48,estructura,True,True,True
+d3808a28-8b04-4d57-a269-f76ff8825a54,motor_combustion,filtro_aire,Vibracion en filtro aire,True,2026-05-31 12:45:13.684797+00:00,13,admision,True,True,False
+b9ed2797-044b-4d66-9673-a8e584c002c4,transmision,aceite_transmision,Vibracion en aceite transmision,True,2026-05-31 12:45:13.684797+00:00,13,caja,True,True,True
+966053c1-ba2d-415f-aa61-aef6a4bc3b69,lubricacion,carter,Desgaste en carter,True,2026-05-31 12:45:13.684797+00:00,1,aceite_motor,True,True,False

@@ -1,0 +1,94 @@
+{
+  "version": "v1.0",
+  "tipo_modelo": "RandomForest",
+  "fecha_entrenamiento": "2026-06-01T13:37:14.673164",
+  "n_train": 5040,
+  "n_test": 2160,
+  "n_features": 20,
+  "feature_cols": [
+    "edad_dias",
+    "edad_anos",
+    "odometro_actual",
+    "horometro_actual",
+    "km_dia_promedio",
+    "horas_dia_promedio",
+    "dias_desde_ultima_ot",
+    "count_ot_30d",
+    "count_ot_90d",
+    "count_ot_180d",
+    "count_correctivas_30d",
+    "count_correctivas_90d",
+    "count_correctivas_180d",
+    "costo_total_30d",
+    "costo_total_90d",
+    "costo_total_180d",
+    "mtbf_180d",
+    "dias_ult_correctiva_motor",
+    "dias_ult_correctiva_frenos",
+    "dias_ult_correctiva_transmision"
+  ],
+  "hiperparametros": {
+    "n_estimators": 200,
+    "max_depth": 15,
+    "min_samples_leaf": 3,
+    "min_samples_split": 5,
+    "class_weight": "balanced",
+    "random_state": 42
+  },
+  "threshold_default": 0.5,
+  "threshold_optimo": 0.2820825957731403,
+  "metricas_threshold_default": {
+    "auc": 0.5754755733852516,
+    "precision": 0.1810344827586207,
+    "recall": 0.05865921787709497,
+    "f1_score": 0.08860759493670886
+  },
+  "metricas_threshold_optimo": {
+    "auc": 0.5754755733852516,
+    "precision": 0.19333333333333333,
+    "recall": 0.729050279329609,
+    "f1_score": 0.30562060889929743
+  },
+  "feature_importance_top10": [
+    {
+      "feature": "edad_dias",
+      "importance": 0.14928988388197864
+    },
+    {
+      "feature": "edad_anos",
+      "importance": 0.14543778559410772
+    },
+    {
+      "feature": "odometro_actual",
+      "importance": 0.123959187248536
+    },
+    {
+      "feature": "horometro_actual",
+      "importance": 0.11793241652386094
+    },
+    {
+      "feature": "dias_desde_ultima_ot",
+      "importance": 0.11667368030719252
+    },
+    {
+      "feature": "costo_total_180d",
+      "importance": 0.10349619787658702
+    },
+    {
+      "feature": "costo_total_90d",
+      "importance": 0.07973759851656838
+    },
+    {
+      "feature": "costo_total_30d",
+      "importance": 0.05099704919222974
+    },
+    {
+      "feature": "count_ot_180d",
+      "importance": 0.0368950192570494
+    },
+    {
+      "feature": "count_correctivas_180d",
+      "importance": 0.0247041330666221
+    }
+  ]
+}

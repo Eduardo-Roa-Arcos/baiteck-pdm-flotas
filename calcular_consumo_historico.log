@@ -1,0 +1,12 @@
+2026-06-21 23:04:35,324 | INFO     | 
+==========================================================================================
+2026-06-21 23:04:35,324 | INFO     | 📊 CÁLCULO DE CONSUMO HISTÓRICO (CACHE SEMANAL)
+2026-06-21 23:04:35,324 | INFO     | ==========================================================================================
+2026-06-21 23:04:42,862 | INFO     | ✓ Todas las tablas requeridas existen
+2026-06-21 23:04:42,864 | INFO     |   → Calculando consumo histórico (últimos 180 días)...
+2026-06-21 23:04:49,158 | INFO     | ✓ Encontrado consumo para 969 (sistema, SKU)
+2026-06-21 23:04:49,159 | INFO     |   → Actualizando tabla consumo_historico_cache...
+2026-06-21 23:20:27,552 | ERROR    | Error actualizando cache: connection already closed
+2026-06-21 23:20:27,562 | ERROR    | 
+❌ CACHE NO SE PUDO ACTUALIZAR
+

@@ -1,0 +1,1 @@
+modelo_id,version,nombre_archivo,fecha_entrenamiento,fecha_creacion,auc_score,precision,recall,f1_score,n_samples_train,n_features,features_utilizadas,hiperparametros,estado,es_activo,entrenado_por,notas
