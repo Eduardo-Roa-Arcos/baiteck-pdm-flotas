@@ -34,7 +34,7 @@ load_dotenv()
 import streamlit as st
 import psycopg2
 from psycopg2.extras import RealDictCursor
-import bcrypt
+# import bcrypt
 from datetime import datetime
 from typing import Optional, Dict
 
