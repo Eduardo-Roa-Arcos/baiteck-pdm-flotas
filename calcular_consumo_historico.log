@@ -10,3 +10,13 @@
 2026-06-21 23:20:27,562 | ERROR    | 
 ❌ CACHE NO SE PUDO ACTUALIZAR
 
+2026-06-28 23:00:01,701 | INFO     | 
+==========================================================================================
+2026-06-28 23:00:01,701 | INFO     | 📊 CÁLCULO DE CONSUMO HISTÓRICO (CACHE SEMANAL)
+2026-06-28 23:00:01,701 | INFO     | ==========================================================================================
+2026-06-28 23:00:02,962 | ERROR    | Error conectando a BD: connection to server at "aws-1-us-east-1.pooler.supabase.com" (18.213.155.45), port 5432 failed: FATAL:  password authentication failed for user "postgres"
+
+2026-06-28 23:00:02,963 | ERROR    | ❌ Tabla 'consumo_historico_cache' no existe
+2026-06-28 23:00:02,963 | ERROR    | 
+❌ CACHE NO SE PUDO ACTUALIZAR
+
